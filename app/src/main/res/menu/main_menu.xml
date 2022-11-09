@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="@string/home"/>
+    <item android:id="@+id/nav_about"
+        android:icon="@drawable/sathapana"
+        android:title="@string/about_sathapana"
+        />
+    <item android:id="@+id/nav_services"
+        android:icon="@drawable/services"
+        android:title="@string/services"
+        />
+    <item android:id="@+id/nav_branch"
+        android:icon="@drawable/branch1"
+        android:title="@string/branches"
+        />
+    <item android:id="@+id/nav_news"
+        android:icon="@drawable/news"
+        android:title="@string/news"
+        tools:ignore="DuplicateIds" />
+    <item android:id="@+id/nav_loan_calculator"
+        android:icon="@drawable/loan_calculator"
+        android:title="@string/loan_calculator"
+        />
+    <item android:id="@+id/nav_human_resources"
+        android:icon="@drawable/human_resources"
+        android:title="@string/human_resources"
+        />
+    <item android:id="@+id/nav_finance"
+        android:icon="@drawable/financial"
+        android:title="@string/financial_literacy"
+        />
+    <item android:id="@+id/nav_register"
+        android:icon="@drawable/register"
+        android:title="@string/register"
+        />
+    <item android:id="@+id/nav_login"
+        android:icon="@drawable/login"
+        android:title="@string/login"
+        />
+
+</menu>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SATHAPANA Limited</string>
+    <string name="menu_Open">Open</string>
+    <string name="close_menu">Close</string>
+    <string name="sathapana">SATHAPANA</string>
+    <string name="branches">Brands</string>
+    <string name="about_sathapana">About Sathapana</string>
+    <string name="services">Services</string>
+    <string name="news">News</string>
+    <string name="loan_calculator">Loan Calculator</string>
+    <string name="human_resources">Human Resources</string>
+    <string name="financial_literacy">Financial Literacy</string>
+    <string name="register">Register</string>
+    <string name="word">စထာပါနာ လီမိတက်</string>
+    <string name="limited">Limited</string>
+    <string name="login">Login</string>
+    <string name="home">Home</string>
+
+</resources>
