@@ -12,6 +12,8 @@ public class Services extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_services);
+        getSupportActionBar().setTitle("Services");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         findViewById(R.id.service_loan_type_btn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

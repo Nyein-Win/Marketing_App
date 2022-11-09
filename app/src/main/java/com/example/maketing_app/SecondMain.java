@@ -50,9 +50,6 @@ public class SecondMain extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second_main);
-
-
-
        getSupportActionBar().setTitle("Sathapana Limited");
         drawerLayout=findViewById(R.id.drawerLayout);
         navigationView=findViewById(R.id.navigation);
