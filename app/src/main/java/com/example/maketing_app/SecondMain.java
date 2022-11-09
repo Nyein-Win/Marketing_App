@@ -12,8 +12,10 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.Window;
 import android.widget.ImageView;
+import android.widget.Toast;
 import android.widget.Toolbar;
 import android.widget.ViewFlipper;
 
@@ -99,17 +101,68 @@ public class SecondMain extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()){
                     case R.id.nav_home:
-                        startActivity(new Intent(SecondMain.this,SliderImage.class));
-                        Log.i("Menu_Draw_Tag","Home item is clicked");
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
 
                     case R.id.nav_about:
-                        Log.i("Menu_Draw_Tag","About item is clicked");
+                        drawerLayout.closeDrawer(GravityCompat.START);
+                        break;
+                    case R.id.nav_services:
+                        startActivity(new Intent(SecondMain.this,Services.class));
+                        drawerLayout.closeDrawer(GravityCompat.START);
+                        break;
+                    case R.id.nav_branch:
+                        startActivity(new Intent(SecondMain.this,Branches.class));
+                        drawerLayout.closeDrawer(GravityCompat.START);
+                        break;
+                    case R.id.nav_news:
+                        drawerLayout.closeDrawer(GravityCompat.START);
+                        break;
+                    case R.id.nav_loan_calculator:
+                        drawerLayout.closeDrawer(GravityCompat.START);
+                        break;
+                    case R.id.nav_human_resources:
+                        drawerLayout.closeDrawer(GravityCompat.START);
+                        break;
+                    case R.id.nav_finance:
+                        startActivity(new Intent(SecondMain.this,FinancialManage.class));
+                        drawerLayout.closeDrawer(GravityCompat.START);
+                        break;
+                    case R.id.nav_register:
+                        drawerLayout.closeDrawer(GravityCompat.START);
+                        break;
+                    case R.id.nav_login:
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
                 }
                 return true;
+            }
+        });
+
+        findViewById(R.id.imageViewbtn2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SecondMain.this,Services.class));
+            }
+        });
+        findViewById(R.id.imageViewbtn7).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SecondMain.this,FinancialManage.class));
+            }
+        });
+        findViewById(R.id.imageViewbtn3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SecondMain.this,Branches.class));
+
+            }
+        });
+        findViewById(R.id.imageViewbtn7).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SecondMain.this,FinancialManage.class));
+
             }
         });
 

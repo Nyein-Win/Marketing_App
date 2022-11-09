@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Income"
+    tools:ignore="ExtraText">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="20dp"
+                android:text="ဝင်ငွေဆိုတာဘာလဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="368dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="ဝင်ငွေဆိုတာ နည်းလမ်းအမျိုးနဲ့ဝင်လာတဲ့ ဝင်ငွေအားလုံးကိုဝင်ငွေလို့ခေါ်ပါတယ်။ဥပမာ-သားသမီးတွေဆီက ထောက်ပံတဲ့ငွေ၊ ကိုယ်ပိုင်ဆိုင်တဲ့ အိမ်၊ မြေတို့ကို ငှားရမ်းထားလို့ရရှိတဲ့ အခကြေးငွေ
+၊ နေ့စားလုပ်အားခ၊ လခစား၊ ကိုယ်ပိုင်စီးပွားရေးလုပ်ငန်းမှ ရရှိငွေစတဲ့ နေရာပေါင်းစုံက ရတဲ့ငွေတွေကို ဝင်ငွေလို့ခေါ်ပါတယ်။ ဒါပေမယ့် ချေးငွေကိုတော့ ဝင်ငွေလို့ မသတ်မှတ်ပါဘူး။"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                android:text="အသုံးစာရိတ်ဆိုတာဘာလဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ဝင်ငွေဆိုတာ နည်းလမ်းအမျိုးနဲ့ဝင်လာတဲ့ ဝင်ငွေအားလုံးကို ဝင်ငွေလို့ခေါ်ပါတယ်
+ဥပမာ-သားသမီးတွေဆီက ထောက်ပံတဲ့ငွေ၊ ကိုယ်ပိုင်ဆိုင်တဲ့ အိမ်၊ မြေတို့ကို ငှားရမ်းထားလို့ရရှိတဲ့ အခကြေးငွေ
+၊ နေ့စားလုပ်အားခ၊ လခစား၊ ကိုယ်ပိုင်စီးပွားရေးလုပ်ငန်းမှ ရရှိငွေစတဲ့ နေရာပေါင်းစုံက ရတဲ့ငွေတွေကို ဝင်ငွေ
+လို့ခေါ်ပါတယ်။ ဒါပေမယ့် ချေးငွေကိုတော့ ဝင်ငွေလို့ မသတ်မှတ်ပါဘူး။"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:textColor="@color/headercolor"
+                android:text="ဘတ်ဂျက်ဆိုတာဘာလဲ" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ဝင်ငွေဆိုတာ နည်းလမ်းအမျိုးနဲ့ဝင်လာတဲ့ ဝင်ငွေအားလုံးကို ဝင်ငွေလို့ခေါ်ပါတယ်
+ဥပမာ-သားသမီးတွေဆီက ထောက်ပံတဲ့ငွေ၊ ကိုယ်ပိုင်ဆိုင်တဲ့ အိမ်၊ မြေတို့ကို ငှားရမ်းထားလို့ရရှိတဲ့ အခကြေးငွေ
+၊ နေ့စားလုပ်အားခ၊ လခစား၊ ကိုယ်ပိုင်စီးပွားရေးလုပ်ငန်းမှ ရရှိငွေစတဲ့ နေရာပေါင်းစုံက ရတဲ့ငွေတွေကို ဝင်ငွေ
+လို့ခေါ်ပါတယ်။ ဒါပေမယ့် ချေးငွေကိုတော့ ဝင်ငွေလို့ မသတ်မှတ်ပါဘူး။"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,5 +15,6 @@
     <string name="limited">Limited</string>
     <string name="login">Login</string>
     <string name="home">Home</string>
+    <string name="Loan">loan type</string>
 
 </resources>

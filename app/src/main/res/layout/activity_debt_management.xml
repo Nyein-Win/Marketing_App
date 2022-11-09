@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Income"
+    tools:ignore="ExtraText">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="20dp"
+                android:text="အကြွေးဆိုတာဘာလဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အကြွေးဆိုတာကတော့ သူများဆီက ပိုက်ဆံချေးလိုက်တဲ့အခါ ကိုယ့်မှာ အကြွေးတင်သွားတာကို ပြော
+တာပါ။ အကြွေးဆိုတိုင်း မကောင်းတာတော့မဟုတ်ပါဘူးနော်။ အကြွေးမှာလည်း အကြွေးကောင်းနှင့်
+အကြွေးဆိုး ဆိုတာရှိပါတယ်။ ဒါကြောင့် အကြွေးတင်သွားတယ်ဆိုရင်လည်း အကြွေးကောင်းဖြစ်ဖို့
+လိုပါမယ်နော်။"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                android:text="ဝင်ငွေနဲ့အကြွေး"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ဝင်ငွေဆိုတာ နည်းလမ်းအမျိုးမျိုးနဲ့ ဝင်လာတဲ့ငွေအားလုံးကို ဝင်ငွေလို့ခော်ပါတယ်။ ဥပမာ- သားသမီး
+တွေဆီက ထောက်ပံ့တဲ့ငွေ၊ ကိုယ်ပိုင်အိမ်၊ မြေငှားခ၊ နေ့စားလုပ်အားခ၊ လခစား၊ ကိုယ်ပိုင်စီးပွားရေးစတဲ့
+နည်းလမ်းမျိုးစုံက ဝင်တဲ့ငွေတွေကို ပြောတာဖြစ်ပါတယ်။ ဒါပေမယ့်
+ချေးငွေကိုတော့ ဝင်ငွေလို့မသတ်မှတ်ပါဘူး။ \n
+ပိုက်ဆံချေးလိုက်ပြီဆိုကတည်းက အချိန်တန်ရင်ပြန်ဆပ်ဖို့ လိုတဲ့အတွက်
+အကြွေးလို့သတ်မှတ်ပါတယ်။"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
