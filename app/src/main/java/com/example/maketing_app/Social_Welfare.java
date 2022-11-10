@@ -11,6 +11,8 @@ public class Social_Welfare extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_social_welfare);
+        getSupportActionBar().setTitle("Social Welfare");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         WebView webView=findViewById(R.id.social_welfare_webview);
         webView.loadUrl("file:///android_asset/social.html");
     }

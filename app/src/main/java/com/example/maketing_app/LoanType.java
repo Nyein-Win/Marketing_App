@@ -11,6 +11,8 @@ public class LoanType extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loan_type);
+        getSupportActionBar().setTitle("Loan Type");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         WebView webView=findViewById(R.id.loan_webview);
         webView.loadUrl("file:///android_asset/loan.html");
     }

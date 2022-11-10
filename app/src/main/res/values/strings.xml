@@ -16,5 +16,9 @@
     <string name="login">Login</string>
     <string name="home">Home</string>
     <string name="Loan">loan type</string>
+    <string-array name="Method">
+        <item>1.Small Business Loan</item>
+        <item>2.Agriculture Loan</item>
+    </string-array>
 
 </resources>

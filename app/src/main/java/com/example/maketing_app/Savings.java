@@ -11,6 +11,8 @@ public class Savings extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_savings);
+        getSupportActionBar().setTitle("Savings");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         WebView webView=findViewById(R.id.saving_webview);
         webView.loadUrl("file:///android_asset/saving.html");
     }

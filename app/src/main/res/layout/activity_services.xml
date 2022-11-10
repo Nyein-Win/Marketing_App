@@ -74,9 +74,10 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="226dp"
-        android:layout_height="57dp"
+        android:layout_width="187dp"
+        android:layout_height="31dp"
         android:drawableLeft="@drawable/lona_replace"
+        android:gravity="center"
         android:text="Repayment Method"
         android:textColor="@color/design_default_color_secondary"
         app:drawableTint="@color/design_default_color_secondary"

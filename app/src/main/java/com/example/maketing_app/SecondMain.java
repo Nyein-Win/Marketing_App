@@ -116,6 +116,7 @@ public class SecondMain extends AppCompatActivity {
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
                     case R.id.nav_loan_calculator:
+                        startActivity(new Intent(SecondMain.this,Loan_Calculator.class));
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
                     case R.id.nav_human_resources:
@@ -142,6 +143,18 @@ public class SecondMain extends AppCompatActivity {
                 startActivity(new Intent(SecondMain.this,Services.class));
             }
         });
+        findViewById(R.id.imageViewbtn3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SecondMain.this,Branches.class));
+            }
+        });
+        findViewById(R.id.imageViewbtn4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SecondMain.this,News.class));
+            }
+        });
         findViewById(R.id.imageViewbtn7).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -159,6 +172,13 @@ public class SecondMain extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(SecondMain.this,FinancialManage.class));
+
+            }
+        });
+        findViewById(R.id.imageViewbtn5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SecondMain.this,Loan_Calculator.class));
 
             }
         });
