@@ -57,11 +57,13 @@ public class Loan_Calculator extends AppCompatActivity implements AdapterView.On
 
         @Override
         protected String doInBackground(String... strings) {
+            Toast.makeText(Loan_Calculator.this, "read url connection", Toast.LENGTH_SHORT).show();
             String current="";
             try {
                 URL url;
                 HttpURLConnection urlConnection=null;
                 try {
+
                     url=new URL(JSON_URL);
                     urlConnection=(HttpURLConnection) url.openConnection();
                     InputStream in=urlConnection.getInputStream();
