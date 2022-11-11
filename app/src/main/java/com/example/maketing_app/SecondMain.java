@@ -56,6 +56,7 @@ public class SecondMain extends AppCompatActivity {
         viewPager=findViewById(R.id.viewpager);
         circleIndicator=findViewById(R.id.circleIndicato);
 
+
         List<Integer> imagelist=new ArrayList<>();
         imagelist.add(R.drawable.a22);
         imagelist.add(R.drawable.con22);

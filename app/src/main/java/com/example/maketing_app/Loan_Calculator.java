@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
@@ -26,16 +27,29 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
+
 public class Loan_Calculator extends AppCompatActivity implements AdapterView.OnItemSelectedListener{
  private ListView lv;
  String schDate,monthly_Pay,monthly_Interest,principal,debt,saving,social_welfare,upfront_fees;
- private  static String JSON_URL="http://localhost:8080/api/method/loanCalObj";
- ArrayList<HashMap<String,String>> schObjlist ;
+    public EditText e1,e2;
+    String spinner_house_data;
+    public Integer tenor;
+    public Integer loanAmt;
+    public String loanType;
+    public String JSON_URL="http://localhost:8080/api/method/loanCalObj";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loan_calculator);
         Spinner spinner=findViewById(R.id.spinner);
+        spinner_house_data = spinner.getSelectedItem().toString();
+        e1=findViewById(R.id.user_Amount);
+        e2=findViewById(R.id.user_Term);
         ArrayAdapter adapter=ArrayAdapter.createFromResource(
                 this,
                 R.array.Method,
@@ -45,86 +59,23 @@ public class Loan_Calculator extends AppCompatActivity implements AdapterView.On
         spinner.setAdapter(adapter);
         spinner.setOnItemSelectedListener(this);
 
-        schObjlist=new ArrayList<>();
-        lv=findViewById(R.id.listview);
-        GetData getData=new GetData();
-        getData.execute();
+
+
 
     }
+    public void PostData(View view) {
+        if (e1.getText().toString().trim().equalsIgnoreCase("")) {
+            e1.setError("Enter Loan Amount");
+        } else if
+        (e2.getText().toString().trim().equalsIgnoreCase("")) {
+            e2.setError("Enter Loan Term");
+        } else {
+            loanType = spinner_house_data;
+            loanAmt = Integer.parseInt(e1.getText().toString());
+            tenor = Integer.parseInt(e2.getText().toString());
+            Toast.makeText(Loan_Calculator.this, "Test Success", Toast.LENGTH_SHORT).show();
 
 
-    public  class GetData extends AsyncTask<String,String,String>{
-
-        @Override
-        protected String doInBackground(String... strings) {
-            Toast.makeText(Loan_Calculator.this, "read url connection", Toast.LENGTH_SHORT).show();
-            String current="";
-            try {
-                URL url;
-                HttpURLConnection urlConnection=null;
-                try {
-
-                    url=new URL(JSON_URL);
-                    urlConnection=(HttpURLConnection) url.openConnection();
-                    InputStream in=urlConnection.getInputStream();
-                    InputStreamReader isr=new InputStreamReader(in);
-                    int data=isr.read();
-                    while (data != -1){
-                        current +=(char) data;
-                        data=isr.read();
-                    }
-                    return  current;
-                } catch (MalformedURLException e) {
-                    e.printStackTrace();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-                finally {
-                    if(urlConnection != null){
-                        urlConnection.disconnect();
-                    }
-                }
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            return current;
-        }
-
-        @Override
-        protected void onPostExecute(String s) {
-           try {
-               JSONObject jsonObject=new JSONObject(s);
-               JSONArray   jsonArray=jsonObject.getJSONArray("schObj");
-
-               for(int i=0;i<jsonArray.length();i++){
-                   JSONObject jsonObject1=jsonArray.getJSONObject(i);
-                   schDate=jsonObject1.getString("schDate");
-                   monthly_Pay=jsonObject1.getString("monthly_Pay");
-                   monthly_Interest=jsonObject1.getString("monthly_Interest");
-                   principal=jsonObject1.getString("principal");
-                   debt =jsonObject1.getString("debt");
-
-                   HashMap<String ,String> schObj=new HashMap<>();
-                   schObj.put("schDate",schDate);
-                   schObj.put("monthly_Pay",monthly_Pay);
-                   schObj.put("monthly_Interest",monthly_Interest);
-                   schObj.put("principal",principal);
-                   schObj.put("debt",debt);
-
-                   schObjlist.add(schObj);
-
-
-               }
-           } catch (JSONException e) {
-               e.printStackTrace();
-           }
-            ListAdapter adapter=new SimpleAdapter(
-                    Loan_Calculator.this,
-                    schObjlist,
-                    R.layout.row_layout,
-                    new String[]{"schDate","monthly_Pay","monthly_Interest","principal","debt"},
-                    new int[]{R.id.textView00,R.id.textView01,R.id.textView02,R.id.textView03,R.id.textView04});
-                    lv.setAdapter(adapter);
 
         }
     }
