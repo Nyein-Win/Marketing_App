@@ -46,6 +46,8 @@ public class Loan_Calculator extends AppCompatActivity implements AdapterView.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loan_calculator);
+        getSupportActionBar().setTitle("Loan Calculator");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         Spinner spinner=findViewById(R.id.spinner);
         spinner_house_data = spinner.getSelectedItem().toString();
         e1=findViewById(R.id.user_Amount);
