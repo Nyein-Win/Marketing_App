@@ -121,6 +121,7 @@ public class SecondMain extends AppCompatActivity {
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
                     case R.id.nav_human_resources:
+                        startActivity(new Intent(SecondMain.this,HumanResources.class));
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
                     case R.id.nav_finance:
