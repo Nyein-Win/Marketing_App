@@ -12,21 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Maketing_App"
         tools:targetApi="31">
-        <activity
-            android:name=".Social_Welfare"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".Savings"
-            android:exported="false"
-            android:parentActivityName=".SecondMain">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+
+
         <activity
             android:name=".Services"
             android:exported="false"
@@ -35,13 +22,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity
-            android:name=".LoanType"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+
         <activity
             android:name=".FinancialManagement"
             android:exported="false">
