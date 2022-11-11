@@ -2,40 +2,15 @@ package com.example.maketing_app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
-import android.widget.ListAdapter;
-import android.widget.ListView;
-import android.widget.SimpleAdapter;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.HashMap;
-
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
-
-public class Loan_Calculator extends AppCompatActivity implements AdapterView.OnItemSelectedListener{
- private ListView lv;
- String schDate,monthly_Pay,monthly_Interest,principal,debt,saving,social_welfare,upfront_fees;
+public class Calculate_Loan extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     public EditText e1,e2;
     String spinner_house_data;
     public Integer tenor;
@@ -45,7 +20,7 @@ public class Loan_Calculator extends AppCompatActivity implements AdapterView.On
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_loan_calculator);
+        setContentView(R.layout.activity_calculate_loan);
         getSupportActionBar().setTitle("Loan Calculator");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         Spinner spinner=findViewById(R.id.spinner);
@@ -75,7 +50,7 @@ public class Loan_Calculator extends AppCompatActivity implements AdapterView.On
             loanType = spinner_house_data;
             loanAmt = Integer.parseInt(e1.getText().toString());
             tenor = Integer.parseInt(e2.getText().toString());
-            Toast.makeText(Loan_Calculator.this, "Test Success", Toast.LENGTH_SHORT).show();
+            Toast.makeText(Calculate_Loan.this, "Test Success", Toast.LENGTH_SHORT).show();
 
 
 

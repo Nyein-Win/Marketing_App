@@ -117,7 +117,7 @@ public class SecondMain extends AppCompatActivity {
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
                     case R.id.nav_loan_calculator:
-                        startActivity(new Intent(SecondMain.this,Loan_Calculator.class));
+                        startActivity(new Intent(SecondMain.this,Calculate_Loan.class));
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
                     case R.id.nav_human_resources:
@@ -179,7 +179,7 @@ public class SecondMain extends AppCompatActivity {
         findViewById(R.id.imageViewbtn5).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(SecondMain.this,Loan_Calculator.class));
+                startActivity(new Intent(SecondMain.this,Calculate_Loan.class));
 
             }
         });
