@@ -184,6 +184,13 @@ public class SecondMain extends AppCompatActivity {
 
             }
         });
+        findViewById(R.id.imageViewbtn6).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SecondMain.this,Resource_Human.class));
+
+            }
+        });
 
 
     }
