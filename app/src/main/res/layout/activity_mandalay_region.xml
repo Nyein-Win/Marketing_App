@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/opacity_background"
+    tools:ignore="ExtraText">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="ရုံးချုပ်"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ် (၃၅၁/ဘီ)၊ ပြည်လမ်း၊ စမ်းချောင်းမြို့နယ်၊ ရန်ကုန်တိုင်းဒေသကြီး။ ၀၉-၉၇၇၉၁၇၁၈၀"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="အင်းစိန်ရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ် (၅၇၆)၊ လှိုင်မြစ်လမ်း၊ ပေါက်တောရပ်ကွက်၊ အင်းစိန်မြို့နယ်၊ ရန်ကုန်တိုင်းဒေသကြီး။"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/halekutxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="လှည်းကူးရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/haleku1txt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="ဦးပိုင်အမှတ်(ခ/၁၂/၂၈)၊ အရှေ့မင်းလမ်း၊ အောင်မင်္ဂလာရပ်ကွက်၊ လှည်းကူးမြို့နယ်၊ ရန်ကုန်တိုင်းဒေ
+သကြီး။
+၀၉-၉၆၉၇၀၃၀၃၄၊ ၀၉-၉၆၉၇၀၃၀၃၅"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/dalatxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="ဒလရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/dalatxt1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၄၄-၄၆)၊ ရှင်စောပုလမ်း၊ အောင်မင်္ဂလာရပ်ကွက်၊ ဒလမြို့နယ်၊
+ရန်ကုန်တိုင်းဒေသကြီး။
+၀၉-၉၅၁၀၄၆၃၂၅၊ ၀၉ ၉၅၁၀၄၆၃၂၆"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/typegyitxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="တိုက်ကြီးရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/typegyitxt1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၃၉၀)၊ စုပေါင်းရုံးလမ်း၊ ဗောဓိကုန်းရပ်ကွက်၊တိုက်ကြီးမြို့နယ်၊ရန်ကုန်တိုင်းဒေသကြီး။
+၀၉--၉၇၇၂၇၂၉၇၆"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/threekhu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="သုံးခွရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/threekhu1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="ဦးပိုင်အမှတ်(၇၇)၊ အကွက်အမှတ် (၁၇၅)၊ အောင်ဇေယျလမ်း၊
+(၉) ရပ်ကွက်၊ သုံးခွမြို့နယ်၊ ရန်ကုန်တိုင်းဒေသကြီး။
+၀၉-၉၄၀၄၉၉၄၅၂"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/hlaingthayartxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="လှိုင်သာယာရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/hlaingthayartxt1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၅၁၄)၊ အနော်ရထာလမ်း၊ (၁၁) ရပ်ကွက်၊ လှိုင်သာယာ
+မြို့နယ်၊ရန်ကုန်တိုင်းဒေသကြီး။(ဈေးလေးမှတ်တိုင်)"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

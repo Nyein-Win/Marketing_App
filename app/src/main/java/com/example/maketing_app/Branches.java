@@ -15,6 +15,7 @@ public class Branches extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_branches);
 
+
         @SuppressLint({"MissingInflatedId", "LocalSuppress"}) Button yangonbtn=findViewById(R.id.yangobtn);
 
         yangonbtn.setOnClickListener(new View.OnClickListener() {
@@ -22,7 +23,14 @@ public class Branches extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Branches.this,Yangon_Region.class);
                 startActivity(intent);
-                finish();
+            }
+        });
+        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) Button mandalaybtn=findViewById(R.id.mandalaybtn);
+        mandalaybtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(Branches.this,Mandalay_Region.class);
+                startActivity(intent);
             }
         });
     }

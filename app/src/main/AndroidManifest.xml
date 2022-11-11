@@ -2,8 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -15,15 +13,14 @@
         android:theme="@style/Theme.Maketing_App"
         tools:targetApi="31">
         <activity
-            android:name=".News"
-            android:exported="false"
-            android:parentActivityName=".SecondMain">
+            android:name=".Social_Welfare"
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".Loan_Calculator"
+            android:name=".Savings"
             android:exported="false"
             android:parentActivityName=".SecondMain">
             <meta-data
@@ -34,6 +31,13 @@
             android:name=".Services"
             android:exported="false"
             android:parentActivityName=".SecondMain">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".LoanType"
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
