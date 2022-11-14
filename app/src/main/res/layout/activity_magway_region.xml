@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/opacity_background"
+    tools:context=".MagwayRegion">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/magwt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="မကွေးရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/magwt11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၁၆၃)၊ ရန်ဝေးရပ်ကွက်၊ အောင်ရတနာအုပ်စု၊ ပြည်တော်သာလမ်း၊ မကွေးမြို့နယ်၊ မကွေးတိုင်းဒေသကြီး။
+၀၆၃၂၆၇၈၆ ၊ ၀၉၉၆၉၇၅၂၆၃၃"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/magwt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="တောင်တွင်းကြီးရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/magwt21"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၈၈)၊ ရခိုင်ဘုရားလမ်း၊ ရွှေအိုး(၂)ရပ်ကွက်၊ တောင်တွင်းကြီးမြို့နယ်၊ မကွေးတိုင်းဒေသကြီး။
+၀၉၉၆၉၆၆၈၀၈၆"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/magwt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="ချောက်ရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/magwt31"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၉၉)၊ မင်းတုန်းလမ်းသွယ်နှင့် ဗန္တုလလမ်းမ၊ အမှတ်(၈)ရပ်ကွက်၊ (ကွက်သစ်အနောက်ရပ်)၊ ချောက်မြို့နယ်၊ ၊ မကွေးတိုင်းဒေသကြီး။
+၀၉၉၆၉၇၃၂၁၇၉ ၊ ၀၉၉၆၉၇၃၂၁၈၀"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/magwt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="ပွင့်ဖြူရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/magwt41"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၇)၊ ကံကော်လမ်း၊ အရှေ့နယ်မြေရပ်ကွက်၊ ပွင့်ဖြူမြို့နယ်၊ မကွေးတိုင်းဒေသကြီး။
+၀၉၉၇၇၂၇၂၈၆၉"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/magwt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="ပခုက္ကူရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/magwt51"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၅၈)၊ (၆)လမ်း၊ အမှတ်(၁၁)ရပ်ကွက်၊ ပခုက္ကူမြို့နယ်၊ မကွေးတိုင်းဒေသကြီး။
+၀၉၉၇၇၅၄၀၂၉၇ ၊ ၀၉၉၇၇၅၄၀၂၉၈"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/magwt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="အောင်လံရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/magwt61"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="မြေကွက်အမှတ်(၅၀၈၊၉၆၄)၊ ဦးပိုင်အမှတ်(ခ၊၃၂၈)၊ အကွက်အမှတ်(၅)၊ ပြည်လမ်း၊ အပိုင်း(၅)၊ စက်ရုံရပ်ကွက်၊ အောင်လံမြို့နယ်၊ မကွေးတိုင်းဒေသကြီး။
+၀၉၉၄၀၆၇၁၁၈၆"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

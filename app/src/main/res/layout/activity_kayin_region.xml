@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KayinRegion"
+    android:background="@drawable/opacity_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+    <TextView
+        android:id="@+id/kayint1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:text="ဘားအံရုံးခွဲ"
+        android:textColor="@color/headercolor"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/kayint11"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:text="မဟော်ဂနီလမ်းသွယ်၊ အမှတ်(၉)ရပ်ကွက်၊ ဘားအံမြို့နယ်၊ ကရင်ပြည်နယ်။ \n
+၀၉၉၆၉၈၉၃၅၈၇ ၊ ၀၉၉၆၉၈၉၃၅၈၈"
+        android:textSize="18sp" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
