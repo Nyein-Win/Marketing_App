@@ -10,5 +10,7 @@ public class DebtManagement extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_debt_management);
+        getSupportActionBar().setTitle("Debt Management");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

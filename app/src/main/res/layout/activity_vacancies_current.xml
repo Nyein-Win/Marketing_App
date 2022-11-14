@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Current_vacancies">
+    android:background="@drawable/humanbutton"
+    tools:context=".VacanciesCurrent">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -13,14 +14,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
+
+
             <androidx.cardview.widget.CardView
-                android:id="@+id/cardView"
                 android:layout_width="match_parent"
-                android:layout_height="91dp"
+                android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="20dp"
+                app:cardCornerRadius="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
@@ -30,11 +33,11 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/textView7"
+                        android:id="@+id/tts1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Specialized Loan Officer"
-                        android:textColor="@color/material_dynamic_primary60"
+                        android:textColor="@color/headercolor"
                         android:textSize="20sp"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -42,10 +45,10 @@
                         app:layout_constraintHorizontal_bias="0.266"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.25" />
+                        app:layout_constraintVertical_bias="0.333" />
 
                     <TextView
-                        android:id="@+id/textView21"
+                        android:id="@+id/tts2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/ic_baseline_arrow_forward_24"
@@ -65,16 +68,16 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/textView7">
+                        app:layout_constraintTop_toBottomOf="@+id/tts2">
 
                         <TextView
-                            android:id="@+id/textView10"
+                            android:id="@+id/tts3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:background="@drawable/currentvacancies" />
 
                         <TextView
-                            android:id="@+id/textView9"
+                            android:id="@+id/tts4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="1-2 years"
@@ -83,56 +86,58 @@
                             />
 
                         <TextView
-                            android:id="@+id/textView11"
+                            android:id="@+id/tts5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:background="@drawable/location" />
 
                         <TextView
-                            android:id="@+id/textView18"
+                            android:id="@+id/tts6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Branches"
                             android:textSize="10sp" />
 
                         <TextView
-                            android:id="@+id/textView19"
+                            android:id="@+id/tts7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:background="@drawable/person" />
 
                         <TextView
-                            android:id="@+id/textView20"
+                            android:id="@+id/tts8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="3 posts"
                             android:textSize="10sp" />
                     </LinearLayout>
-                </androidx.constraintlayout.widget.ConstraintLayout>
 
+                </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="91dp"
+                android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="12dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginEnd="20dp"
+                app:cardCornerRadius="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cardView">
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/t1"
+                        android:id="@+id/ttl1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Loan Officer"
-                        android:textColor="@color/material_dynamic_primary60"
+                        android:textColor="@color/headercolor"
                         android:textSize="20sp"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -140,10 +145,10 @@
                         app:layout_constraintHorizontal_bias="0.153"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.25" />
+                        app:layout_constraintVertical_bias="0.333" />
 
                     <TextView
-                        android:id="@+id/t2"
+                        android:id="@+id/ttl2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/ic_baseline_arrow_forward_24"
@@ -163,16 +168,16 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/t2">
+                        app:layout_constraintTop_toBottomOf="@+id/ttl2">
 
                         <TextView
-                            android:id="@+id/t3"
+                            android:id="@+id/ttl3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:background="@drawable/currentvacancies" />
 
                         <TextView
-                            android:id="@+id/t4"
+                            android:id="@+id/ttl4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="1-2 years"
@@ -181,66 +186,69 @@
                             />
 
                         <TextView
-                            android:id="@+id/t5"
+                            android:id="@+id/ttl5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:background="@drawable/location" />
 
                         <TextView
-                            android:id="@+id/t6"
+                            android:id="@+id/ttl6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Branches"
                             android:textSize="10sp" />
 
                         <TextView
-                            android:id="@+id/t7"
+                            android:id="@+id/ttl7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:background="@drawable/person" />
 
                         <TextView
-                            android:id="@+id/t8"
+                            android:id="@+id/ttl8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="3 posts"
                             android:textSize="10sp" />
                     </LinearLayout>
-                </androidx.constraintlayout.widget.ConstraintLayout>
 
+                </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="91dp"
-                android:layout_marginEnd="20dp"
+                android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
-                >
+                android:layout_marginEnd="20dp"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/t11"
+                        android:id="@+id/ttc1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="40dp"
                         android:text="Chief Loan Officer"
-                        android:textColor="@color/material_dynamic_primary60"
+                        android:textColor="@color/headercolor"
                         android:textSize="20sp"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintHorizontal_bias="0.194"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.25" />
+                        app:layout_constraintVertical_bias="0.333" />
 
                     <TextView
-                        android:id="@+id/t21"
+                        android:id="@+id/ttc2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/ic_baseline_arrow_forward_24"
@@ -260,16 +268,16 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/t21">
+                        app:layout_constraintTop_toBottomOf="@+id/ttc2">
 
                         <TextView
-                            android:id="@+id/t31"
+                            android:id="@+id/ttc3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:background="@drawable/currentvacancies" />
 
                         <TextView
-                            android:id="@+id/t41"
+                            android:id="@+id/ttc4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="1-2 years"
@@ -278,66 +286,69 @@
                             />
 
                         <TextView
-                            android:id="@+id/t51"
+                            android:id="@+id/ttc5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:background="@drawable/location" />
 
                         <TextView
-                            android:id="@+id/t61"
+                            android:id="@+id/ttc6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Branches"
                             android:textSize="10sp" />
 
                         <TextView
-                            android:id="@+id/t71"
+                            android:id="@+id/ttc7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:background="@drawable/person" />
 
                         <TextView
-                            android:id="@+id/t81"
+                            android:id="@+id/ttc8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="3 posts"
                             android:textSize="10sp" />
                     </LinearLayout>
-                </androidx.constraintlayout.widget.ConstraintLayout>
 
+                </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="91dp"
-                android:layout_marginTop="20dp"
+                android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginEnd="20dp"
-                >
+                app:cardCornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/t12"
+                        android:id="@+id/ttd1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="40dp"
                         android:text="Deputy Chief Loan Officer"
-                        android:textColor="@color/material_dynamic_primary60"
+                        android:textColor="@color/headercolor"
                         android:textSize="20sp"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintHorizontal_bias="0.291"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.25" />
+                        app:layout_constraintVertical_bias="0.333" />
 
                     <TextView
-                        android:id="@+id/t22"
+                        android:id="@+id/ttd2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/ic_baseline_arrow_forward_24"
@@ -357,16 +368,16 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/t22">
+                        app:layout_constraintTop_toBottomOf="@+id/ttd2">
 
                         <TextView
-                            android:id="@+id/t32"
+                            android:id="@+id/ttd3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:background="@drawable/currentvacancies" />
 
                         <TextView
-                            android:id="@+id/t42"
+                            android:id="@+id/ttd4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="1-2 years"
@@ -375,161 +386,69 @@
                             />
 
                         <TextView
-                            android:id="@+id/t52"
+                            android:id="@+id/ttd5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:background="@drawable/location" />
 
                         <TextView
-                            android:id="@+id/t62"
+                            android:id="@+id/ttd6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Branches"
                             android:textSize="10sp" />
 
                         <TextView
-                            android:id="@+id/t72"
+                            android:id="@+id/ttd7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:background="@drawable/person" />
 
                         <TextView
-                            android:id="@+id/t82"
+                            android:id="@+id/ttd8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="3 posts"
                             android:textSize="10sp" />
                     </LinearLayout>
-                </androidx.constraintlayout.widget.ConstraintLayout>
 
+                </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="91dp"
-                android:layout_marginTop="20dp"
+                android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp">
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <TextView
-                        android:id="@+id/t13"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="40dp"
-                        android:text="Cashier"
-                        android:textColor="@color/material_dynamic_primary60"
-                        android:textSize="20sp"
-                        android:textStyle="bold"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.0"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.25" />
-
-                    <TextView
-                        android:id="@+id/t23"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/ic_baseline_arrow_forward_24"
-                        android:textSize="20sp"
-                        android:textStyle="bold"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.907"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="40dp"
-                        android:orientation="horizontal"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/t23">
-
-                        <TextView
-                            android:id="@+id/t33"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/currentvacancies" />
-
-                        <TextView
-                            android:id="@+id/t43"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="1-2 years"
-                            android:textSize="10sp"
-
-                            />
-
-                        <TextView
-                            android:id="@+id/t53"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
-                            android:background="@drawable/location" />
-
-                        <TextView
-                            android:id="@+id/t63"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Branches"
-                            android:textSize="10sp" />
-
-                        <TextView
-                            android:id="@+id/t73"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
-                            android:background="@drawable/person" />
-
-                        <TextView
-                            android:id="@+id/t83"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="3 posts"
-                            android:textSize="10sp" />
-                    </LinearLayout>
-                </androidx.constraintlayout.widget.ConstraintLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="91dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="20dp"
-                android:layout_marginStart="20dp">
+                app:cardCornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/t14"
+                        android:id="@+id/ttca1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="40dp"
-                        android:text="Teller"
-                        android:textColor="@color/material_dynamic_primary60"
+                        android:text="Cashier"
+                        android:textColor="@color/headercolor"
                         android:textSize="20sp"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintHorizontal_bias="0.132"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.25" />
+                        app:layout_constraintVertical_bias="0.333" />
 
                     <TextView
-                        android:id="@+id/t24"
+                        android:id="@+id/ttca2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/ic_baseline_arrow_forward_24"
@@ -549,16 +468,16 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/t24">
+                        app:layout_constraintTop_toBottomOf="@+id/ttca2">
 
                         <TextView
-                            android:id="@+id/t34"
+                            android:id="@+id/ttca3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:background="@drawable/currentvacancies" />
 
                         <TextView
-                            android:id="@+id/t44"
+                            android:id="@+id/ttca4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="1-2 years"
@@ -567,63 +486,169 @@
                             />
 
                         <TextView
-                            android:id="@+id/t54"
+                            android:id="@+id/ttca5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:background="@drawable/location" />
 
                         <TextView
-                            android:id="@+id/t64"
+                            android:id="@+id/ttca6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Branches"
                             android:textSize="10sp" />
 
                         <TextView
-                            android:id="@+id/t74"
+                            android:id="@+id/ttca7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:background="@drawable/person" />
 
                         <TextView
-                            android:id="@+id/t84"
+                            android:id="@+id/ttca8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="3 posts"
                             android:textSize="10sp" />
                     </LinearLayout>
+
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="91dp"
-                android:layout_marginTop="20dp"
+                android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp">
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/t15"
+                        android:id="@+id/ttt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Teller"
+                        android:textColor="@color/headercolor"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.125"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.333" />
+
+                    <TextView
+                        android:id="@+id/ttt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_baseline_arrow_forward_24"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.907"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:orientation="horizontal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/ttt2">
+
+                        <TextView
+                            android:id="@+id/ttt3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/currentvacancies" />
+
+                        <TextView
+                            android:id="@+id/ttt4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1-2 years"
+                            android:textSize="10sp"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/ttt5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/location" />
+
+                        <TextView
+                            android:id="@+id/ttt6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Branches"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/ttt7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/person" />
+
+                        <TextView
+                            android:id="@+id/ttt8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3 posts"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tta1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Assistant Accountant"
-                        android:textColor="@color/material_dynamic_primary60"
+                        android:textColor="@color/headercolor"
                         android:textSize="20sp"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.266"
+                        app:layout_constraintHorizontal_bias="0.228"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.25" />
+                        app:layout_constraintVertical_bias="0.333" />
 
                     <TextView
-                        android:id="@+id/t25"
+                        android:id="@+id/tta2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/ic_baseline_arrow_forward_24"
@@ -643,16 +668,16 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/t25">
+                        app:layout_constraintTop_toBottomOf="@+id/tta2">
 
                         <TextView
-                            android:id="@+id/t35"
+                            android:id="@+id/tta3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:background="@drawable/currentvacancies" />
 
                         <TextView
-                            android:id="@+id/t45"
+                            android:id="@+id/tta4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="1-2 years"
@@ -661,33 +686,34 @@
                             />
 
                         <TextView
-                            android:id="@+id/t55"
+                            android:id="@+id/tta5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:background="@drawable/location" />
 
                         <TextView
-                            android:id="@+id/t65"
+                            android:id="@+id/tta6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Branches"
                             android:textSize="10sp" />
 
                         <TextView
-                            android:id="@+id/t75"
+                            android:id="@+id/tta7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:background="@drawable/person" />
 
                         <TextView
-                            android:id="@+id/t85"
+                            android:id="@+id/tta8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="3 posts"
                             android:textSize="10sp" />
                     </LinearLayout>
+
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
         </LinearLayout>

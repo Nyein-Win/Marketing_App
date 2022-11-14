@@ -14,6 +14,8 @@ public class Branches extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_branches);
+        getSupportActionBar().setTitle("Branches");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
         @SuppressLint({"MissingInflatedId", "LocalSuppress"}) Button yangonbtn=findViewById(R.id.yangobtn);
@@ -29,7 +31,7 @@ public class Branches extends AppCompatActivity {
         mandalaybtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(Branches.this,Mandalay_Region.class);
+                Intent intent=new Intent(Branches.this,MandalayRegion.class);
                 startActivity(intent);
             }
         });

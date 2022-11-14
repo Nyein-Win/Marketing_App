@@ -10,5 +10,7 @@ public class Income extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_income);
+        getSupportActionBar().setTitle("Income,Expenditure,Budget");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

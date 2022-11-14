@@ -10,5 +10,7 @@ public class FinancialManagement extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_financial_management);
+        getSupportActionBar().setTitle("Financial Management");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

@@ -4,13 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Yangon_Region extends AppCompatActivity {
+public class VacanciesCurrent extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_yangon_region);
-        getSupportActionBar().setTitle("ရန်ကုန်တိုင်းဒေသကြီး");
+        setContentView(R.layout.activity_vacancies_current);
+        getSupportActionBar().setTitle("Current Vacancies");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

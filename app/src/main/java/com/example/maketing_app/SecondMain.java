@@ -98,9 +98,7 @@ public class SecondMain extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()){
-                    case R.id.nav_home:
-                        drawerLayout.closeDrawer(GravityCompat.START);
-                        break;
+
 
                     case R.id.nav_about:
                         drawerLayout.closeDrawer(GravityCompat.START);
@@ -121,11 +119,11 @@ public class SecondMain extends AppCompatActivity {
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
                     case R.id.nav_human_resources:
-                        startActivity(new Intent(SecondMain.this,HumanResources.class));
+                        startActivity(new Intent(SecondMain.this,Resource_Human.class));
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
                     case R.id.nav_finance:
-                        startActivity(new Intent(SecondMain.this,FinancialManage.class));
+                        startActivity(new Intent(SecondMain.this,Financial.class));
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
                     case R.id.nav_register:
@@ -173,7 +171,7 @@ public class SecondMain extends AppCompatActivity {
         findViewById(R.id.imageViewbtn7).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(SecondMain.this,FinancialManage.class));
+                startActivity(new Intent(SecondMain.this,Financial.class));
 
             }
         });
