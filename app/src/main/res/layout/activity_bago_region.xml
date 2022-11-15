@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/opacity_background"
+    tools:context=".BagoRegion">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/bagot1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="ပဲခူးရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/bagot11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၇၃၈)၊ ရန်ကုန်-မန္တလေးလမ်း၊ အမှတ်(၇) ရပ်ကွက်၊ ဥသမြို့သစ်၊ ပဲခူးမြို့နယ်၊ ပဲခူးတိုင်းဒေသကြီး။
+၀၅၂၂၂၀၁၃၁၈ ၊ ၀၉၉၇၇၉၁၇၁၈၉"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/bagot2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="ဒိုက်ဦးရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/bagot22"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="ခြံအမှတ်(၁၂)၊ အမှတ်(၁)၊ မင်းလမ်း၊ ဈေးပိုင်းရပ်ကွက်၊ ဒိုက်ဦးမြို့နယ်ဈ ၊ ပဲခူးတိုင်းဒေသကြီး။
+၀၅၂၄၀၅၈၃ ၊ ၀၉၉၆၉၇၀၃၀၀၃"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/bagot3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="ကြို့ပင်ကောက်ရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/bagot31"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၁၂၅/၁၂၆)၊ နွယ်ခွေလမ်း၊ နွယ်ခွေရပ်ကွက်၊ ကြို့ပင်ကောက်မြို့နယ်၊ ၊ ပဲခူးတိုင်းဒေသကြီး။
+၀၉၉၇၇၂၇၂၉၉၂ ၊ ၀၉၉၇၇၂၇၂၉၉၃"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/bagot4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="အင်းတကော်ရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/bagot41"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၃/၃၈)၊ မင်းလမ်း၊ အနောက်နယ်မြေရပ်ကွက်၊ အင်းတကော်မြို့နယ်၊ ၊ ပဲခူးတိုင်းဒေသကြီး။
+၀၉၉၇၇၁၂၄၁၅၆"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/bagot5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="ဝေါရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/bagot51"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၃၃၆/အေ)၊ မင်းလမ်း၊ အေးချမ်းသာယာရပ်ကွက်၊ ဝေါမြို့နယ်၊ ၊ ပဲခူးတိုင်းဒေသကြီး။
+၀၉၉၇၇၂၇၂၄၀၁"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/bagot6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="ညောင်လေးပင်ရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/bagot61"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၁၉၄)၊ မန္တလေးလမ်း၊ ချမ်းမြသာစည်ရပ်ကွက်၊ ညောင်လေးပင်မြို့နယ်၊ ၊ ပဲခူးတိုင်းဒေသကြီး။
+၀၉၉၇၇၁၂၄၃၆၉"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

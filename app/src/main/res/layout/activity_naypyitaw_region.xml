@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/opacity_background"
+    tools:context=".NaypyitawRegion">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/naypyit1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="နေပြည်တော်ရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/naypyit11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၅၈၁)၊ ရာဇဌာနီလမ်း၊ ပောင်းလောင်း(၃)ရပ်ကွက်၊ ပျဉ်းမနားမြို့၊ နေပြည်တော်ပြည်ထောင်စုနယ်မြေ။
+၀၉၉၇၇၀၆၁၅၈၁ ၊ ၀၉၉၇၇၀၆၁၅၈၂"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/naypyit2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="လယ်ဝေးရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/naypyit21"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အိမ်အမှတ်(၂-၂၇၅-က)၊ မြို့တွင်းလမ်း၊ (၂)ရပ်ကွက်၊ လယ်ဝေးမြို့နယ်၊ နေပြည်တော်ပြည်ထောင်စုနယ်မြေ။
+၀၉၉၇၇၅၈၃၄၈၀ ၊ ၀၉၉၇၇၅၈၃၄၂၀"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/naypyit3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="တပ်ကုန်းရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/naypyit31"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အိမ်အမှတ်(၂)၊ ပိတောက်လမ်း၊ မြဝတီရပ်ကွက်၊ တပ်ကုန်းမြို့နယ်၊ နေပြည်တော်ပြည်ထောင်စုနယ်မြေ။
+၀၉၉၄၀၄၉၉၄၃၁"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

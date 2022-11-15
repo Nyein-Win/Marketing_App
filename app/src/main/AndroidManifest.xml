@@ -13,6 +13,85 @@
         android:theme="@style/Theme.Maketing_App"
         tools:targetApi="31">
         <activity
+            android:name=".Loan_Officer"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".NaypyitawRegion"
+            android:exported="false"
+            android:parentActivityName=".Branches">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".KayarRegion"
+            android:exported="false"
+            android:parentActivityName=".Branches">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".KayinRegion"
+            android:exported="false"
+            android:parentActivityName=".Branches">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ShanRegion"
+            android:exported="false"
+            android:parentActivityName=".Branches">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MonRegion"
+            android:exported="false"
+            android:parentActivityName=".Branches">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SagainRegion"
+            android:exported="false"
+            android:parentActivityName=".Branches">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MagwayRegion"
+            android:exported="false"
+            android:parentActivityName=".Branches">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AyeyarwadiRegion"
+            android:exported="false"
+            android:parentActivityName=".Branches">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BagoRegion"
+            android:exported="false"
+            android:parentActivityName=".Branches">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Financial"
             android:exported="false"
             android:parentActivityName=".SecondMain">

@@ -23,7 +23,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
-                android:text="ရုံးချုပ်"
+                android:text="မန္တလေးရုံးခွဲ"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp" />
 
@@ -34,7 +34,9 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="အမှတ် (၃၅၁/ဘီ)၊ ပြည်လမ်း၊ စမ်းချောင်းမြို့နယ်၊ ရန်ကုန်တိုင်းဒေသကြီး။ ၀၉-၉၇၇၉၁၇၁၈၀"
+                android:text="ဦးပိုင်အမှတ်(ဈ/၃၈)၊ အဖွဲ့အမှတ်(တ-၇)၊ (၁၀၂/အေ) လမ်း၊၇၁*၇၂ လမ်းကြား၊ မြို့သစ်(၁)
+ရပ်ကွက်၊ ချမ်းမြသာစည်မြို့နယ်၊ မန္တလေးတိုင်းဒေသကြီး။
+၀၉၉၇၇၉၁၇၂၀၀ ၊ ၀၉၉၇၇၉၁၇၂၀၁"
                 android:textSize="18sp" />
 
             <TextView
@@ -43,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
-                android:text="အင်းစိန်ရုံးခွဲ"
+                android:text="ကျောက်ဆည်ရုံးခွဲ"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp" />
 
@@ -54,15 +56,18 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="အမှတ် (၅၇၆)၊ လှိုင်မြစ်လမ်း၊ ပေါက်တောရပ်ကွက်၊ အင်းစိန်မြို့နယ်၊ ရန်ကုန်တိုင်းဒေသကြီး။"
+                android:text="အမှတ် (၃၅/ဃ)၊ ရန်ကုန်-မန္တလေးလမ်း၊ ဘောဂဝတီရပ်ကွက်၊ ကျောက်ဆည်မြို့နယ်၊ မန္တလေးတိုင်း
+ဒေသကြီး။
+၀၉၉၆၉၇၀၃၀၂၄ ၊ ၀၉၉၆၉၇၀၃၀၂၅"
                 android:textSize="18sp" />
+
             <TextView
                 android:id="@+id/halekutxt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
-                android:text="လှည်းကူးရုံးခွဲ"
+                android:text="မိတ္ထီလာရုံးခွဲ"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp" />
 
@@ -73,9 +78,8 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="ဦးပိုင်အမှတ်(ခ/၁၂/၂၈)၊ အရှေ့မင်းလမ်း၊ အောင်မင်္ဂလာရပ်ကွက်၊ လှည်းကူးမြို့နယ်၊ ရန်ကုန်တိုင်းဒေ
-သကြီး။
-၀၉-၉၆၉၇၀၃၀၃၄၊ ၀၉-၉၆၉၇၀၃၀၃၅"
+                android:text="စိတ္တသုခလမ်း၊ ဝန်ဇင်းရပ်ကွက်၊ နယ်မြေ(၁၃)၊ မိတ္ထီလာမြို့နယ်၊ ၊ မန္တလေးတိုင်းဒေသကြီး။
+၀၉၉၅၁၀၄၆၃၁၃ ၊ ၀၉၉၅၁၀၄၆၃၁၄"
                 android:textSize="18sp" />
 
             <TextView
@@ -84,7 +88,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
-                android:text="ဒလရုံးခွဲ"
+                android:text="မြင်းခြံရုံးခွဲ"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp" />
 
@@ -95,9 +99,8 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="အမှတ်(၄၄-၄၆)၊ ရှင်စောပုလမ်း၊ အောင်မင်္ဂလာရပ်ကွက်၊ ဒလမြို့နယ်၊
-ရန်ကုန်တိုင်းဒေသကြီး။
-၀၉-၉၅၁၀၄၆၃၂၅၊ ၀၉ ၉၅၁၀၄၆၃၂၆"
+                android:text="အမှတ် (၄၅/က) ဗိုလ်ချုပ်လမ်း၊ (၁၉)ရပ်ကွက်၊ မြင်းခြံမြို့နယ်၊ ၊ မန္တလေးတိုင်းဒေသကြီး။
+၀၉၉၆၉၆၆၈၁၀၁ ၊ ၀၉၉၆၉၆၆၈၁၁၀"
                 android:textSize="18sp" />
 
             <TextView
@@ -106,7 +109,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
-                android:text="တိုက်ကြီးရုံးခွဲ"
+                android:text="ပျော်ဘွယ်ရုံးခွဲ"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp" />
 
@@ -117,8 +120,9 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="အမှတ်(၃၉၀)၊ စုပေါင်းရုံးလမ်း၊ ဗောဓိကုန်းရပ်ကွက်၊တိုက်ကြီးမြို့နယ်၊ရန်ကုန်တိုင်းဒေသကြီး။
-၀၉--၉၇၇၂၇၂၉၇၆"
+                android:text="အမှတ်(၃၃)၊ ရွှေပြည်ရန်အောင်(၂)လမ်း၊ အောင်မင်္ဂလာလမ်းမ၊ ရွှေပြည်ရန်အောင်ရပ်ကွက်၊ ပျော်ဘွယ်မြို့၊
+ရမည်းသင်းခရိုင်၊ မန္တလေးတိုင်းဒေသကြီး။
+၀၉၉၇၇၀၆၂၇၈၉ ၊ ၀၉၉၇၇၀၆၂၇၉၀"
                 android:textSize="18sp" />
 
             <TextView
@@ -127,7 +131,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
-                android:text="သုံးခွရုံးခွဲ"
+                android:text="ပြင်ဦးလွင်ရုံးခွဲ"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp" />
 
@@ -138,9 +142,8 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="ဦးပိုင်အမှတ်(၇၇)၊ အကွက်အမှတ် (၁၇၅)၊ အောင်ဇေယျလမ်း၊
-(၉) ရပ်ကွက်၊ သုံးခွမြို့နယ်၊ ရန်ကုန်တိုင်းဒေသကြီး။
-၀၉-၉၄၀၄၉၉၄၅၂"
+                android:text="အမှတ်(CC/7)၊ မန္တလေး-လားရှိုးလမ်း၊ ရပ်ကွက်ကြီး(၁၀)၊ ပြင်ဦးလွင့်မြို့နယ်၊ မန္တလေးတိုင်းဒေသကြီး။
+၀၉၉၆၉၇၃၂၃၀၃ ၊ ၀၉၉၆၉၇၃၂၃၀၄"
                 android:textSize="18sp" />
 
             <TextView
@@ -149,7 +152,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
-                android:text="လှိုင်သာယာရုံးခွဲ"
+                android:text="တံတားဦးရုံးခွဲ"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp" />
 
@@ -160,8 +163,156 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="အမှတ်(၅၁၄)၊ အနော်ရထာလမ်း၊ (၁၁) ရပ်ကွက်၊ လှိုင်သာယာ
-မြို့နယ်၊ရန်ကုန်တိုင်းဒေသကြီး။(ဈေးလေးမှတ်တိုင်)"
+                android:text="အမှတ်(၃)၊ တံတားဦးမြို့ရှောင်လမ်း၊ တစီရှင်ရပ်ကွက်၊ တံတားဦးမြို့နယ်၊ မန္တလေးတိုင်းဒေသကြီး။
+၀၉၉၇၇၁၂၄၁၆၃"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/hlaingthayartxt12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="မတ္တရာရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/hlaingthayartxt11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၂/၁၅၄၃)၊ ဗိုလ်ချုပ်အောင်ဆန်းလမ်း၊ အမှတ်(၂) ရန်ကင်းရပ်ကွက်၊ မတ္တရာမြို့၊ မန္တလေးတိုင်းဒေသကြီး။
+၀၉၉၇၇၁၂၄၁၆၄"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/hlaingthayartxt13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="ကူမဲရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/hlaingthayartxt14"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="ကမ္ဘောဇဘဏ်နှင့် အေဝမ်းဂိုဒောင်ကြား၊ ရန်ကုန်-မန္တလေးလမ်း၊ သာယာအေးရပ်ကွက်၊ မြစ်သားမြို့နယ်၊
+ကူမဲမြို့၊ မန္တလေးတိုင်းဒေသကြီး။
+၀၉၉၇၇၂၇၂၈၉၁"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/hlaingthayar1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="ညောင်ဦးရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/hlaingthayar11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၃၆၄)၊ သီရိပစ္စယာရပ်၊ အပိုင်း(၅) ရပ်ကွက်၊ ညောင်ဦးမြို့နယ်၊ မန္တလေးတိုင်းဒေသကြီး။
+၀၉၉၇၇၅၈၃၄၃၈"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/hlaingthayart1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="သာစည်ရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/hlaingthayart11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၄၇)၊ ငားဆူဘုရားလမ်း၊ အမှတ်(၁) သာယာအေးရပ်ကွက်၊ သာစည်မြို့နယ်၊ မန္တလေးတိုင်းဒေသကြီး။
+၀၉၉၇၇၅၄၀၂၈၀ ၊ ၀၉၉၇၇၅၄၀၂၈၁"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/hlaingthaya1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="မန္တလေး(၂)ရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/hlaingthaya11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၃၄)၊ ၁၃၁ လမ်းနှင့် လမ်း၆၀ ကြား၊ (ဓဓ-၉ဆ)ရပ်ကွက်၊ ပြည်ကြီးတံခွန်မြို့နယ်၊ မန္တလေးတိုင်းဒေသကြီး။
+၀၉၉၄၀၄၉၈၇၇၁ ၊ ၀၉၉၄၀၄၉၈၇၇၂"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/hlaingtha1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="ကျောက်ပန်းတောင်းရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/hlaingtha11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="ကမ္မဝတီဈေးသစ်ထောင့်၊ သုဓမ္မစာရီလမ်း၊ သာယာအေးရပ်ကွက်၊ ကျောက်ပန်းတောင်းမြို့နယ်၊ မန္တလေးတိုင်းဒေသကြီး။
+၀၉၉၄၀၄၉၈၇၂၆ ၊ ၀၉၉၄၀၄၉၈၇၂၇"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/hlaingth1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="နွားထိုးကြီးရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/hlaingth11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၅/ဂ-၂၃၉)၊ မြင်းခြံ-ရေဝန်းလမ်း၊ အမှတ်(၅) ရပ်ကွက်၊ နွားထိုးကြီးမြို့နယ်၊ မန္တလေးတိုင်းဒေသကြီး။"
                 android:textSize="18sp" />
         </LinearLayout>
     </ScrollView>
