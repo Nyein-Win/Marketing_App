@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Selection_Process">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Process of External Selection"
+                android:textSize="20sp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/headercolor"
+                android:layout_marginStart="15dp"/>
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:text="The selection process will be conducted as follows: Receiving application and CV:
+Our procedure is as follow:\n \nAny candidate who does not explain their position in hie/her CV will not accepted.
+\n\nHuman Resources Department, on receiving a job announcement, will arrange to have a shortlist CV for
+each position, by location set up, position.\n\nThe Human Resources Department will wait the applications
+before the closing date for each position and conduct preliminary screening and pick more or less 10 potential
+CVs to for short-listing.
+" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shortlist Procedure"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:textSize="20sp"
+                android:textColor="@color/headercolor"/>
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:text="Short-listing of candidate will be done by the selection criteria such as previous
+job relevant experience, education background, professional job profile etc.\n\nCandidates who meet all selection criteria or have reasonable and suitable qualifications and skills to fulfil
+the job requirements will likely be short-listed for further consideration.\n\nShort-listed candidates will be
+advised by the HR department that they will be invited to an interview and will complete skills tests and will be
+required to provide original documentary evidence of any certificates, degrees or diplomas claimed in their application
+during the interview."
+                />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:textSize="20sp"
+                android:textColor="@color/headercolor"
+                android:text="Referenced Check" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="Candidates who successfully passed the interview shall undergo the reference check
+through those referees quoted by the candidate. If any candidate at this stage appears to have had major problems
+or inappropriate behavior whist working with their previous employers, that particular candidate will no longer
+be condidered. Note that conduction reference checks at this stage with cnadidate's current employer is subject to
+agreement with candidate .\n\nHR will proceed employment process for candidates" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

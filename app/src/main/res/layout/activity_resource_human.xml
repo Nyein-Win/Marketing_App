@@ -9,7 +9,7 @@
 
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/recrupolicity"
+        android:id="@+id/recrupolicy"
         android:layout_width="match_parent"
         android:layout_height="91dp"
         android:layout_marginTop="16dp"
@@ -62,7 +62,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/recrupolicity"
+        app:layout_constraintTop_toBottomOf="@+id/recrupolicy"
         tools:ignore="MissingConstraints"
         android:layout_marginTop="20dp">
 

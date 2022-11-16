@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Compensate_Benefits">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="A structured compensation and benefits program enable SPNM to implement an equitable
+and fair system that helps driving organizational performance. A competitive compensation and benefits program enable
+SPNM to attract, retain and motivate employees and  it also encourages employee to provide their commitment,
+loyalty and improved productivity. The main purpose of this procedure is to set out the process and procedures to determine
+staff salary structure, ensure that staff are duly rewards for good performance and provides for compliance with
+statutory regulations.\n\nIn company, payroll can simply be stated as the sum of all financial records of salaries
+for an employee, wages, bonuses and deductions. From an ethics in business viewpoint payroll is a critical team in HR
+department as employees are responsive to payroll errors and irregularities: good employee morale requires payroll
+to be paid timely and accurately. The primary mission of the payroll department is to ensure that all employees
+are paid accurately and timely with the correct withholdings and deductions, and to ensure the withholdings and
+duductions are remitted in a timely manner.\n\nBenifits and compensation packages also include over time, leave,
+incentive, provident fund, allowance and healthcare allowance, bonuses and much more. The HR department will
+play a key role in deciding on the benefits packages offered, as well as ensuring their smooth operation.
+" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
