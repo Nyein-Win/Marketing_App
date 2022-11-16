@@ -262,7 +262,8 @@
         </activity>
         <activity
             android:name=".About_Sathapana"
-            android:exported="false" >
+            android:exported="false"
+            android:parentActivityName=".SecondMain">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
