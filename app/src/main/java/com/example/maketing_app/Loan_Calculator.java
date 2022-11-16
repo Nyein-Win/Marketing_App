@@ -71,7 +71,9 @@ public class Loan_Calculator extends AppCompatActivity {
         } else if(loanAmt>10000000){
             user_amount.setError("(၃) သိန်းမှ သိန်း (၁၀၀) ထိ");
         } else if(tenor>30){
-            user_term.setError("လ ၃၀ အောက်");
+            user_term.setError("၆ လ မှ လ ၃၀ အောက်");
+        }else if(tenor<=6){
+            user_term.setError("၆ လ မှ လ ၃၀ အောက်");
         }else
             if(spinner_data.equals("စီးပွားရေးချေးငွေ")){
                 Toast.makeText(this, "စီးပွားရေးချေးငွေ", Toast.LENGTH_SHORT).show();
