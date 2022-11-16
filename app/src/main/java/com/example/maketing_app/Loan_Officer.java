@@ -10,5 +10,7 @@ public class Loan_Officer extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loan_officer);
+        getSupportActionBar().setTitle("Loan Officer");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

@@ -33,7 +33,6 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/tts1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Specialized Loan Officer"
@@ -48,7 +47,7 @@
                         app:layout_constraintVertical_bias="0.333" />
 
                     <TextView
-                        android:id="@+id/tts2"
+                        android:id="@+id/arrowclick1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/ic_baseline_arrow_forward_24"
@@ -68,7 +67,7 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/tts2"
+                        app:layout_constraintTop_toBottomOf="@+id/arrowclick1"
                         android:layout_marginBottom="9dp">
 
                         <TextView
@@ -250,7 +249,7 @@
                         app:layout_constraintVertical_bias="0.333" />
 
                     <TextView
-                        android:id="@+id/ttc2"
+                        android:id="@+id/arrowclick3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/ic_baseline_arrow_forward_24"
@@ -270,7 +269,7 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/ttc2"
+                        app:layout_constraintTop_toBottomOf="@+id/arrowclick3"
                         android:layout_marginBottom="9dp">
 
                         <TextView
@@ -351,7 +350,7 @@
                         app:layout_constraintVertical_bias="0.333" />
 
                     <TextView
-                        android:id="@+id/ttd2"
+                        android:id="@+id/arrowclick4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/ic_baseline_arrow_forward_24"
@@ -371,7 +370,7 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/ttd2"
+                        app:layout_constraintTop_toBottomOf="@+id/arrowclick4"
                         android:layout_marginBottom="9dp">
 
                         <TextView
@@ -452,7 +451,7 @@
                         app:layout_constraintVertical_bias="0.333" />
 
                     <TextView
-                        android:id="@+id/ttca2"
+                        android:id="@+id/arrowclick5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/ic_baseline_arrow_forward_24"
@@ -472,7 +471,7 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/ttca2"
+                        app:layout_constraintTop_toBottomOf="@+id/arrowclick5"
                         android:layout_marginBottom="9dp">
 
                         <TextView
@@ -553,7 +552,7 @@
                         app:layout_constraintVertical_bias="0.333" />
 
                     <TextView
-                        android:id="@+id/ttt2"
+                        android:id="@+id/arrowclick6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/ic_baseline_arrow_forward_24"
@@ -573,7 +572,7 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/ttt2"
+                        app:layout_constraintTop_toBottomOf="@+id/arrowclick6"
                         android:layout_marginBottom="9dp">
 
                         <TextView
@@ -655,7 +654,7 @@
                         app:layout_constraintVertical_bias="0.333" />
 
                     <TextView
-                        android:id="@+id/tta2"
+                        android:id="@+id/arrowclick7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/ic_baseline_arrow_forward_24"
@@ -675,7 +674,7 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/tta2"
+                        app:layout_constraintTop_toBottomOf="@+id/arrowclick7"
                         android:layout_marginBottom="9dp">
 
                         <TextView

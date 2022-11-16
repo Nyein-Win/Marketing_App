@@ -85,12 +85,11 @@ Result 'BBB' was recognized as 'Stable' by International Rating Agency, Microfin
                     android:id="@+id/textView52"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="4dp"
                     android:background="@drawable/dotting"
-                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.0" />
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/textView53"
@@ -149,12 +148,11 @@ dedicated staff amidst Covid-19 pandemic. Now, the new core banking system has b
                     android:id="@+id/textView56"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="4dp"
                     android:background="@drawable/dotting"
-                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.0"/>
+                    app:layout_constraintTop_toTopOf="parent"/>
 
                 <TextView
                     android:id="@+id/textView57"
@@ -211,12 +209,11 @@ Performance and Impact Rating Certificate (Level-SPIR2) by 'Inclusion (Social Ra
                     android:id="@+id/textView60"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="4dp"
                     android:background="@drawable/dotting"
-                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.0"
                     />
 
                 <TextView
@@ -274,12 +271,11 @@ in Augest, 2020 by Microfinanza Rating (MFR)." />
                     android:id="@+id/textView64"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="4dp"
                     android:background="@drawable/dotting"
-                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.0" />
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/textView65"
@@ -334,12 +330,11 @@ industry." />
                     android:id="@+id/textView68"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="4dp"
                     android:background="@drawable/dotting"
-                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.0" />
+                    app:layout_constraintTop_toTopOf="parent"/>
 
 
                 <TextView
