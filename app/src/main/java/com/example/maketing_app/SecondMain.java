@@ -101,6 +101,7 @@ public class SecondMain extends AppCompatActivity {
 
 
                     case R.id.nav_about:
+                        startActivity(new Intent(SecondMain.this,About_Sathapana.class));
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
                     case R.id.nav_services:
@@ -134,6 +135,12 @@ public class SecondMain extends AppCompatActivity {
                         break;
                 }
                 return true;
+            }
+        });
+        findViewById(R.id.imageViewbtn1).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SecondMain.this,About_Sathapana.class));
             }
         });
 
