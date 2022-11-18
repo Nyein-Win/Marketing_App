@@ -16,7 +16,7 @@ through recruitment and selection process as explain below. They will first have
 submit their CV together with their education certificates documents. Upon being short listed
 they will be contacted for to complete an interview. They should be aware that SPNM will
 conduct reference checks before a final decision to offer or confirm employed."
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         app:layout_constraintEnd_toEndOf="parent"

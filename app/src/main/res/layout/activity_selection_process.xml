@@ -29,7 +29,7 @@
                 android:id="@+id/textView32"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="10dp"
                 android:text="The selection process will be conducted as follows: Receiving application and CV:
@@ -55,7 +55,7 @@ CVs to for short-listing.
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:layout_marginTop="10dp"
                 android:text="Short-listing of candidate will be done by the selection criteria such as previous
 job relevant experience, education background, professional job profile etc.\n\nCandidates who meet all selection criteria or have reasonable and suitable qualifications and skills to fulfil
@@ -80,7 +80,7 @@ during the interview."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="15dp"
                 android:text="Candidates who successfully passed the interview shall undergo the reference check

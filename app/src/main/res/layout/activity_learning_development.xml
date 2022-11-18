@@ -22,7 +22,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="15dp"
                 android:layout_marginEnd="15dp"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:text=
                     "In order to ensure that our employees are equipped with the right kind of skills, knowledge
 and abilities to perform their assigned tasks, learning and development unit plays its crucial role towards

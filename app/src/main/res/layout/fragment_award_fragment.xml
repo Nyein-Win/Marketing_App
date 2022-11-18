@@ -72,7 +72,7 @@
                 android:layout_marginStart="35dp"
                 android:layout_marginEnd="15dp"
                 android:layout_marginBottom="15dp"
-                android:textSize="17sp"
+                android:textSize="18sp"
                 android:layout_marginTop="10dp"
                 android:text="We are pleased to announce that the Outlook of SATHAPANA Limited's Rating
 Result 'BBB' was recognized as 'Stable' by International Rating Agency, Microfinanza Rating (MFR)." />
@@ -112,10 +112,10 @@ Result 'BBB' was recognized as 'Stable' by International Rating Agency, Microfin
                     android:textSize="17sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.688"
+                    app:layout_constraintHorizontal_bias="0.75"
                     app:layout_constraintStart_toEndOf="@+id/textView53"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.529" />
+                    app:layout_constraintVertical_bias="0.071" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <ImageView
@@ -133,7 +133,7 @@ Result 'BBB' was recognized as 'Stable' by International Rating Agency, Microfin
                 android:layout_marginStart="35dp"
                 android:layout_marginEnd="15dp"
                 android:layout_marginBottom="15dp"
-                android:textSize="17sp"
+                android:textSize="18sp"
                 android:layout_marginTop="10dp"
                 android:text="We are very pleased to announce that the successful implementation of Oracle
 FLEXTUBE Core Banking System was well established in SATHAPANA Limited with the efforts and endeavor of our
@@ -196,7 +196,7 @@ dedicated staff amidst Covid-19 pandemic. Now, the new core banking system has b
                 android:layout_marginStart="35dp"
                 android:layout_marginEnd="15dp"
                 android:layout_marginBottom="15dp"
-                android:textSize="17sp"
+                android:textSize="18sp"
                 android:layout_marginTop="10dp"
                 android:text="We are very pleased to officially announce that SATHAPANA Limited was awarded Social
 Performance and Impact Rating Certificate (Level-SPIR2) by 'Inclusion (Social Rating)'" />
@@ -258,7 +258,7 @@ Performance and Impact Rating Certificate (Level-SPIR2) by 'Inclusion (Social Ra
                 android:layout_marginStart="35dp"
                 android:layout_marginEnd="15dp"
                 android:layout_marginBottom="15dp"
-                android:textSize="17sp"
+                android:textSize="18sp"
                 android:layout_marginTop="10dp"
                 android:text="SATHAPANA Limited was recognized and certified as 'BBB' Financial Rating Result
 in Augest, 2020 by Microfinanza Rating (MFR)." />
@@ -318,7 +318,7 @@ in Augest, 2020 by Microfinanza Rating (MFR)." />
                 android:layout_marginEnd="15dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="10dp"
-                android:textSize="17sp"
+                android:textSize="18sp"
                 android:text="SATHAPANA Limited was awarded 'ISR Client Protection Certification' in
 Augest, 2020 for successfully completing of all requirements with highest standards in the financial inclusion
 industry." />
@@ -378,7 +378,7 @@ industry." />
                 android:layout_marginEnd="15dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="10dp"
-                android:textSize="17sp"
+                android:textSize="18sp"
                 android:text="SATHAPANA Limited has donated MMK-6,000,000/-(MMK-Six millions only)
 for fighting against Covid-19." />
 
