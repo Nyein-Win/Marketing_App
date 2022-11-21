@@ -7,8 +7,9 @@
     tools:context=".video_fragment">
 
 
-    <WebView
-        android:id="@+id/video_webview"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/videos_recycle"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
 </FrameLayout>

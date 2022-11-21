@@ -5,12 +5,14 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
+import android.widget.ListView;
 
 import com.google.android.material.tabs.TabLayout;
 
 public class News extends AppCompatActivity {
     TabLayout tabLayout1;
     ViewPager viewPager1;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +27,10 @@ public class News extends AppCompatActivity {
         vpAdapter.addFragment(new news_fragment(),"News");
         vpAdapter.addFragment(new video_fragment(),"Videos");
         viewPager1.setAdapter(vpAdapter);
+
+//        tabLayout1.getTabAt(2).setIcon(R.drawable.social_welfare);
+
+
 
     }
 }
