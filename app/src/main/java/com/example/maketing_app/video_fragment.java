@@ -50,7 +50,7 @@ public class video_fragment extends Fragment {
     }
   private void fetchdata(){
       RequestQueue requestQueue= Volley.newRequestQueue(getActivity());
-      StringRequest stringRequest=new StringRequest(Request.Method.GET,"https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UC7xBHK6l5bCV_YMHo54Uerw&maxResults=27&key=AIzaSyBSZCn_WxIXXzIqO-nv6VovHOSsGCqU-nY",new Response.Listener<String>() {
+      StringRequest stringRequest=new StringRequest(Request.Method.GET,"https://www.googleapis.com/youtube/v3/search?part=snippet&channelid=UC7xBHK6l5bCV_YMHo54Uerw&maxResults=27&key=AIzaSyBSZCn_WxIXXzIqO-nv6VovHOSsGCqU-nY",new Response.Listener<String>() {
                   @Override
                   public void onResponse(String response) {
                       try {
