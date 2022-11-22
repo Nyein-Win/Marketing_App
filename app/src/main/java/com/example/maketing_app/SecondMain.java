@@ -128,11 +128,11 @@ public class SecondMain extends AppCompatActivity {
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
                     case R.id.nav_register:
-                        startActivity(new Intent(SecondMain.this,Sing_up.class));
+                        startActivity(new Intent(SecondMain.this,Register.class));
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
                     case R.id.nav_login:
-                        startActivity(new Intent(SecondMain.this,Sing_in.class));
+                        startActivity(new Intent(SecondMain.this,Login.class));
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
                 }

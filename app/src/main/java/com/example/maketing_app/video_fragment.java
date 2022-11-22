@@ -3,6 +3,7 @@ package com.example.maketing_app;
 import static android.widget.Toast.LENGTH_SHORT;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -51,31 +52,33 @@ public class video_fragment extends Fragment {
     }
   private void fetchdata(){
       RequestQueue requestQueue= Volley.newRequestQueue(getActivity());
-      StringRequest stringRequest=new StringRequest(Request.Method.GET,"https://www.googleapis.com/youtube/v3/search?part=snippet&channelid=UC7xBHK6l5bCV_YMHo54Uerw&maxResults=27&key=AIzaSyBSZCn_WxIXXzIqO-nv6VovHOSsGCqU-nY",new Response.Listener<String>() {
-                  @SuppressLint("NotifyDataSetChanged")
+      StringRequest stringRequest=new StringRequest(Request.Method.GET,"https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UC7xBHK6l5bCV_YMHo54Uerw&maxResults=27&key=AIzaSyDNqYv9XhUnNEvUZzGpal2T4MdXhkyMbl0"
+              ,new Response.Listener<String>() {
                   @Override
                   public void onResponse(String response) {
                       try {
                           JSONObject jsonObject=new JSONObject(response);
                           JSONArray jsonArray=jsonObject.getJSONArray("items");
-                          for (int i=0;i<jsonArray.length();i++){
-                              JSONObject jsonObject1=jsonArray.getJSONObject(i);
-                              JSONObject jsonvideoid=jsonObject1.getJSONObject("id");
-                              JSONObject jsonsnippet=jsonObject1.getJSONObject("snippet");
-                              JSONObject jsonthumbail=jsonsnippet.getJSONObject("thumbnails").getJSONObject("medium");
 
-                              Contact md=new Contact();
-                              if( i != 1 && i != 2){
+                          for (int i=1;i<jsonArray.length();i++) {
+                              JSONObject jsonObject1 = jsonArray.getJSONObject(i);
+                              JSONObject jsonvideoid = jsonObject1.getJSONObject("id");
+                              JSONObject jsonsnippet = jsonObject1.getJSONObject("snippet");
+                              JSONObject jsonthumbail = jsonsnippet.getJSONObject("thumbnails").getJSONObject("medium");
+
+                              Contact md = new Contact();
+                              if (i != 0 ) {
+                                  Toast.makeText(getActivity(), "nyein" , Toast.LENGTH_LONG).show();
                                   md.setVideoId(jsonvideoid.getString("videoId"));
                                   md.setTitle(jsonsnippet.getString("title"));
                                   md.setUrl(jsonthumbail.getString("url"));
                                   list.add(md);
                               }
-
                           }
                           if(list.size()>0){
                               recycleViewAdapter.notifyDataSetChanged();
                           }
+
                       } catch (JSONException e) {
                           e.printStackTrace();
                       }
@@ -84,7 +87,7 @@ public class video_fragment extends Fragment {
               }, new Response.ErrorListener() {
           @Override
           public void onErrorResponse(VolleyError error) {
-              Toast.makeText(getActivity(),"Error!", Toast.LENGTH_SHORT).show();
+              Toast.makeText(getActivity(),"There have no videoId !", Toast.LENGTH_SHORT).show();
           }
       });
       requestQueue.add(stringRequest);

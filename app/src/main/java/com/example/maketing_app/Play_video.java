@@ -22,7 +22,7 @@ public class Play_video extends YouTubeBaseActivity implements YouTubePlayer.OnI
         intent=getIntent();
         videoId=intent.getStringExtra("videoid");
         youTubePlayerView=findViewById(R.id.player1);
-        youTubePlayerView.initialize("AIzaSyBSZCn_WxIXXzIqO-nv6VovHOSsGCqU-nY",this);
+        youTubePlayerView.initialize("AIzaSyDNqYv9XhUnNEvUZzGpal2T4MdXhkyMbl0",this);
 
 
     }

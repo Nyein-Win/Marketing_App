@@ -38,12 +38,11 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         final  Contact contact=list.get(position);
         holder.textView.setText(contact.getTitle());
-//        holder.imageView .setImageResource(contact.getPhoto());
         Picasso.get().load(contact.getUrl()).into(holder.imageView);
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(mContext, "read this state!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(mContext, "read video Id!", Toast.LENGTH_SHORT).show();
                 Intent i=new Intent(mContext,Play_video.class);
                 i.putExtra("videoid",contact.getVideoId());
                 mContext.startActivity(i);
