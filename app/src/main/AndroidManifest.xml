@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" >
-    <uses-permission android:name="android.permission.INTERNET"/>
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,10 +14,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Maketing_App"
         android:usesCleartextTraffic="true"
-        tools:targetApi="31" >
+        tools:targetApi="31">
+        <activity
+            android:name=".Play_video"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".Login"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -64,7 +72,7 @@
         <activity
             android:name=".NaypyitawRegion"
             android:exported="false"
-            android:parentActivityName=".Branches" >
+            android:parentActivityName=".Branches">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -72,7 +80,7 @@
         <activity
             android:name=".KayarRegion"
             android:exported="false"
-            android:parentActivityName=".Branches" >
+            android:parentActivityName=".Branches">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -80,7 +88,7 @@
         <activity
             android:name=".KayinRegion"
             android:exported="false"
-            android:parentActivityName=".Branches" >
+            android:parentActivityName=".Branches">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -88,7 +96,7 @@
         <activity
             android:name=".ShanRegion"
             android:exported="false"
-            android:parentActivityName=".Branches" >
+            android:parentActivityName=".Branches">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -96,7 +104,7 @@
         <activity
             android:name=".MonRegion"
             android:exported="false"
-            android:parentActivityName=".Branches" >
+            android:parentActivityName=".Branches">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -104,7 +112,7 @@
         <activity
             android:name=".SagainRegion"
             android:exported="false"
-            android:parentActivityName=".Branches" >
+            android:parentActivityName=".Branches">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -112,7 +120,7 @@
         <activity
             android:name=".MagwayRegion"
             android:exported="false"
-            android:parentActivityName=".Branches" >
+            android:parentActivityName=".Branches">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -120,7 +128,7 @@
         <activity
             android:name=".AyeyarwadiRegion"
             android:exported="false"
-            android:parentActivityName=".Branches" >
+            android:parentActivityName=".Branches">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -128,7 +136,7 @@
         <activity
             android:name=".BagoRegion"
             android:exported="false"
-            android:parentActivityName=".Branches" >
+            android:parentActivityName=".Branches">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -136,7 +144,7 @@
         <activity
             android:name=".Financial"
             android:exported="false"
-            android:parentActivityName=".SecondMain" >
+            android:parentActivityName=".SecondMain">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -144,7 +152,7 @@
         <activity
             android:name=".VacanciesCurrent"
             android:exported="false"
-            android:parentActivityName=".Resource_Human" >
+            android:parentActivityName=".Resource_Human">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -152,7 +160,7 @@
         <activity
             android:name=".MandalayRegion"
             android:exported="false"
-            android:parentActivityName=".Branches" >
+            android:parentActivityName=".Branches">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -160,7 +168,7 @@
         <activity
             android:name=".Resource_Human"
             android:exported="false"
-            android:parentActivityName=".SecondMain" >
+            android:parentActivityName=".SecondMain">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -168,7 +176,7 @@
         <activity
             android:name=".Loan_Calculator"
             android:exported="false"
-            android:parentActivityName=".SecondMain" >
+            android:parentActivityName=".SecondMain">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -176,7 +184,7 @@
         <activity
             android:name=".News"
             android:exported="false"
-            android:parentActivityName=".SecondMain" >
+            android:parentActivityName=".SecondMain">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -184,7 +192,7 @@
         <activity
             android:name=".Services"
             android:exported="false"
-            android:parentActivityName=".SecondMain" >
+            android:parentActivityName=".SecondMain">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -192,7 +200,7 @@
         <activity
             android:name=".FinancialManagement"
             android:exported="false"
-            android:parentActivityName=".Financial" >
+            android:parentActivityName=".Financial">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -200,14 +208,14 @@
         <activity
             android:name=".LoanSavingService"
             android:exported="false"
-            android:parentActivityName=".Financial" >
+            android:parentActivityName=".Financial">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".FinancialManage"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -215,7 +223,7 @@
         <activity
             android:name=".DigitalWallet"
             android:exported="false"
-            android:parentActivityName=".Financial" >
+            android:parentActivityName=".Financial">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -223,7 +231,7 @@
         <activity
             android:name=".DebtManagement"
             android:exported="false"
-            android:parentActivityName=".Financial" >
+            android:parentActivityName=".Financial">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -231,7 +239,7 @@
         <activity
             android:name=".Income"
             android:exported="false"
-            android:parentActivityName=".Financial" >
+            android:parentActivityName=".Financial">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -239,7 +247,7 @@
         <activity
             android:name=".Yangon_Region"
             android:exported="false"
-            android:parentActivityName=".Branches" >
+            android:parentActivityName=".Branches">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -247,14 +255,14 @@
         <activity
             android:name=".Branches"
             android:exported="false"
-            android:parentActivityName=".SecondMain" >
+            android:parentActivityName=".SecondMain">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".SliderImage"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -269,14 +277,14 @@
         </activity>
         <activity
             android:name=".SecondMain"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

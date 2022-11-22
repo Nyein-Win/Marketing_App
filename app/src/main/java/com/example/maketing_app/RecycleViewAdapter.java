@@ -43,8 +43,9 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(mContext,video_Play.class);
-                i.putExtra("videoId",contact.getVideoId());
+                Toast.makeText(mContext, "read this state!", Toast.LENGTH_SHORT).show();
+                Intent i=new Intent(mContext,Play_video.class);
+                i.putExtra("videoid",contact.getVideoId());
                 mContext.startActivity(i);
             }
         });

@@ -1,7 +1,5 @@
 package com.example.maketing_app;
 
-import static com.example.maketing_app.R.string.API;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -12,29 +10,31 @@ import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
 
-public class video_Play extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener , YouTubePlayer.PlayerStateChangeListener,YouTubePlayer.PlaybackEventListener {
-  Intent intent;
-  String videoId;
-  YouTubePlayerView youTubePlayerView;
+public class Play_video extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener, YouTubePlayer.PlayerStateChangeListener,YouTubePlayer.PlaybackEventListener {
+    Intent intent;
+    String videoId;
+    YouTubePlayerView youTubePlayerView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_video_play);
+        setContentView(R.layout.activity_play_video);
 
         intent=getIntent();
         videoId=intent.getStringExtra("videoid");
-        youTubePlayerView=findViewById(R.id.player);
+        youTubePlayerView=findViewById(R.id.player1);
         youTubePlayerView.initialize("AIzaSyBSZCn_WxIXXzIqO-nv6VovHOSsGCqU-nY",this);
+
+
     }
 
     @Override
     public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
-    youTubePlayer.setPlayerStateChangeListener(this);
-    youTubePlayer.setPlaybackEventListener(this);
+        youTubePlayer.setPlayerStateChangeListener(this);
+        youTubePlayer.setPlaybackEventListener(this);
 
-    if(!b){
-        youTubePlayer.cueVideo(videoId);
-    }
+        if(!b){
+            youTubePlayer.cueVideo(videoId);
+        }
     }
 
     @Override
