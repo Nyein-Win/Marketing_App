@@ -17,13 +17,13 @@ public class Sing_up extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         Objects.requireNonNull(getSupportActionBar()).hide();
         setContentView(R.layout.activity_sing_up);
-
-        findViewById(R.id.log_btn).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Sing_up.this,Sing_in.class));
-                finish();
-            }
-        });
+//
+//        findViewById(R.id.log_btn).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                startActivity(new Intent(Sing_up.this,Sing_in.class));
+//                finish();
+//            }
+//        });
     }
 }

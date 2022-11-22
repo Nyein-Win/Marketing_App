@@ -21,13 +21,13 @@ public class Sing_in extends AppCompatActivity {
         setContentView(R.layout.activity_sing_in);
 
 
-        findViewById(R.id.reg_btn1).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Sing_in.this,Sing_up.class));
-                finish();
-            }
-        });
+//        findViewById(R.id.reg_btn1).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                startActivity(new Intent(Sing_in.this,Sing_up.class));
+//                finish();
+//            }
+//        });
 
 
     }

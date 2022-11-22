@@ -44,7 +44,7 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
             @Override
             public void onClick(View v) {
                 Intent i=new Intent(mContext,video_Play.class);
-                i.putExtra("videoid",contact.getVideoId());
+                i.putExtra("videoId",contact.getVideoId());
                 mContext.startActivity(i);
             }
         });
