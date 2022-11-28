@@ -1,5 +1,7 @@
 package com.example.maketing_app;
 
+import static java.lang.Integer.parseInt;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
@@ -7,6 +9,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -14,8 +17,8 @@ import android.widget.Toast;
 
 import java.text.DecimalFormat;
 
-public class Loan_Calculator extends AppCompatActivity {
-    public String spinner_data, u_amount, u_principle, u_debt, u_p, total1, saving1;
+public class Loan_Calculator extends AppCompatActivity implements View.OnClickListener {
+    public String spinner_data,u_amount,u_p,u_principle,u_debt,saving1,total1;
     public Spinner spinner;
     public EditText user_amount, user_term;
     public View view2;
@@ -23,7 +26,7 @@ public class Loan_Calculator extends AppCompatActivity {
     public int i;
 
 
-    @SuppressLint("MissingInflatedId")
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +37,7 @@ public class Loan_Calculator extends AppCompatActivity {
         spinner_data = spinner.getSelectedItem().toString();
         user_amount = findViewById(R.id.user_Amount);
         user_term = findViewById(R.id.user_Term);
+        findViewById(R.id.cal_laon).setOnClickListener(this);
         usr_loan = findViewById(R.id.txt1);
         usr_interest = findViewById(R.id.txt2);
         usr_period = findViewById(R.id.txt3);
@@ -63,120 +67,129 @@ public class Loan_Calculator extends AppCompatActivity {
         last_time = findViewById(R.id.t_txt01);
         last_amount = findViewById(R.id.t_txt02);
 
+    }
+
+
+    @Override
+    public void onClick(View v) {
+        String t1=user_amount.getText().toString();
+        String t2=user_term.getText().toString();
+        if(TextUtils.isEmpty(t1)){
+            user_amount.setError("error!");
+            return;
+        }else
+            if(TextUtils.isEmpty(t2)){
+                user_term.setError("error!");
+                return;
+            }else
+            if (Integer.parseInt(t1) < 300000 ) {
+                user_amount.setError("(၃) သိန်းမှ သိန်း (၁၀၀) ထိ");
+            } else if (Integer.parseInt(t1) > 10000000) {
+                user_amount.setError("(၃) သိန်းမှ သိန်း (၁၀၀) ထိ");
+            } else if (Integer.parseInt(t2) > 30) {
+                user_term.setError("၆ လ မှ လ ၃၀ အောက်");
+            } else if (Integer.parseInt(t2) <= 5) {
+                user_term.setError("၆ လ မှ လ ၃၀ အောက်");
+            } else if (spinner_data.equals("စီးပွားရေးချေးငွေ")) {
+                Toast.makeText(this, "စီးပွားရေးချေးငွေ", Toast.LENGTH_SHORT).show();
+                equal.setText("=");
+                equal1.setText("=");
+                equal2.setText("=");
+                equal3.setText("=");
+                equal4.setText("=");
+                equal5.setText("");
+                DecimalFormat formatter = new DecimalFormat("#,###,###");
+                int c = Integer.parseInt(t1) / Integer.parseInt(t2);
+                i = (int) (Integer.parseInt(t1) * 0.0133 * Integer.parseInt(t2)) + Integer.parseInt(t1);
+                int p = (int) (Integer.parseInt(t1) * 0.0233);
+                int saving = (int) (Integer.parseInt(t1) * 0.05);
+                int total = p + c;
+                int social = (int) (((Integer.parseInt(t2) * 0.0417) * Integer.parseInt(t1)) * 0.01);
+                int upfront = (int) (((Integer.parseInt(t2) * 0.125) * Integer.parseInt(t1)) * 0.01);
+                u_amount = formatter.format(parseInt(user_amount.getText().toString()));
+                u_principle = formatter.format(i);
+                u_debt = formatter.format(c);
+                u_p = formatter.format(p);
+                String social_fees = formatter.format(social);
+                String upfront_fees = formatter.format(upfront);
+                saving1 = formatter.format(saving);
+                total1 = formatter.format(total);
+                usr_loan.setText("ချေးငွေပမာဏ");
+                usr_interest.setText("ပြန်ဆပ်");
+                usr_period.setText("ချေးငွေသက်တမ်း");
+                monthly_debt.setText("လစဉ်ပေးဆပ်ရမည့် အရင်း");
+                u_prin.setText("လစဉ်ပေးဆပ်ရမည့် အတိုး");
+                usr_txt11.setText(u_amount + "ကျပ်");
+                usr_txt22.setText(u_principle + "ကျပ်");
+                usr_txt33.setText(user_term.getText().toString() + "လ");
+                monthly_deb1.setText(u_debt + "ကျပ်");
+                u_prin1.setText("=" + u_p + "ကျပ်");
+                remak.setText("(အရင်းကျေအတိုးလျော့)");
+                view2.setBackgroundColor(Color.BLACK);
+                total_txt.setText("ပထမ အကြိမ်သွင်းငွေ");
+                total_txt1.setText(total1 + "ကျပ်");
+                saving_txt.setText("မဖြစ်မနေစုဆောင်းငွေ 5% ");
+                saving_txt1.setText(saving1 + "ကျပ်");
+                up_fees.setText("ဝန်ဆောင်မှုနှင့်စာရွက်စာတမ်းခ (" + user_term.getText().toString() + ")လ");
+                up_fees1.setText(upfront_fees + "ကျပ်");
+                social_txt.setText("လူမှုဖူလုံရေး(" + user_term.getText().toString() + ")လ");
+                social_txt1.setText(social_fees + "ကျပ်");
+                last_time.setText("");
+                last_amount.setText("");
+
+
+            } else if (spinner_data.equals("စိုက်ပျိုးရေးချေးငွေ")) {
+                Toast.makeText(this, "စိုက်ပျိုးရေးချေးငွေ", Toast.LENGTH_SHORT).show();
+                equal.setText("=");
+                equal1.setText("=");
+                equal2.setText("=");
+                equal3.setText("=");
+                equal4.setText("=");
+                equal5.setText("=");
+
+                DecimalFormat formatter = new DecimalFormat("#,###,###");
+
+                i = (int) (Integer.parseInt(t1) * 0.0233 * Integer.parseInt(t2)) + Integer.parseInt(t2);
+                int p = (int) (Integer.parseInt(t1) * 0.0233);
+                int saving = (int) (Integer.parseInt(t1) * 0.05);
+                int total = p;
+                int last_total = p + Integer.parseInt(t1);
+                int social = (int) (((Integer.parseInt(t2) * 0.0417) * Integer.parseInt(t1)) * 0.01);
+                int upfront = (int) (((Integer.parseInt(t2) * 0.125) * Integer.parseInt(t1)) * 0.01);
+                u_amount = formatter.format(parseInt(user_amount.getText().toString()));
+                u_principle = formatter.format(i);
+                u_p = formatter.format(p);
+                String social_fees = formatter.format(social);
+                String upfront_fees = formatter.format(upfront);
+                String last_total_amount = formatter.format(last_total);
+                saving1 = formatter.format(saving);
+                total1 = formatter.format(total);
+                usr_loan.setText("ချေးငွေပမာဏ");
+                usr_interest.setText("ပြန်ဆပ်");
+                usr_period.setText("ချေးငွေသက်တမ်း");
+                monthly_debt.setText("လစဉ်ပေးဆပ်ရမည့် အရင်း");
+                u_prin.setText("လစဉ်ပေးဆပ်ရမည့် အတိုး");
+                usr_txt11.setText(u_amount + "ကျပ်");
+                usr_txt22.setText(u_principle + "ကျပ်");
+                usr_txt33.setText(user_term.getText().toString() + "လ");
+                monthly_deb1.setText(0 + "ကျပ်");
+                u_prin1.setText("=" + u_p + "ကျပ်");
+                remak.setText("");
+                view2.setBackgroundColor(Color.BLACK);
+                total_txt.setText("ပထမ အကြိမ်သွင်းငွေ");
+                total_txt1.setText(total1 + "ကျပ်");
+                saving_txt.setText("မဖြစ်မနေစုဆောင်းငွေ 5% ");
+                saving_txt1.setText(saving1 + "ကျပ်");
+                up_fees.setText("ဝန်ဆောင်မှုနှင့်စာရွက်စာတမ်းခ (" + user_term.getText().toString() + ")လ");
+                up_fees1.setText(upfront_fees + "ကျပ်");
+                social_txt.setText("လူမှုဖူလုံရေး(" + user_term.getText().toString() + ")လ");
+                social_txt1.setText(social_fees + "ကျပ်");
+                last_time.setText("နောက်ဆုံးအကြိမ် သွင်းငွေ");
+                last_amount.setText(last_total_amount + "ကျပ်");
+
+            }
+
 
     }
 
-    public void calculate(View view) {
-
-          int  loanAmt = Integer.parseInt(user_amount.getText().toString());
-            int  tenor = Integer.parseInt(user_term.getText().toString());
-           spinner_data = spinner.getSelectedItem().toString();
-
-        if (loanAmt < 300000 ) {
-            user_amount.setError("(၃) သိန်းမှ သိန်း (၁၀၀) ထိ");
-        } else if (loanAmt > 10000000) {
-            user_amount.setError("(၃) သိန်းမှ သိန်း (၁၀၀) ထိ");
-        } else if (tenor > 30) {
-            user_term.setError("၆ လ မှ လ ၃၀ အောက်");
-        } else if (tenor <= 6) {
-            user_term.setError("၆ လ မှ လ ၃၀ အောက်");
-        } else if (spinner_data.equals("စီးပွားရေးချေးငွေ")) {
-            Toast.makeText(this, "စီးပွားရေးချေးငွေ", Toast.LENGTH_SHORT).show();
-            equal.setText("=");
-            equal1.setText("=");
-            equal2.setText("=");
-            equal3.setText("=");
-            equal4.setText("=");
-            equal5.setText("");
-            DecimalFormat formatter = new DecimalFormat("#,###,###");
-            int c = loanAmt / tenor;
-            i = (int) (loanAmt * 0.0133 * tenor) + loanAmt;
-            int p = (int) (loanAmt * 0.0233);
-            int saving = (int) (loanAmt * 0.05);
-            int total = p + c;
-            int social = (int) (((tenor * 0.0417) * loanAmt) * 0.01);
-            int upfront = (int) (((tenor * 0.125) * loanAmt) * 0.01);
-            u_amount = formatter.format(Integer.parseInt(user_amount.getText().toString()));
-            u_principle = formatter.format(i);
-            u_debt = formatter.format(c);
-            u_p = formatter.format(p);
-            String social_fees = formatter.format(social);
-            String upfront_fees = formatter.format(upfront);
-            saving1 = formatter.format(saving);
-            total1 = formatter.format(total);
-            usr_loan.setText("ချေးငွေပမာဏ");
-            usr_interest.setText("ပြန်ဆပ်");
-            usr_period.setText("ချေးငွေသက်တမ်း");
-            monthly_debt.setText("လစဉ်ပေးဆပ်ရမည့် အရင်း");
-            u_prin.setText("လစဉ်ပေးဆပ်ရမည့် အတိုး");
-            usr_txt11.setText(u_amount + "ကျပ်");
-            usr_txt22.setText(u_principle + "ကျပ်");
-            usr_txt33.setText(user_term.getText().toString() + "လ");
-            monthly_deb1.setText(u_debt + "ကျပ်");
-            u_prin1.setText("=" + u_p + "ကျပ်");
-            remak.setText("(အရင်းကျေအတိုးလျော့)");
-            view2.setBackgroundColor(Color.BLACK);
-            total_txt.setText("ပထမ အကြိမ်သွင်းငွေ");
-            total_txt1.setText(total1 + "ကျပ်");
-            saving_txt.setText("မဖြစ်မနေစုဆောင်းငွေ 5% ");
-            saving_txt1.setText(saving1 + "ကျပ်");
-            up_fees.setText("ဝန်ဆောင်မှုနှင့်စာရွက်စာတမ်းခ (" + user_term.getText().toString() + ")လ");
-            up_fees1.setText(upfront_fees + "ကျပ်");
-            social_txt.setText("လူမှုဖူလုံရေး(" + user_term.getText().toString() + ")လ");
-            social_txt1.setText(social_fees + "ကျပ်");
-            last_time.setText("");
-            last_amount.setText("");
-
-
-        } else if (spinner_data.equals("စိုက်ပျိုးရေးချေးငွေ")) {
-            Toast.makeText(this, "စိုက်ပျိုးရေးချေးငွေ", Toast.LENGTH_SHORT).show();
-            equal.setText("=");
-            equal1.setText("=");
-            equal2.setText("=");
-            equal3.setText("=");
-            equal4.setText("=");
-            equal5.setText("=");
-
-            DecimalFormat formatter = new DecimalFormat("#,###,###");
-
-            i = (int) (loanAmt * 0.0233 * tenor) + loanAmt;
-            int p = (int) (loanAmt * 0.0233);
-            int saving = (int) (loanAmt * 0.05);
-            int total = p;
-            int last_total = p + loanAmt;
-            int social = (int) (((tenor * 0.0417) * loanAmt) * 0.01);
-            int upfront = (int) (((tenor * 0.125) * loanAmt) * 0.01);
-            u_amount = formatter.format(Integer.parseInt(user_amount.getText().toString()));
-            u_principle = formatter.format(i);
-            u_p = formatter.format(p);
-            String social_fees = formatter.format(social);
-            String upfront_fees = formatter.format(upfront);
-            String last_total_amount = formatter.format(last_total);
-            saving1 = formatter.format(saving);
-            total1 = formatter.format(total);
-            usr_loan.setText("ချေးငွေပမာဏ");
-            usr_interest.setText("ပြန်ဆပ်");
-            usr_period.setText("ချေးငွေသက်တမ်း");
-            monthly_debt.setText("လစဉ်ပေးဆပ်ရမည့် အရင်း");
-            u_prin.setText("လစဉ်ပေးဆပ်ရမည့် အတိုး");
-            usr_txt11.setText(u_amount + "ကျပ်");
-            usr_txt22.setText(u_principle + "ကျပ်");
-            usr_txt33.setText(user_term.getText().toString() + "လ");
-            monthly_deb1.setText(0 + "ကျပ်");
-            u_prin1.setText("=" + u_p + "ကျပ်");
-            remak.setText("");
-            view2.setBackgroundColor(Color.BLACK);
-            total_txt.setText("ပထမ အကြိမ်သွင်းငွေ");
-            total_txt1.setText(total1 + "ကျပ်");
-            saving_txt.setText("မဖြစ်မနေစုဆောင်းငွေ 5% ");
-            saving_txt1.setText(saving1 + "ကျပ်");
-            up_fees.setText("ဝန်ဆောင်မှုနှင့်စာရွက်စာတမ်းခ (" + user_term.getText().toString() + ")လ");
-            up_fees1.setText(upfront_fees + "ကျပ်");
-            social_txt.setText("လူမှုဖူလုံရေး(" + user_term.getText().toString() + ")လ");
-            social_txt1.setText(social_fees + "ကျပ်");
-            last_time.setText("နောက်ဆုံးအကြိမ် သွင်းငွေ");
-            last_amount.setText(last_total_amount + "ကျပ်");
-
-        }
     }
-}
