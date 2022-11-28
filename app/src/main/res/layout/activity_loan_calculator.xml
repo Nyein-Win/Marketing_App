@@ -32,7 +32,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:entries="@array/Method" />
+                android:entries="@array/Method"
+                tools:ignore="TouchTargetSizeCheck" />
 
         </LinearLayout>
 
@@ -58,7 +59,8 @@
                 android:background="@drawable/button_bg_color_shape"
                 android:ems="10"
                 android:inputType="number"
-                android:maxLength="8"/>
+                android:maxLength="8"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         </LinearLayout>
 
@@ -84,19 +86,26 @@
                 android:background="@drawable/button_bg_color_shape"
                 android:ems="10"
                 android:inputType="number"
-                android:maxLength="2" />
+                android:maxLength="2"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
 
         </LinearLayout>
 
         <Button
-            android:layout_width="200dp"
-            android:layout_height="30dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="15dp"
-            android:background="@color/headercolor"
-            android:onClick="calculate"
-            android:text="Calculate"
-            />
+
+            android:id="@+id/cal_laon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_shap"
+            android:text="တွက်ချက်မည်"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
 
     </LinearLayout>
 
