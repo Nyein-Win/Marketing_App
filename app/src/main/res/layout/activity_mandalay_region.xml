@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/opacity_background"
     tools:ignore="ExtraText">
 
     <ScrollView
@@ -313,7 +312,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
                 android:text="အမှတ်(၅/ဂ-၂၃၉)၊ မြင်းခြံ-ရေဝန်းလမ်း၊ အမှတ်(၅) ရပ်ကွက်၊ နွားထိုးကြီးမြို့နယ်၊ မန္တလေးတိုင်းဒေသကြီး။"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp"/>
         </LinearLayout>
     </ScrollView>
 

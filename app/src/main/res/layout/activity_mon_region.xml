@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MonRegion"
-    android:background="@drawable/opacity_background">
+    tools:context=".MonRegion">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -141,7 +140,8 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="15dp"
             android:text="အမှတ်(၅)၊ ရာဇဓိရာဇ်လမ်း၊ သီရိခေမာရပ်၊ ရေးမြို့နယ်၊ မွန်ပြည်နယ်။"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"/>
     </LinearLayout>
     </ScrollView>
 

@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/opacity_background"
     tools:context=".BagoRegion">
 
     <ScrollView
@@ -142,7 +141,8 @@
                 android:layout_marginEnd="15dp"
                 android:text="အမှတ်(၁၉၄)၊ မန္တလေးလမ်း၊ ချမ်းမြသာစည်ရပ်ကွက်၊ ညောင်လေးပင်မြို့နယ်၊ ၊ ပဲခူးတိုင်းဒေသကြီး။
 ၀၉၉၇၇၁၂၄၃၆၉"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp"/>
 
         </LinearLayout>
     </ScrollView>
