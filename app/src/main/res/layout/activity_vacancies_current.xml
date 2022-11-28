@@ -33,18 +33,19 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Specialized Loan Officer"
+                        android:layout_marginStart="40dp"
                         android:textColor="@color/headercolor"
                         android:textSize="20sp"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.266"
+                        app:layout_constraintHorizontal_bias="0.241"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.333" />
+                        app:layout_constraintVertical_bias="0.242" />
 
                     <TextView
                         android:id="@+id/arrowclick1"
@@ -134,9 +135,10 @@
 
                     <TextView
                         android:id="@+id/ttl1"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Loan Officer"
+                        android:layout_marginStart="40dp"
                         android:textColor="@color/headercolor"
                         android:textSize="20sp"
                         android:textStyle="bold"
@@ -235,9 +237,10 @@
 
                     <TextView
                         android:id="@+id/ttc1"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Chief Loan Officer"
+                        android:layout_marginStart="40dp"
                         android:textColor="@color/headercolor"
                         android:textSize="20sp"
                         android:textStyle="bold"
@@ -336,11 +339,12 @@
 
                     <TextView
                         android:id="@+id/ttd1"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Deputy Chief Loan Officer"
                         android:textColor="@color/headercolor"
                         android:textSize="20sp"
+                        android:layout_marginStart="40dp"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -437,9 +441,10 @@
 
                     <TextView
                         android:id="@+id/ttca1"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Cashier"
+                        android:layout_marginStart="40dp"
                         android:textColor="@color/headercolor"
                         android:textSize="20sp"
                         android:textStyle="bold"
@@ -538,9 +543,10 @@
 
                     <TextView
                         android:id="@+id/ttt1"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Teller"
+                        android:layout_marginStart="40dp"
                         android:textColor="@color/headercolor"
                         android:textSize="20sp"
                         android:textStyle="bold"
@@ -640,9 +646,10 @@
 
                     <TextView
                         android:id="@+id/tta1"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Assistant Accountant"
+                        android:layout_marginStart="40dp"
                         android:textColor="@color/headercolor"
                         android:textSize="20sp"
                         android:textStyle="bold"

@@ -4,22 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Loan_Officer">
+    tools:context=".Loan_Officer"
+    android:id="@+id/constraint">
+
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical"
+            android:id="@+id/alllinear">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="15dp"
                 android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
                 android:layout_marginEnd="15dp">
 
                 <LinearLayout
@@ -31,19 +35,18 @@
                         android:id="@+id/textView6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Specialized Loan Officer"
-                        android:textSize="20sp"
-                        android:textStyle="bold"
-                        android:textColor="@color/headercolor"
                         android:layout_marginStart="15dp"
                         android:layout_marginTop="15dp"
-                        />
+                        android:text="Specialized Loan Officer"
+                        android:textColor="@color/headercolor"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="horizontal"
-                        android:layout_marginTop="9dp">
+                        android:layout_marginTop="9dp"
+                        android:orientation="horizontal">
 
                         <TextView
                             android:id="@+id/textView7"
@@ -56,8 +59,8 @@
                             android:id="@+id/textView9"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textSize="10sp"
-                            android:text="1-2years" />
+                            android:text="1-2years"
+                            android:textSize="10sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -76,22 +79,22 @@
                             android:id="@+id/textView11"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textSize="10sp"
-                            android:text="Insein Branch,Myaungmya Branch,Dala Branch" />
+                            android:text="Insein Branch,Myaungmya Branch,Dala Branch"
+                            android:textSize="10sp" />
                     </LinearLayout>
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="horizontal"
-                        android:layout_marginBottom="15dp">
+                        android:layout_marginBottom="15dp"
+                        android:orientation="horizontal">
 
                         <TextView
                             android:id="@+id/textView18"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/person"
-                            android:layout_marginStart="15dp"/>
+                            android:layout_marginStart="15dp"
+                            android:background="@drawable/person" />
 
                         <TextView
                             android:id="@+id/textView19"
@@ -99,47 +102,47 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="3posts"
-                            android:textSize="10sp"/>
+                            android:textSize="10sp" />
                     </LinearLayout>
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/cardform"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="15dp"
-                android:layout_marginEnd="15dp"
                 android:layout_marginTop="20dp"
-                android:id="@+id/cardform">
+                android:layout_marginEnd="15dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:id="@+id/linearlayout">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="horizontal"
                         android:layout_marginTop="15dp"
-                        >
+                        android:orientation="horizontal">
 
                         <TextView
                             android:id="@+id/textView20"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Designation"
-                            android:layout_marginStart="15dp"/>
+                            android:layout_marginStart="15dp"
+                            android:text="Designation" />
 
                         <TextView
                             android:id="@+id/textView22"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text=":Loan Officer"
                             android:layout_marginLeft="25dp"
-                            android:textSize="15sp"
-                            android:textColor="@color/headercolor"/>
+                            android:text=":Loan Officer"
+                            android:textColor="@color/headercolor"
+                            android:textSize="15sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -151,63 +154,61 @@
                             android:id="@+id/textView23"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Responsible to"
-                            android:layout_marginStart="15dp"/>
+                            android:layout_marginStart="15dp"
+                            android:text="Responsible to" />
 
                         <TextView
                             android:id="@+id/textView24"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="7dp"
                             android:layout_weight="1"
                             android:text=": Chief Loan Officer"
-                            android:layout_marginLeft="7dp"
-                            android:textSize="15sp"
-                            android:textColor="@color/headercolor"/>
+                            android:textColor="@color/headercolor"
+                            android:textSize="15sp" />
                     </LinearLayout>
 
                     <TextView
                         android:id="@+id/textView25"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Position Summary"
                         android:layout_marginStart="15dp"
                         android:layout_marginTop="15dp"
+                        android:text="Position Summary"
                         android:textColor="@color/headercolor"
-                        android:textSize="17sp"/>
+                        android:textSize="17sp" />
 
                     <TextView
                         android:id="@+id/textView26"
-                        android:textSize="17sp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
                         android:text="The Loan Office Job is to do direct marking and sell loan products thereafter
   ,conduct due dillgence before recruiting abd selecting qualified borrowers. Building good relationship with
 target segments/clientele and prviding high quality of customer service which will help Loan Officer to attract
 new and/or maintaining existing clienteles."
-                        android:layout_marginStart="15dp"
-                        />
+                        android:textSize="17sp" />
 
                     <TextView
                         android:id="@+id/textView27"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Duties And Responsibilities"
                         android:layout_marginStart="15dp"
                         android:layout_marginTop="15dp"
-                        android:textSize="17sp"
-                        android:textColor="@color/headercolor"/>
+                        android:text="Duties And Responsibilities"
+                        android:textColor="@color/headercolor"
+                        android:textSize="17sp" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:layout_marginStart="20dp">
+                        android:layout_marginStart="20dp"
+                        android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/textView28"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textSize="17sp"
                             android:text="(1) Research and analyze market area for promoting
 selling company product to the public.\n
 (2)Deliver training on loan product,policy and procedure to customers or communities.\n
@@ -217,7 +218,8 @@ selling company product to the public.\n
 (6)Help clients to complete loan application and loan agreement than explain them to make sure that they are
 will understand of all clauses in those document especially loan agreement.\n
 (7)Perform loan monitoring, reviewing and solve problem related to default loans.\n
-(8)Performed other tasks as assigned by manager.\n" />
+(8)Performed other tasks as assigned by manager.\n"
+                            android:textSize="17sp" />
 
                     </LinearLayout>
 
@@ -225,13 +227,12 @@ will understand of all clauses in those document especially loan agreement.\n
                         android:id="@+id/downloading"
                         android:layout_width="266dp"
                         android:layout_height="40dp"
-                        android:layout_marginStart="60dp"
+                        android:layout_gravity="center"
                         android:layout_marginTop="20dp"
-                        android:layout_marginEnd="60dp"
+                        android:layout_marginBottom="15dp"
                         android:background="@color/headercolor"
                         android:text="Download Application Form"
-                        android:textColor="@color/white"
-                        android:layout_marginBottom="15dp"/>
+                        android:textColor="@color/white" />
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
