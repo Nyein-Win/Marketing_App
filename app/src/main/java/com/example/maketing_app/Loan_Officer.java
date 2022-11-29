@@ -98,7 +98,6 @@ public class Loan_Officer extends AppCompatActivity {
     private void saveToTextfile(String mText) {
         String timeStamp=new SimpleDateFormat("yyyyMMdd_HHmmss",
                 Locale.getDefault()).format(System.currentTimeMillis());
-
         try {
             //path  tp storage
             File path= Environment.getExternalStorageDirectory();
@@ -106,10 +105,9 @@ public class Loan_Officer extends AppCompatActivity {
             File dir=new File(path+ "/Download/");
             dir.mkdir();
             //file name
-            String fileName="Loan_Officer"+timeStamp+".pdf"; //eg Myfile_20221129_152233.text
+            String fileName="Loan_Officer"+timeStamp+".pdf"; //egLoan Officer_20221129_152233.text
 
             File file=new File(dir,fileName);
-
             //fileWriter class is used to store character in file
             FileWriter fw=new FileWriter(file.getAbsoluteFile());
             BufferedWriter bw=new BufferedWriter(fw);
