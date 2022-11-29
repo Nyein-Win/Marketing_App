@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView6"
         android:layout_width="193dp"
         android:layout_height="27dp"
         android:layout_marginStart="8dp"
@@ -38,7 +38,7 @@
         android:layout_height="1dp"
         android:layout_marginTop="8dp"
         android:background="@android:color/black"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-15dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -28,8 +28,6 @@ public class News extends AppCompatActivity {
         vpAdapter.addFragment(new video_fragment(),"Videos");
         viewPager1.setAdapter(vpAdapter);
 
-//        tabLayout1.getTabAt(2).setIcon(R.drawable.social_welfare);
-
 
 
     }

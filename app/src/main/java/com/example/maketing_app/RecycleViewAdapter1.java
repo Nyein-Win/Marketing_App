@@ -1,5 +1,6 @@
 package com.example.maketing_app;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -36,21 +37,24 @@ public class RecycleViewAdapter1 extends RecyclerView.Adapter<RecycleViewAdapter
     }
 
     @Override
-    public void onBindViewHolder(@NonNull MyViewHolder1 holder, int position) {
-            holder.tv_name.setText(data.get(position).getName());
-            holder.img.setImageResource(data.get(position).getPhoto());
+    public void onBindViewHolder(@NonNull MyViewHolder1 holder, @SuppressLint("RecyclerView") int position) {
 
+        holder.tv_name.setText(data.get(position).getName());
+        holder.img.setImageResource(data.get(position).getPhoto());
+        holder.detail.setText(data.get(position).getDetail());
 
-            holder.itemView.setOnClickListener(new OnClickListener() {
-                @Override
-                public void onClick(View v) {
-
-                    Intent intent=new Intent(context,new8.class);
-                    context.startActivity(intent);
-                }
-            });
-
+        holder.itemView.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(context,DetailActivity.class);
+                intent.putExtra("title",data.get(position).getName());
+                intent.putExtra("img",data.get(position).getPhoto());
+                intent.putExtra("detail",data.get(position).getDetail());
+                context.startActivity(intent);
+            }
+        });
     }
+
 
     @Override
     public int getItemCount() {
@@ -58,13 +62,15 @@ public class RecycleViewAdapter1 extends RecyclerView.Adapter<RecycleViewAdapter
     }
 
     public  static class MyViewHolder1 extends RecyclerView.ViewHolder implements OnClickListener {
-        private TextView tv_name;
+        private TextView tv_name,detail;
         private ImageView img;
 
         public MyViewHolder1(@NonNull View itemView) {
             super(itemView);
             tv_name = (TextView) itemView.findViewById(R.id.name_contact);
             img = (ImageView) itemView.findViewById(R.id.image_contact);
+            detail=(TextView) itemView.findViewById(R.id.detail);
+
             itemView.setOnClickListener(this);
         }
 
