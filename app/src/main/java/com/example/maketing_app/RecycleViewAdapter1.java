@@ -46,13 +46,14 @@ public class RecycleViewAdapter1 extends RecyclerView.Adapter<RecycleViewAdapter
         holder.itemView.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(context,DetailActivity.class);
+                Intent intent=new Intent(context,news_Data.class);
                 intent.putExtra("title",data.get(position).getName());
                 intent.putExtra("img",data.get(position).getPhoto());
                 intent.putExtra("detail",data.get(position).getDetail());
                 context.startActivity(intent);
             }
         });
+
     }
 
 

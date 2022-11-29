@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -17,8 +17,16 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".Register"
+            android:name=".news_Data"
             android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Register"
+            android:exported="false"
+            android:parentActivityName=".SecondMain">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -46,7 +54,8 @@
         </activity>
         <activity
             android:name=".Login"
-            android:exported="false">
+            android:exported="false"
+            android:parentActivityName=".SecondMain">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
