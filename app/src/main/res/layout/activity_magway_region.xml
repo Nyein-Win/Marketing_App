@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/opacity_background"
     tools:context=".MagwayRegion">
 
     <ScrollView
@@ -141,7 +140,8 @@
                 android:layout_marginEnd="15dp"
                 android:text="မြေကွက်အမှတ်(၅၀၈၊၉၆၄)၊ ဦးပိုင်အမှတ်(ခ၊၃၂၈)၊ အကွက်အမှတ်(၅)၊ ပြည်လမ်း၊ အပိုင်း(၅)၊ စက်ရုံရပ်ကွက်၊ အောင်လံမြို့နယ်၊ မကွေးတိုင်းဒေသကြီး။
 ၀၉၉၄၀၆၇၁၁၈၆"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp"/>
 
 
         </LinearLayout>

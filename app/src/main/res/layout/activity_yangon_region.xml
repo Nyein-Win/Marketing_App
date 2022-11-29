@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/opacity_background"
     tools:ignore="ExtraText">
 
     <ScrollView
@@ -162,7 +161,8 @@
                 android:layout_marginEnd="15dp"
                 android:text="အမှတ်(၅၁၄)၊ အနော်ရထာလမ်း၊ (၁၁) ရပ်ကွက်၊ လှိုင်သာယာ
 မြို့နယ်၊ရန်ကုန်တိုင်းဒေသကြီး။(ဈေးလေးမှတ်တိုင်)"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp"/>
 
         </LinearLayout>
     </ScrollView>

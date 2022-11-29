@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/opacity_background"
     tools:context=".AyeyarwadiRegion">
 
     <ScrollView
@@ -186,7 +185,8 @@
                 android:layout_marginEnd="15dp"
                 android:text="အမှတ်(၄၅)၊ စာတိုက်တဲကြီးကုန်းလမ်း၊ အမှတ်(၂)ရပ်ကွက်၊ မြန်အောင်မြို့နယ်၊ ၊ ဧရာဝတီတိုင်းဒေသကြီး။
 ၀၉၉၇၇၅၄၀၃၁၇ ၊ ၀၉၉၇၇၅၄၀၃၁၈"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp"/>
 
         </LinearLayout>
     </ScrollView>

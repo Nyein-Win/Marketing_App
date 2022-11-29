@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/opacity_background"
     tools:context=".SagainRegion">
 
 
@@ -121,7 +120,8 @@
                 android:layout_marginEnd="15dp"
                 android:text="အမှတ်(၅၂၀)၊ ရေဦး-ကလေးဝလမ်း၊ ဗိုလ်အောင်ဇေယျရပ်ကွက်၊ ရေဦးမြို့နယ်၊ စစ်ကိုင်းတိုင်းဒေသကြီး။
 ၀၉၉၄၉၆၇၁၁၆၉ ၊ ၀၉၉၄၀၆၇၁၁၇၀"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp"/>
 
         </LinearLayout>
     </ScrollView>
