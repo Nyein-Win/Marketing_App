@@ -19,7 +19,9 @@ import android.widget.Toast;
 
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
 
@@ -28,7 +30,7 @@ public class Loan_Officer extends AppCompatActivity {
     private static final int  WRITE_EXTERNAL_STORAGE_CODE=1;
     EditText mInputEd;
     Button mSaveBtn;
-    String mText;
+    String mText="nyein Win";
     TextView text;
     @SuppressLint("MissingInflatedId")
     @Override
@@ -43,18 +45,15 @@ public class Loan_Officer extends AppCompatActivity {
         mSaveBtn =(Button)findViewById(R.id.downloading);
         text=(TextView)findViewById(R.id.textView28);
 
-        String[] id_txt={"R.id.textView6","R.id.textView20","R.id.textView20","R.id.textView23","R.id.textView24"};
+
 
 
         mSaveBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Toast.makeText(Loan_Officer.this, "Read this page! of LO JD", Toast.LENGTH_SHORT).show();
                     mText=text.getText().toString().trim();
 
-
-                if(mText.isEmpty()){
-                    Toast.makeText(Loan_Officer.this, "please insert!", Toast.LENGTH_SHORT).show();
-                }else{
                     if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.M){
                         if(checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE)==
                                 PackageManager.PERMISSION_DENIED){
@@ -73,7 +72,7 @@ public class Loan_Officer extends AppCompatActivity {
                         saveToTextfile(mText);
                     }
                 }
-            }
+
         });
     }
 
@@ -107,11 +106,15 @@ public class Loan_Officer extends AppCompatActivity {
             //file name
             String fileName="Loan_Officer"+timeStamp+".txt"; //egLoan Officer_20221129_152233.text
 
-            File file=new File(dir,fileName);
-            //fileWriter class is used to store character in file
-            FileWriter fw=new FileWriter(file.getAbsoluteFile());
-            BufferedWriter bw=new BufferedWriter(fw);
-            bw.write(mText);
+            FileOutputStream fos=new FileOutputStream(fileName);
+            fos.write(mText.getBytes());
+            fos.close();
+
+//            File file=new File(dir,fileName);
+//            //fileWriter class is used to store character in file
+//            FileWriter fw=new FileWriter(file.getAbsoluteFile());
+//            BufferedWriter bw=new BufferedWriter(fw);
+//            bw.write(mText);
 
             //show file name and path where file to save
             Toast.makeText(this,fileName+"is saved to \n"+dir, Toast.LENGTH_SHORT).show();

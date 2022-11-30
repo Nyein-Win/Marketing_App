@@ -22,7 +22,7 @@ public class Loan_Calculator extends AppCompatActivity implements View.OnClickLi
     public Spinner spinner;
     public EditText user_amount, user_term;
     public View view2,view3;
-    public TextView equal, equal1, equal2, equal3, equal4, equal5,equal001,final_txt,final_txt1, last_time, last_amount, up_fees, up_fees1, social_txt, social_txt1, saving_txt, saving_txt1, usr_loan, usr_interest, usr_period, usr_txt11, usr_txt22, usr_txt33, monthly_debt, monthly_deb1, u_prin, u_prin1, remak, total_txt, total_txt1;
+    public TextView equal,nyein_01, equal1, equal2, equal3, equal4, equal5,equal001,final_txt,final_txt1, last_time, last_amount, up_fees, up_fees1, social_txt, social_txt1, saving_txt, saving_txt1, usr_loan, usr_interest, usr_period, usr_txt11, usr_txt22, usr_txt33, monthly_debt, monthly_deb1, u_prin, u_prin1, total_txt, total_txt1;
     public int i;
 
 
@@ -53,7 +53,6 @@ public class Loan_Calculator extends AppCompatActivity implements View.OnClickLi
         monthly_deb1 = findViewById(R.id.monthly_deb1);
         u_prin = findViewById(R.id.u_prin);
         u_prin1 = findViewById(R.id.u_prin1);
-        remak = findViewById(R.id.m_txt);
         view2 = findViewById(R.id.view2);
         view3=findViewById(R.id.view3);
         total_txt = findViewById(R.id.t_txt);
@@ -72,6 +71,7 @@ public class Loan_Calculator extends AppCompatActivity implements View.OnClickLi
         equal5 = findViewById(R.id.equal5);
         last_time = findViewById(R.id.t_txt01);
         last_amount = findViewById(R.id.t_txt02);
+        nyein_01=findViewById(R.id.nyein_01);
 
     }
 
@@ -106,6 +106,7 @@ public class Loan_Calculator extends AppCompatActivity implements View.OnClickLi
                 equal4.setText("=");
                 equal5.setText("");
                 equal001.setText("=");
+                nyein_01.setText("=");
                 DecimalFormat formatter = new DecimalFormat("#,###,###");
                 int c = Integer.parseInt(t1) / Integer.parseInt(t2);
                 i = (int) (Integer.parseInt(t1) * 0.0133 * Integer.parseInt(t2)) + Integer.parseInt(t1);
@@ -126,15 +127,14 @@ public class Loan_Calculator extends AppCompatActivity implements View.OnClickLi
                 total1 = formatter.format(total);
                 usr_loan.setText("ချေးငွေပမာဏ");
                 usr_interest.setText("ပြန်ဆပ်");
-                usr_period.setText("ချေးငွေသက်တမ်း");
+                usr_period.setText("ကာလ");
                 monthly_debt.setText("လစဉ်ပေးဆပ်ရမည့် အရင်း");
                 u_prin.setText("ပထမ လ ပေးဆပ်ရမည် အတိုး");
                 usr_txt11.setText(u_amount + "ကျပ်");
                 usr_txt22.setText(u_principle + "ကျပ်");
                 usr_txt33.setText(user_term.getText().toString() + "လ");
                 monthly_deb1.setText(u_debt + "ကျပ်");
-                u_prin1.setText("=" + u_p + "ကျပ်");
-                remak.setText("(အရင်းကျေအတိုးလျော့)");
+                u_prin1.setText(u_p + "ကျပ်");
                 view2.setBackgroundColor(Color.BLACK);
                 view3.setBackgroundColor(Color.BLACK);
                 total_txt.setText("ပထမ အကြိမ်သွင်းငွေ");
@@ -180,15 +180,14 @@ public class Loan_Calculator extends AppCompatActivity implements View.OnClickLi
                 total1 = formatter.format(total);
                 usr_loan.setText("ချေးငွေပမာဏ");
                 usr_interest.setText("ပြန်ဆပ်");
-                usr_period.setText("ချေးငွေသက်တမ်း");
+                usr_period.setText("ကာလ");
                 monthly_debt.setText("လစဉ်ပေးဆပ်ရမည့် အရင်း");
                 u_prin.setText("လစဉ်ပေးဆပ်ရမည့် အတိုး");
                 usr_txt11.setText(u_amount + "ကျပ်");
                 usr_txt22.setText(u_principle + "ကျပ်");
                 usr_txt33.setText(user_term.getText().toString() + "လ");
                 monthly_deb1.setText(0 + "ကျပ်");
-                u_prin1.setText("=" + u_p + "ကျပ်");
-                remak.setText("");
+                u_prin1.setText(u_p + "ကျပ်");
                 view2.setBackgroundColor(Color.BLACK);
                 view2.setBackgroundColor(Color.BLACK);
                 total_txt.setText("ပထမ အကြိမ်သွင်းငွေ");
