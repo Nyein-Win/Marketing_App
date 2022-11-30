@@ -68,7 +68,6 @@ public class video_fragment extends Fragment {
 
                               Contact md = new Contact();
                               if (i != 0 ) {
-                                  Toast.makeText(getActivity(), "nyein" , Toast.LENGTH_LONG).show();
                                   md.setVideoId(jsonvideoid.getString("videoId"));
                                   md.setTitle(jsonsnippet.getString("title"));
                                   md.setUrl(jsonthumbail.getString("url"));
