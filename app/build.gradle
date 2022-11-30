@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+
     namespace 'com.example.maketing_app'
     compileSdk 33
 

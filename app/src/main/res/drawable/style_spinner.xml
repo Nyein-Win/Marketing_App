@@ -11,7 +11,7 @@
                 </shape>
             </item>
          <item>
-             <bitmap android:src="@drawable/ic_down"
+             <bitmap android:src="@drawable/spinner_icon"
                  android:gravity="center|end"/>
          </item>
         </layer-list>
