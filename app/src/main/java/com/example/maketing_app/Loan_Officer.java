@@ -105,7 +105,7 @@ public class Loan_Officer extends AppCompatActivity {
             File dir=new File(path+ "/Download/");
             dir.mkdir();
             //file name
-            String fileName="Loan_Officer"+timeStamp+".pdf"; //egLoan Officer_20221129_152233.text
+            String fileName="Loan_Officer"+timeStamp+".txt"; //egLoan Officer_20221129_152233.text
 
             File file=new File(dir,fileName);
             //fileWriter class is used to store character in file
