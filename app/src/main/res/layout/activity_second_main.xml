@@ -95,7 +95,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="About Sathapan"
+                            android:text="About Sathapana"
                             android:textAlignment="center"
                             android:textColor="#1974D2"
                             android:textSize="11sp"
