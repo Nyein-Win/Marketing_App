@@ -137,26 +137,25 @@
             android:layout_height="match_parent" >
             <TextView
                 android:id="@+id/txt1"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:textColor="@color/black"
+                android:layout_weight="1"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txt2"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textAlignment="textStart"
-                android:layout_weight="1"
                 android:textColor="@color/black"
+                android:layout_weight="1"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txt3"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
                 android:layout_weight="1"
@@ -172,8 +171,8 @@
             android:id="@+id/txt11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:textSize="15sp"
+                android:layout_weight="1"
             android:textStyle="bold" />
 
             <TextView
@@ -189,8 +188,8 @@
                 android:id="@+id/txt33"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:textSize="15sp"
+                android:layout_weight="1"
                 android:textStyle="bold" />
         </TableRow>
         <TableRow
