@@ -32,6 +32,11 @@
         android:icon="@drawable/financial"
         android:title="@string/financial_literacy"
         />
+
+    <item android:id="@+id/nav_repayment"
+        android:icon="@drawable/repayment"
+        android:title="Repayment Methods"
+        />
     <item android:id="@+id/nav_register"
         android:icon="@drawable/register"
         android:title="@string/register"

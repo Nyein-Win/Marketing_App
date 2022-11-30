@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Wave_Money">
+    tools:context=".WaveMoneyMethod">
 
     <ImageView
         android:id="@+id/imageView14"
@@ -28,4 +28,5 @@
 ဖြစ်ခဲ့ပာက အသင်းဝင်တစ်ဦးစီအတွက် ငွေလွှဲမှုတစ်ကြိမ် (Customer ID တစ်ခုချင်းစီအတွက်
 ငွေလွှဲမှုတစ်ကြိမ်) ပြုလုပ်ပေးရပာမည်။ Group တစ်ခုလုံးအတွက် ငွေလွှဲတစ်ကြောင်းဖြင့် လွှဲလို့မရပါ။\n
 ကျသင့်သောဝန်ဆောင်ခမှာ ငွေပမာဏ အများဆုံးကျပ် ၁,၀၀၀,၀၀၀ (ကျပ်တစ်ဆယ်သိန်း) အထိငွေလွှဲမှု တစ်ကြိမ်လျှင် ကျပ် ၂၀၀ (ကျပ်နှစ်ရာတိတိ) သာ ပေးချေရမည်ဖြစ်ပါသည်။" />
+
 </LinearLayout>

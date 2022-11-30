@@ -7,6 +7,7 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.viewpager.widget.ViewPager;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -46,6 +47,7 @@ public class SecondMain extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -127,6 +129,11 @@ public class SecondMain extends AppCompatActivity {
                         startActivity(new Intent(SecondMain.this,Financial.class));
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
+
+                    case R.id.nav_repayment:
+                        startActivity(new Intent(SecondMain.this,Repayment_Method.class));
+                        drawerLayout.closeDrawer(GravityCompat.START);
+                        break;
                     case R.id.nav_register:
                         startActivity(new Intent(SecondMain.this,Register.class));
                         drawerLayout.closeDrawer(GravityCompat.START);
@@ -198,17 +205,13 @@ public class SecondMain extends AppCompatActivity {
 
             }
         });
-
         findViewById(R.id.imageViewbtn8).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(SecondMain.this,RepaymentMethods.class));
+                startActivity(new Intent(SecondMain.this,Repayment_Method.class));
 
             }
         });
-
-
-
     }
 
 }

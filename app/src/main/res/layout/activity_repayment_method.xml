@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RepaymentMethods"
+    tools:context=".Repayment_Method"
     android:orientation="vertical">
 
     <ImageView
@@ -38,7 +38,7 @@
         android:textAlignment="center" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/branches"
         android:layout_width="185dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
