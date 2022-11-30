@@ -24,4 +24,9 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="API">AIzaSyBSZCn_WxIXXzIqO-nv6VovHOSsGCqU-nY</string>
 
+
+    <string name="hyperlink1"><a href="">အသေးစိတ်ကြည့်ရှုရန်</a>
+    </string>
+    <string name="hyperlink2"><a href="">အသေးစိတ်ကြည့်ရှုရန်</a></string>
+
 </resources>

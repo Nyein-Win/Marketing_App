@@ -199,6 +199,14 @@ public class SecondMain extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.imageViewbtn8).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SecondMain.this,RepaymentMethods.class));
+
+            }
+        });
+
 
     }
 
