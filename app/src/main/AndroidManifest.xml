@@ -244,14 +244,6 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Loan_Calculator"
-            android:exported="false"
-            android:parentActivityName=".SecondMain">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".News"
             android:exported="false"
             android:parentActivityName=".SecondMain">
