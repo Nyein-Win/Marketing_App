@@ -34,7 +34,7 @@ public class Loan_Calculator extends AppCompatActivity implements View.OnClickLi
         setContentView(R.layout.activity_loan_calculator);
         getSupportActionBar().setTitle("Loan Calculator");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        spinner = findViewById(R.id.spinner);
+       // spinner = findViewById(R.id.spinner);
 
         user_amount = findViewById(R.id.user_Amount);
         user_term = findViewById(R.id.user_Term);

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Loan_Calculator">
+    tools:context=".CalculatorLoan">
+
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -18,27 +19,26 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
-<!--        <LinearLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginLeft="50dp"-->
-<!--            android:layout_marginTop="30dp"-->
-<!--            android:layout_marginRight="50dp"-->
-<!--            android:orientation="horizontal">-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="50dp"
+                    android:orientation="horizontal">
 
 
-<!--            <Spinner-->
-<!--                android:id="@+id/spinner"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_weight="1"-->
-<!--                android:background="@drawable/style_spinner"-->
-<!--                android:clipChildren="true"-->
-<!--                android:entries="@array/Method"-->
-<!--                android:textAlignment="center"-->
-<!--                tools:ignore="TouchTargetSizeCheck" />-->
+                    <Spinner
+                        android:id="@+id/spinner2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clipChildren="true"
+                        android:entries="@array/Method"
+                        android:textAlignment="center"
+                        tools:ignore="TouchTargetSizeCheck" />
 
-<!--        </LinearLayout>-->
+                </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -168,12 +168,12 @@
             android:layout_height="match_parent"
             >
             <TextView
-            android:id="@+id/txt11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="15sp"
+                android:id="@+id/txt11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
                 android:layout_weight="1"
-            android:textStyle="bold" />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txt22"
@@ -193,30 +193,30 @@
                 android:textStyle="bold" />
         </TableRow>
         <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="50dp"
-        >
-        <TextView
-            android:id="@+id/monthly_debt"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-
-        <TextView
-            android:id="@+id/equal"
-            android:layout_width="20dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:ignore="InvalidId" />
+            android:layout_marginTop="50dp"
+            >
+            <TextView
+                android:id="@+id/monthly_debt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
 
-        <TextView
-            android:id="@+id/monthly_deb1"
-            android:textAlignment="textStart"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-             />
+            <TextView
+                android:id="@+id/equal"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                tools:ignore="InvalidId" />
 
-    </TableRow>
+            <TextView
+                android:id="@+id/monthly_deb1"
+                android:textAlignment="textStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </TableRow>
         <TableRow>
             <TextView
                 android:id="@+id/u_prin"
@@ -290,7 +290,7 @@
                 android:id="@+id/equal5"
                 android:layout_width="20dp"
                 android:layout_height="wrap_content"
-            />
+                />
 
             <TextView
                 android:id="@+id/t_txt02"
@@ -319,7 +319,7 @@
                 android:id="@+id/saving_txt1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-               android:textAlignment="textStart" />
+                android:textAlignment="textStart" />
         </TableRow>
         <TableRow  android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -333,13 +333,13 @@
                 android:id="@+id/equal3"
                 android:layout_width="20dp"
                 android:layout_height="wrap_content"
-           />
+                />
 
             <TextView
                 android:id="@+id/up_fees1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-               android:textAlignment="textStart"/>
+                android:textAlignment="textStart"/>
         </TableRow>
         <TableRow  android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -368,7 +368,7 @@
                 android:id="@+id/view3"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-               />
+                />
         </TableRow>
         <TableRow
             android:layout_width="match_parent"
@@ -395,11 +395,10 @@
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="17sp"
-               android:textAlignment="textStart" />
+                android:textAlignment="textStart" />
         </TableRow>
 
 
     </TableLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

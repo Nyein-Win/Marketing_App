@@ -188,7 +188,7 @@ public class SecondMain extends AppCompatActivity {
         findViewById(R.id.imageViewbtn5).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(SecondMain.this,Loan_Calculator.class));
+                startActivity(new Intent(SecondMain.this,CalculatorLoan.class));
 
             }
         });
