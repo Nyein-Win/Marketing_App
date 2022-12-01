@@ -8,6 +8,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.blogspot.atifsoftwares.animatoolib.Animatoo;
+
 public class Resource_Human extends AppCompatActivity {
 
 
@@ -26,6 +28,9 @@ public class Resource_Human extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Resource_Human.this,RecruitmentPolicity.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Resource_Human.this);
+
+
             }
         });
         currency.setOnClickListener(new View.OnClickListener() {
@@ -33,6 +38,9 @@ public class Resource_Human extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Resource_Human.this,VacanciesCurrent.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Resource_Human.this);
+
+
             }
         });
         CardView selection=findViewById(R.id.selection);
@@ -41,6 +49,7 @@ public class Resource_Human extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Resource_Human.this,Selection_Process.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Resource_Human.this);
             }
         });
         CardView learning=findViewById(R.id.learning);
@@ -49,6 +58,7 @@ public class Resource_Human extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Resource_Human.this,Learning_Development.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Resource_Human.this);
             }
         });
 
@@ -58,6 +68,7 @@ public class Resource_Human extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Resource_Human.this,Compensate_Benefits.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Resource_Human.this);
             }
         });
     }

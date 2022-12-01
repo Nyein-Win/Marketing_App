@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.blogspot.atifsoftwares.animatoolib.Animatoo;
+
 public class Repayment_Method extends AppCompatActivity {
 
     @Override
@@ -24,6 +26,7 @@ public class Repayment_Method extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Repayment_Method.this,Second_Branches.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Repayment_Method.this);
             }
         });
 
@@ -34,6 +37,7 @@ public class Repayment_Method extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Repayment_Method.this,OnGoMethod.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Repayment_Method.this);
             }
         });
         TextView wavemoney=(TextView) findViewById(R.id.wavemoney);
@@ -43,6 +47,7 @@ public class Repayment_Method extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Repayment_Method.this,WaveMoneyMethod.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Repayment_Method.this);
             }
         });
     }

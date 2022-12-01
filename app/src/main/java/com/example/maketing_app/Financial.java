@@ -8,6 +8,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.blogspot.atifsoftwares.animatoolib.Animatoo;
+
 public class Financial extends AppCompatActivity {
 
     @Override
@@ -29,6 +31,7 @@ public class Financial extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Financial.this,Income.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Financial.this);
             }
         });
 
@@ -37,6 +40,7 @@ public class Financial extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Financial.this,LoanSavingService.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Financial.this);
             }
         });
 
@@ -45,6 +49,7 @@ public class Financial extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Financial.this,DebtManagement.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Financial.this);
             }
         });
 
@@ -53,6 +58,7 @@ public class Financial extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Financial.this,FinancialManagement.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Financial.this);
             }
         });
 
@@ -61,6 +67,7 @@ public class Financial extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Financial.this,DigitalWallet.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Financial.this);
             }
         });
     }

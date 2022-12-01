@@ -20,6 +20,7 @@ import android.widget.Toast;
 import android.widget.Toolbar;
 import android.widget.ViewFlipper;
 
+import com.blogspot.atifsoftwares.animatoolib.Animatoo;
 import com.google.android.material.navigation.NavigationView;
 
 import java.util.ArrayList;
@@ -115,6 +116,7 @@ public class SecondMain extends AppCompatActivity {
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
                     case R.id.nav_news:
+                        startActivity(new Intent(SecondMain.this,News.class));
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
                     case R.id.nav_loan_calculator:
@@ -141,6 +143,7 @@ public class SecondMain extends AppCompatActivity {
                     case R.id.nav_login:
                         startActivity(new Intent(SecondMain.this,Login.class));
                         drawerLayout.closeDrawer(GravityCompat.START);
+
                         break;
                 }
                 return true;
@@ -150,6 +153,7 @@ public class SecondMain extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(SecondMain.this,About_Sathapana.class));
+                Animatoo.animateSwipeRight(SecondMain.this);
             }
         });
 
@@ -157,24 +161,28 @@ public class SecondMain extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(SecondMain.this,Services.class));
+                Animatoo.animateSwipeRight(SecondMain.this);
             }
         });
         findViewById(R.id.imageViewbtn3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(SecondMain.this,Branches.class));
+                Animatoo.animateSwipeRight(SecondMain.this);
             }
         });
         findViewById(R.id.imageViewbtn4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(SecondMain.this,News.class));
+                Animatoo.animateSwipeRight(SecondMain.this);
             }
         });
         findViewById(R.id.imageViewbtn3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(SecondMain.this,Branches.class));
+                Animatoo.animateSwipeRight(SecondMain.this);
 
             }
         });
@@ -182,6 +190,7 @@ public class SecondMain extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(SecondMain.this,Financial.class));
+                Animatoo.animateSwipeRight(SecondMain.this);
 
             }
         });
@@ -189,6 +198,7 @@ public class SecondMain extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(SecondMain.this,CalculatorLoan.class));
+                Animatoo.animateSwipeRight(SecondMain.this);
 
             }
         });
@@ -196,6 +206,7 @@ public class SecondMain extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(SecondMain.this,Resource_Human.class));
+                Animatoo.animateSwipeRight(SecondMain.this);
 
             }
         });
@@ -203,6 +214,7 @@ public class SecondMain extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(SecondMain.this,Repayment_Method.class));
+                Animatoo.animateSwipeRight(SecondMain.this);
 
             }
         });

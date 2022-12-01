@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.blogspot.atifsoftwares.animatoolib.Animatoo;
+
 public class Branches extends AppCompatActivity {
 
     @Override
@@ -25,6 +27,7 @@ public class Branches extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Branches.this,Yangon_Region.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Branches.this);
             }
         });
         @SuppressLint({"MissingInflatedId", "LocalSuppress"}) Button mandalaybtn=findViewById(R.id.mandalaybtn);
@@ -33,6 +36,7 @@ public class Branches extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Branches.this,MandalayRegion.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Branches.this);
             }
         });
 
@@ -42,6 +46,7 @@ public class Branches extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Branches.this,BagoRegion.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Branches.this);
             }
         });
         @SuppressLint({"MissingInflatedId", "LocalSuppress"}) Button ayarbtn=findViewById(R.id.ayarbtn);
@@ -50,6 +55,7 @@ public class Branches extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Branches.this,AyeyarwadiRegion.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Branches.this);
             }
         });
 
@@ -59,6 +65,7 @@ public class Branches extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Branches.this,MagwayRegion.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Branches.this);
             }
         });
         @SuppressLint({"MissingInflatedId", "LocalSuppress"}) Button sagainbtn=findViewById(R.id.sagainbtn);
@@ -67,6 +74,7 @@ public class Branches extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Branches.this,SagainRegion.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Branches.this);
             }
         });
 
@@ -76,6 +84,7 @@ public class Branches extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Branches.this,MonRegion.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Branches.this);
             }
         });
 
@@ -85,6 +94,7 @@ public class Branches extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Branches.this,ShanRegion.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Branches.this);
             }
         });
 
@@ -94,6 +104,7 @@ public class Branches extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Branches.this,KayinRegion.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Branches.this);
             }
         });
 
@@ -103,6 +114,7 @@ public class Branches extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Branches.this,KayarRegion.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Branches.this);
             }
         });
 
@@ -112,6 +124,7 @@ public class Branches extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Branches.this,NaypyitawRegion.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Branches.this);
             }
         });
     }

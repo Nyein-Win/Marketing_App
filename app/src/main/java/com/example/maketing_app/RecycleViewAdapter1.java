@@ -15,6 +15,8 @@ import androidx.annotation.NonNull;
 import androidx.core.view.GravityCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.blogspot.atifsoftwares.animatoolib.Animatoo;
+
 import java.util.List;
 
 public class RecycleViewAdapter1 extends RecyclerView.Adapter<RecycleViewAdapter1.MyViewHolder1> {
@@ -51,6 +53,7 @@ public class RecycleViewAdapter1 extends RecyclerView.Adapter<RecycleViewAdapter
                 intent.putExtra("img",data.get(position).getPhoto());
                 intent.putExtra("detail",data.get(position).getDetail());
                 context.startActivity(intent);
+
             }
         });
 
