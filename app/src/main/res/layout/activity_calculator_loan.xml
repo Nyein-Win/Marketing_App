@@ -22,7 +22,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="50dp"
+                    android:layout_marginLeft="43dp"
                     android:layout_marginTop="30dp"
                     android:layout_marginRight="50dp"
                     android:orientation="horizontal">
@@ -32,13 +32,9 @@
                         android:id="@+id/spinner2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:background="@drawable/style_spinner"
                         android:clipChildren="true"
                         android:entries="@array/Method"
-                        android:textAlignment="center"
                         tools:ignore="TouchTargetSizeCheck" />
-
                 </LinearLayout>
 
         <LinearLayout
@@ -53,7 +49,8 @@
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textSize="16sp"
+                android:textSize="18sp"
+                android:textStyle="bold"
                 android:text="ချေးငွေပမာဏ" />
 
             <EditText
@@ -81,8 +78,9 @@
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textSize="16sp"
-                android:text="ချေးငွေကာလ" />
+                android:textSize="18sp"
+                android:text="ချေးငွေကာလ"
+                android:textStyle="bold"/>
 
             <EditText
                 android:id="@+id/user_Term"
