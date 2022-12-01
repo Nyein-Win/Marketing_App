@@ -276,13 +276,6 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".FinancialManage"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".DigitalWallet"
             android:exported="false"
             android:parentActivityName=".Financial">

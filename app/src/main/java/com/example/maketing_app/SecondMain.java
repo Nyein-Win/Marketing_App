@@ -171,12 +171,6 @@ public class SecondMain extends AppCompatActivity {
                 startActivity(new Intent(SecondMain.this,News.class));
             }
         });
-        findViewById(R.id.imageViewbtn7).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(SecondMain.this,FinancialManage.class));
-            }
-        });
         findViewById(R.id.imageViewbtn3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
