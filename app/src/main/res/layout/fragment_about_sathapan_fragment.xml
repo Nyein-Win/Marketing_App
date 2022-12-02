@@ -22,7 +22,7 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginEnd="15dp"
                 android:layout_marginBottom="15dp"
-                android:textSize="15dp"
+                android:textSize="18sp"
                 android:text="SATHAPANA Limited သည် အသေးစားငွေရေးကြေးရေး
 ဝန်ဆောင်မှုပေးသော၊ ကုမ္ပဏီတစ်ခုဖြစ်ပြီး မတည်ရင်းနှီးငွေ
 မေရိကန်ဒေါ်လာ (၁၅) သန်းဖြင့် ၂၀၁၅ခုနှစ် ဇန်နဝါရီလတွင်

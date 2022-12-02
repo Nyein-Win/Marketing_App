@@ -9,6 +9,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.blogspot.atifsoftwares.animatoolib.Animatoo;
+
 public class VacanciesCurrent extends AppCompatActivity {
 
 
@@ -26,6 +28,7 @@ public class VacanciesCurrent extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(VacanciesCurrent.this,Loan_Officer.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(VacanciesCurrent.this);
             }
         });
 
@@ -36,6 +39,7 @@ public class VacanciesCurrent extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(VacanciesCurrent.this,Loan_Officer.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(VacanciesCurrent.this);
             }
         });
 
@@ -45,6 +49,7 @@ public class VacanciesCurrent extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(VacanciesCurrent.this,Loan_Officer.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(VacanciesCurrent.this);
             }
         });
 
@@ -55,6 +60,7 @@ public class VacanciesCurrent extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(VacanciesCurrent.this,Loan_Officer.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(VacanciesCurrent.this);
             }
         });
 
@@ -65,6 +71,7 @@ public class VacanciesCurrent extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(VacanciesCurrent.this,Loan_Officer.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(VacanciesCurrent.this);
             }
         });
 
@@ -75,6 +82,7 @@ public class VacanciesCurrent extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(VacanciesCurrent.this,Loan_Officer.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(VacanciesCurrent.this);
             }
         });
 
@@ -85,6 +93,7 @@ public class VacanciesCurrent extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(VacanciesCurrent.this,Loan_Officer.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(VacanciesCurrent.this);
             }
         });
 
