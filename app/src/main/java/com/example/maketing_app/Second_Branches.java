@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.blogspot.atifsoftwares.animatoolib.Animatoo;
+
 public class Second_Branches extends AppCompatActivity {
 
     @Override
@@ -26,6 +28,7 @@ public class Second_Branches extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Second_Branches.this,Yangon_Region.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Second_Branches.this);
             }
         });
         @SuppressLint({"MissingInflatedId", "LocalSuppress"}) Button mandalaybtn=findViewById(R.id.mandalaybtn);
@@ -34,6 +37,7 @@ public class Second_Branches extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Second_Branches.this,MandalayRegion.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Second_Branches.this);
             }
         });
 
@@ -43,6 +47,7 @@ public class Second_Branches extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Second_Branches.this,BagoRegion.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Second_Branches.this);
             }
         });
         @SuppressLint({"MissingInflatedId", "LocalSuppress"}) Button ayarbtn=findViewById(R.id.ayarbtn);
@@ -51,6 +56,7 @@ public class Second_Branches extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Second_Branches.this,AyeyarwadiRegion.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Second_Branches.this);
             }
         });
 
@@ -60,6 +66,7 @@ public class Second_Branches extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Second_Branches.this,MagwayRegion.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Second_Branches.this);
             }
         });
         @SuppressLint({"MissingInflatedId", "LocalSuppress"}) Button sagainbtn=findViewById(R.id.sagainbtn);
@@ -68,6 +75,7 @@ public class Second_Branches extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Second_Branches.this,SagainRegion.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Second_Branches.this);
             }
         });
 
@@ -77,6 +85,7 @@ public class Second_Branches extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Second_Branches.this,MonRegion.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Second_Branches.this);
             }
         });
 
@@ -86,6 +95,7 @@ public class Second_Branches extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Second_Branches.this,ShanRegion.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Second_Branches.this);
             }
         });
 
@@ -95,6 +105,7 @@ public class Second_Branches extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Second_Branches.this,KayinRegion.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Second_Branches.this);
             }
         });
 
@@ -104,6 +115,7 @@ public class Second_Branches extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Second_Branches.this,KayarRegion.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Second_Branches.this);
             }
         });
 
@@ -113,6 +125,7 @@ public class Second_Branches extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Second_Branches.this,NaypyitawRegion.class);
                 startActivity(intent);
+                Animatoo.animateSwipeRight(Second_Branches.this);
             }
         });
     }
