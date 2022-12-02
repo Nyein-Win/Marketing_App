@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back_sathapana"
+    android:background="@color/white"
     tools:context=".Register">
         <TextView
             android:id="@+id/textView39"
@@ -13,7 +13,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="100dp"
             android:text="Register"
-            android:textColor="@color/white"
+            android:textColor="#00BCd4"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -27,179 +27,56 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="3dp"
             android:text="Sign Up to Sathapana"
-            android:textColor="@color/white"
+            android:textColor="#00BCd4"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView39" />
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_marginTop="30dp"
-            android:layout_margin="20dp"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reg_view"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#EBECF0"
+            android:drawableLeft="@drawable/register"
+            android:text="Existing Customer "
+            android:textColor="#00BCd4"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/button13"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="298dp"
+            android:layout_marginTop="10dp"
+            android:background="#EBECF0"
+            android:drawableLeft="@drawable/register"
+            android:text="New Customer"
+            android:textColor="#00BCd4"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/reg_view"
-            app:layout_constraintVertical_bias="1.0">
-
-            <TextView
-                android:id="@+id/reg_tname"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="15dp"
-                android:layout_marginTop="46dp"
-                android:layout_marginBottom="468dp"
-                android:text="Name"
-                android:textColor="@color/headercolor"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0" />
-
-            <EditText
-                android:id="@+id/reg_name"
-                android:layout_width="match_parent"
-                android:layout_height="43dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="10dp"
-                android:background="@drawable/edit_round"
-                android:ems="10"
-                android:backgroundTint="@color/white"
-                android:hint="Enter your name"
-                android:inputType="textPersonName"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.47"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/reg_tname" />
-
-            <TextView
-                android:id="@+id/textView40"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="15dp"
-                android:layout_marginBottom="468dp"
-                android:text="CIF"
-                android:textColor="@color/headercolor"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="@+id/reg_name"
-                app:layout_constraintStart_toStartOf="@+id/reg_name"
-                app:layout_constraintTop_toBottomOf="@+id/reg_name" />
-
-            <EditText
-                android:id="@+id/editTextTextPersonName"
-                android:layout_width="match_parent"
-                android:layout_height="43dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="10dp"
-                android:background="@drawable/edit_round"
-                android:ems="10"
-                android:backgroundTint="@color/white"
-                android:hint="Enter your CIF"
-                android:inputType="number"
-                app:layout_constraintEnd_toEndOf="@+id/textView40"
-                app:layout_constraintStart_toStartOf="@+id/textView40"
-                app:layout_constraintTop_toBottomOf="@+id/textView40" />
-
-            <TextView
-                android:id="@+id/textView42"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="15dp"
-
-                android:layout_marginBottom="468dp"
-                android:text="NRC"
-                android:textColor="@color/headercolor"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
-                app:layout_constraintVertical_bias="0.0" />
-
-            <EditText
-                android:id="@+id/editTextTextPersonName2"
-                android:layout_width="match_parent"
-                android:layout_height="43dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="10dp"
-                android:background="@drawable/edit_round"
-                android:ems="10"
-                android:backgroundTint="@color/white"
-                android:hint="Enter your NRC"
-                android:inputType="textPersonName"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView42" />
-
-            <TextView
-                android:id="@+id/textView43"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Password"
-                android:layout_marginStart="15dp"
-                android:layout_marginBottom="468dp"
-                android:textColor="@color/headercolor"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName2"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
-
-            <EditText
-                android:id="@+id/reg_password"
-                android:layout_width="match_parent"
-                android:layout_height="43dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="10dp"
-                android:background="@drawable/edit_round"
-                android:ems="10"
-                android:backgroundTint="@color/white"
-                android:hint="Enter your password"
-                android:inputType="textPassword"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView43"
-                />
-
-            <Button
-                android:id="@+id/reg_btn"
-                android:layout_width="match_parent"
-                android:layout_height="43dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginTop="25dp"
-                android:layout_marginRight="10dp"
-                android:background="@drawable/button_round"
-                android:text="Register"
-                android:textColor="@color/white"
-                app:layout_constraintEnd_toEndOf="@+id/reg_password"
-                app:layout_constraintStart_toStartOf="@+id/reg_password"
-                app:layout_constraintTop_toBottomOf="@+id/reg_password" />
-
-            <Button
-                android:id="@+id/log_btn"
-                android:layout_width="match_parent"
-                android:layout_height="43dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginTop="7dp"
-                android:layout_marginRight="10dp"
-                android:background="@drawable/button_round"
-                android:text="Login"
-                android:textColor="@color/white"
-                app:layout_constraintEnd_toEndOf="@+id/reg_btn"
-                app:layout_constraintHorizontal_bias="0.411"
-                app:layout_constraintStart_toStartOf="@+id/reg_btn"
-                app:layout_constraintTop_toBottomOf="@+id/reg_btn" />
-
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
+            app:layout_constraintTop_toBottomOf="@+id/button3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

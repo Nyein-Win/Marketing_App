@@ -125,7 +125,7 @@ public class CalculatorLoan extends AppCompatActivity implements View.OnClickLis
             saving1 = formatter.format(saving);
             total1 = formatter.format(total);
             usr_loan.setText("ချေးငွေပမာဏ");
-            usr_interest.setText("ပြန်ဆပ်");
+            usr_interest.setText("ပြန်ဆပ်ငွေ");
             usr_period.setText("ကာလ");
             monthly_debt.setText("လစဉ်ပေးဆပ်ရမည့် အရင်း");
             u_prin.setText("ပထမ လ ပေးဆပ်ရမည် အတိုး");
@@ -159,7 +159,7 @@ public class CalculatorLoan extends AppCompatActivity implements View.OnClickLis
             equal001.setText("=");
             DecimalFormat formatter = new DecimalFormat("#,###,###");
 
-            i = (int) (Integer.parseInt(t1) * 0.0233 * Integer.parseInt(t2)) + Integer.parseInt(t2);
+            i = (int) (Integer.parseInt(t1) * 0.0233 * Integer.parseInt(t2)) + Integer.parseInt(t1);
             int p = (int) (Integer.parseInt(t1) * 0.0233);
             int saving = (int) (Integer.parseInt(t1) * 0.05);
             int total = p;
@@ -177,7 +177,7 @@ public class CalculatorLoan extends AppCompatActivity implements View.OnClickLis
             saving1 = formatter.format(saving);
             total1 = formatter.format(total);
             usr_loan.setText("ချေးငွေပမာဏ");
-            usr_interest.setText("ပြန်ဆပ်");
+            usr_interest.setText("ပြန်ဆပ်ငွေ");
             usr_period.setText("ကာလ");
             monthly_debt.setText("လစဉ်ပေးဆပ်ရမည့် အရင်း");
             u_prin.setText("လစဉ်ပေးဆပ်ရမည့် အတိုး");

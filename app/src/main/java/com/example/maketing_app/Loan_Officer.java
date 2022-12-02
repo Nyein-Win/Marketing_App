@@ -50,7 +50,35 @@ public class Loan_Officer extends AppCompatActivity {
         mSaveBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                 String mtext=text.getText().toString();
+                 String mtext="Designation. :Loan Officer\n" +
+                         "Responsible to : Chief Loan Officer\n" +
+                         "\n" +
+                         "Position Summary\n" +
+                         "\n" +
+                         "The Loan Officer job is to do direct marketing and sell loan products\n" +
+                         "\n" +
+                         "thereafter, conduct due dillgence before recrulting and selecting qualified borrowers. Bullding good relationship with \n" +
+                         "target segments/cllentele and providing high qualty of customer service which will help Loan Officer to attract new andyor maintaining exlsting cllenteles\n" +
+                         "\n" +
+                         "Duties and Responsibilities\n" +
+                         "(1) Research and analyze market area for promoting and selling\n" +
+                         "company's products to the public.\n" +
+                         "\n" +
+                         "(2) Dellver training on loan product, policy and procedure to customers or\n" +
+                         "communitles.\n" +
+                         "\n" +
+                         "(3) Bulld and maintaln good relationship with colleagues, customers.\n" +
+                         "local authoritles and other stakeholders.\n" +
+                         "\n" +
+                         "(4) Implement target plan distributed by chlef loan officer or branch\n" +
+                         "manager.\n" +
+                         "(5) Perform data collection, validation anbppraisal to all loan\n" +
+                         "applicants before recommending for approval.\n" +
+                         "(6) Help clients to complete loan application and loan agreement than explain them to make sure that\n" +
+                         " they are well understand of all clauses in those document especially loan agreement\n" +
+                         "(7) Perform loan monitoring, reviewing and solve problem related to\n" +
+                         "default loans\n" +
+                         "(8) Perform other tasks as assigned by manager.";
                  SaveTextAsFile(mtext);
 
             }
@@ -60,6 +88,8 @@ public class Loan_Officer extends AppCompatActivity {
     private  void  SaveTextAsFile(String context){
         String timeStamp=new SimpleDateFormat("yyyyMMdd_HHmmss",
                 Locale.getDefault()).format(System.currentTimeMillis());
+        String fileName="Loan_Officer"+timeStamp+".txt"; //egLoan Officer_20221129_152233.text
+        Toast.makeText(this, fileName, Toast.LENGTH_SHORT).show();
 
         try {
             //path  tp storage
@@ -67,9 +97,7 @@ public class Loan_Officer extends AppCompatActivity {
             //create folder name "My File"
             File dir=new File(path+ "/Download/");
             dir.mkdir();
-            //file name
-            String fileName="Loan_Officer"+timeStamp+".txt"; //egLoan Officer_20221129_152233.text
-            Toast.makeText(this, fileName, Toast.LENGTH_SHORT).show();
+
 
             File file=new File(dir,fileName);
             //fileWriter class is used to store character in file
