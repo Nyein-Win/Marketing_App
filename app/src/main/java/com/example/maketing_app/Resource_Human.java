@@ -52,7 +52,7 @@ public class Resource_Human extends AppCompatActivity {
                 Animatoo.animateSwipeRight(Resource_Human.this);
             }
         });
-        CardView learning=findViewById(R.id.learning);
+        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) CardView learning=findViewById(R.id.learning);
         learning.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -62,7 +62,7 @@ public class Resource_Human extends AppCompatActivity {
             }
         });
 
-        CardView benifit=findViewById(R.id.benifit);
+        CardView benifit=findViewById(R.id.benefit);
         benifit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
