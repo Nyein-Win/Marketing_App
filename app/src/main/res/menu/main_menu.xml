@@ -47,12 +47,7 @@
         android:title="@string/login"
         />
 
-<!--            <item-->
-<!--                android:id="@+id/hey"-->
-<!--                android:title=""-->
-<!--                app:actionLayout="@layout/language"-->
-<!--                app:showAsAction="always"-->
-<!--                />-->
+
 
 
 

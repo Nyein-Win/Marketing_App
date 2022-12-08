@@ -46,13 +46,12 @@ public class SecondMain extends AppCompatActivity {
     CircleIndicator circleIndicator;
     Timer timer;
     Handler handler;
+    Spinner spinner;
+    Context context;
+    Resources resources;
+    TextView about;
 
-//    TextView helloworld,dialog_language;
-//    int lang_selected;
-//    RelativeLayout show_lan_dialog;
-//
-//    Context context;
-//    Resources resources;
+
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if(actionBarDrawerToggle.onOptionsItemSelected(item)){
@@ -60,29 +59,50 @@ public class SecondMain extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-//    public boolean onCreateOptionsMenu(Menu menu){
-//        getMenuInflater().inflate(R.menu.main_menu,menu);
-//        MenuItem item= menu.findItem(R.id.hey);
-//        item.setActionView(R.layout.language);
-//        final RelativeLayout click=(RelativeLayout)menu.findItem(R.id.hey).getActionView().findViewById(R.id.)
-//
-//    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.top_menu, menu);
-
         MenuItem item = menu.findItem(R.id.spinner);
-        Spinner spinner = (Spinner) item.getActionView();
-
+        spinner = (Spinner) item.getActionView();
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.Language, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-
         spinner.setAdapter(adapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+
+             if(spinner.getSelectedItem().toString().equals("English")){
+                    LocaleHelper.getLanguage(SecondMain.this).equalsIgnoreCase("en");
+                    context = LocaleHelper.setLocale(SecondMain.this, "en");
+                    resources = context.getResources();
+                    setTitle(resources.getString(R.string.app_name));
+                    setString();
+                 Toast.makeText(SecondMain.this,"Nyein Win",Toast.LENGTH_SHORT).show();
+        }else  if(spinner.getSelectedItem().toString().equals("မြန်မာ")){
+                 LocaleHelper.getLanguage(SecondMain.this).equalsIgnoreCase("my");
+                 context = LocaleHelper.setLocale(SecondMain.this, "my");
+                 resources = context.getResources();
+                 setTitle(resources.getString(R.string.app_name));
+            setTitle(resources.getString(R.string.app_name));
+            setString();
+        }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+
         return true;
     }
 
+    private void setString() {
+        Toast.makeText(SecondMain.this,"ငြိမ်းဝင်း",Toast.LENGTH_SHORT).show();
+        about.setText(resources.getString(R.string.about_sathapana));
+    }
 
 
     @SuppressLint("MissingInflatedId")
@@ -90,72 +110,11 @@ public class SecondMain extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second_main);
-       getSupportActionBar().setTitle("Sathapana Limited");
+
         drawerLayout=findViewById(R.id.drawerLayout);
         navigationView=findViewById(R.id.navigation);
         viewPager=findViewById(R.id.viewpager);
-
-//        dialog_language=(TextView) findViewById(R.id.dialog_langu);
-//        show_lan_dialog=(RelativeLayout) findViewById(R.id.showlangdialog);
-//
-//        if(LocaleHelper.getLanguage(SecondMain.this).equalsIgnoreCase("en")){
-//            context=LocaleHelper.setLocale(SecondMain.this,"en");
-//            resources=context.getResources();
-//            lang_selected=0;
-//            dialog_language.setText("English");
-//            //helloworld.setText(resources.getString(R.string.hello_world));
-//            setTitle(resources.getString(R.string.app_name));
-//
-//
-//
-//        }else if(LocaleHelper.getLanguage(SecondMain.this).equalsIgnoreCase("my")){
-//            context=LocaleHelper.setLocale(SecondMain.this,"my");
-//            resources=context.getResources();
-//            lang_selected=1;
-//            dialog_language.setText("မြန်မာ");
-//            //helloworld.setText(resources.getString(R.string.hello_world));
-//            setTitle(resources.getString(R.string.app_name));
-//        }
-//        show_lan_dialog.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                final String[] Language={"English","မြန်မာ"};
-//                final AlertDialog.Builder builder=new AlertDialog.Builder(SecondMain.this);
-//                builder.setTitle("Select a Language").setSingleChoiceItems(Language, lang_selected, new DialogInterface.OnClickListener() {
-//                            @Override
-//                            public void onClick(DialogInterface dialogInterface, int i) {
-//
-//                                dialog_language.setText(Language[i]);
-//                                if(Language[i].equals("English")){
-//                                    context=LocaleHelper.setLocale(SecondMain.this,"en");
-//                                    resources=context.getResources();
-//                                    lang_selected=0;
-//                                    //helloworld.setText(resources.getString(R.string.hello_world));
-//                                    setTitle(resources.getString(R.string.app_name));
-//                                    //setString();
-//
-//                                }
-//                                if(Language[i].equals("မြန်မာ")){
-//                                    context=LocaleHelper.setLocale(SecondMain.this,"my");
-//                                    resources=context.getResources();
-//                                    lang_selected=1;
-//                                    //helloworld.setText(resources.getString(R.string.hello_world));
-//                                    setTitle(resources.getString(R.string.app_name));
-//                                    //setString();
-//
-//                                }
-//
-//                            }
-//                        })
-//                        .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-//                            @Override
-//                            public void onClick(DialogInterface dialogInterface, int i) {
-//                                dialogInterface.dismiss();
-//                            }
-//                        });
-//                builder.create().show();
-//            }
-//        });
+        about=findViewById(R.id.about);
 
 
         List<Integer> imagelist = new ArrayList<>();
@@ -245,23 +204,10 @@ public class SecondMain extends AppCompatActivity {
                         startActivity(new Intent(SecondMain.this, Login.class));
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
+
                 }
                 return true;
             }
-
-//            public boolean onCreateOptionsMenu(Menu menu) {
-//                getMenuInflater().inflate(R.menu.main_menu, menu);
-//
-//                MenuItem item = menu.findItem(R.id.lan);
-//                Spinner spinner = (Spinner) item.getActionView();
-//
-//                ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-//                        R.array.Language, android.R.layout.simple_spinner_item);
-//                adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-//
-//                spinner.setAdapter(adapter);
-//                return true;
-//            }
 
         });
         findViewById(R.id.imageViewbtn1).setOnClickListener(new View.OnClickListener() {

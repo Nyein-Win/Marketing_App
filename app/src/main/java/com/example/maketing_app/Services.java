@@ -6,20 +6,27 @@ import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
+import android.widget.CompoundButton;
+import android.widget.Switch;
+import android.widget.Toast;
 
 import com.google.android.material.tabs.TabLayout;
 
 public class Services extends AppCompatActivity {
   private TabLayout tabLayout;
   private ViewPager viewPager;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 //        requestWindowFeature(Window.FEATURE_NO_TITLE);
 //        getSupportActionBar().hide();
         setContentView(R.layout.activity_services);
+
         getSupportActionBar().setTitle("Services");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         tabLayout=findViewById(R.id.tablayout);

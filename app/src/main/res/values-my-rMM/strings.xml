@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">စထာပါနာ လီမိတက်</string>
+    <string name="menu_Open">Open</string>
+    <string name="close_menu">Close</string>
+    <string name="sathapana">စထာပါနာ လီမိတက်</string>
+    <string name="branches">ရုံးခွဲများ</string>
+    <string name="about_sathapana">"စထာပါနာ "</string>
+    <string name="services">ဝန်ဆောင်မှုများ</string>
+    <string name="news">သတင်းများ</string>
+    <string name="loan_calculator">အတိုးတွက်ချက်မည်</string>
+    <string name="human_resources">" လူ့အင်အားအရင်းအမြစ်"</string>
+    <string name="financial_literacy">ငွေကြေးတတ်မြောက်မှု</string>
+    <string name="register">" မှတ်ပုံတင်ပါ"</string>
+    <string name="word">စထာပါနာ လီမိတက်</string>
+    <string name="limited">လီမိတက်</string>
+    <string name="login">Login</string>
+    <string name="home">Home</string>
+    <string name="Loan">ချေးငွေအမျိုးအစား</string>
+    <string name="hello_blank_fragment">" မင်္ဂလာပါ အပိုင်းဗလာ"</string>
+    <string name="API">AIzaSyBSZCn_WxIXXzIqO-nv6VovHOSsGCqU-nY</string>
+    <string name="hyperlink1">"<a href="">အသေးစိတ်ကြည့်ရှုရန်</a> "</string>
+    <string name="hyperlink2">"<a href="">အသေးစိတ်ကြည့်ရှုရန်</a> "</string>
+    <string name="nyein">Nyein Win is the best person.</string>
+</resources>
