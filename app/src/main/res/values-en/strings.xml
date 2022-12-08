@@ -22,5 +22,6 @@
     <string name="Loan">loan type</string>
     <string name="API">AIzaSyBSZCn_WxIXXzIqO-nv6VovHOSsGCqU-nY</string>
     <string name="hyperlink1">"<a href="">see detail</a> "</string>
+    <string name="award">Awards</string>
 
 </resources>

@@ -12,6 +12,7 @@
     <string name="limited">Limited</string>
     <string name="login">Login</string>
     <string name="home">Home</string>
+    <string name="award">Awards</string>
     <string-array name="Method">
         <item>စီးပွားရေးချေးငွေ</item>
         <item>စိုက်ပျိုးရေးချေးငွေ</item>

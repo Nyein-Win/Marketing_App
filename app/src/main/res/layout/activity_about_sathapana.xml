@@ -15,12 +15,12 @@
         <com.google.android.material.tabs.TabItem
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="About Sathapana " />
+            android:text="@string/about_sathapana" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Awards" />
+            android:text="@string/award" />
 
 
     </com.google.android.material.tabs.TabLayout>
