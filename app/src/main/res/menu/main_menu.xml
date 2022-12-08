@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:tools="http://schemas.android.com/tools"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:id="@+id/nav_about"
         android:icon="@drawable/sathapana"
         android:title="@string/about_sathapana"
@@ -45,5 +46,16 @@
         android:icon="@drawable/login"
         android:title="@string/login"
         />
+
+<!--            <item-->
+<!--                android:id="@+id/hey"-->
+<!--                android:title=""-->
+<!--                app:actionLayout="@layout/language"-->
+<!--                app:showAsAction="always"-->
+<!--                />-->
+
+
+
+
 
 </menu>
