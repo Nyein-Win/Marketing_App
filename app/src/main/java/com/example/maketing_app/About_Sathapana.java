@@ -33,7 +33,6 @@ public class About_Sathapana extends AppCompatActivity {
             resources = context.getResources();
             setTitle(resources.getString(R.string.services));
             lang_selected=0;
-
             VPAdapter vpAdapter=new VPAdapter(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
             vpAdapter.addFragment(new en_about_sathapana_fragment(),"About Sathapana");
             vpAdapter.addFragment(new award_fragment(),"Awards");
@@ -48,7 +47,6 @@ public class About_Sathapana extends AppCompatActivity {
             vpAdapter.addFragment(new about_sathapan_fragment(),"စထာပါနာ အကြောင်း");
             vpAdapter.addFragment(new my_award_fragment(),"ဆုများ");
             viewPager.setAdapter(vpAdapter);
-
         }
     }
 }
