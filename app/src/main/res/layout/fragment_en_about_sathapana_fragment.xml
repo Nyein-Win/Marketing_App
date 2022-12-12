@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".en_about_sathapana_fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:textSize="18sp"
+                android:text="SATHAPANA LIMITED Microfinance
+service provider A company and capital
+in January 2015 for US$15 million
+An organization that was founded
+.\n
+The word for prayer is from the Khmer language
+After descending, Build by default
+Or it can be interpreted as to build. Cambodia
+The country's prominent microfinance institution
+SATHAPANA INSTITUTION from Cambodia
+Maruhan Bank Japan cu:ule: SATHAPANA Bank
+PLC was established in Cambodia.
+SATHAPANA Limited, established in Myanmar,
+Myanmar is SATHAPANA in Cambodia
+A sister company of Bank PLC.\nSATHAPANA'S
+Microfinance Services
+Business since August 2015
+It has been operating for more than 2 years. Business during 3 years
+A lot of progress has been achieved. in today's time
+If measured by loan balance, Myanmar's second
+Microfinance, which is the largest in the North
+It has become a service company.\n
+Sathapana, 2015 Small in August
+Financial services started operating in 2016
+2 years, I got a permanent license in July. 2020
+In January, the capital was USD (5) million
+added. and the authorized capital of the Company
+To strengthen financial commitments
+2021 5 million US dollars again in May
+Added.\n
+Since its inception, the company has
+Financial services accessible to everyone
+and by providing Everyone (especially
+poor people living in rural areas)
+By providing more credit services
+and the economic development of Myanmar
+is helping. Shapanalimi
+As time went on, it made amazing progress
+have been obtained, and the loan balance at this time
+If measured by the number of loan members
+Myanmar's second and third largest micro-currency
+It has become a service business." />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

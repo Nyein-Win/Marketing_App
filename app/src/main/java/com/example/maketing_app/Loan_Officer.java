@@ -7,7 +7,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.pm.PackageManager;
+import android.content.res.Resources;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -38,15 +40,37 @@ import java.util.Locale;
 
 public class Loan_Officer extends AppCompatActivity {
     Button mSaveBtn;
-    TextView text;
+    TextView text,txt1,txt2,txt3,txt4,txt5;
+    Context context;
+    Resources resources;
+    int lang_selected;
     private static final int STORAGE_CODE = 1000;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loan_officer);
-        getSupportActionBar().setTitle("Loan Officer");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        txt1=findViewById(R.id.Lo_txt1);
+        txt2=findViewById(R.id.Lo_txt2);
+        txt3=findViewById(R.id.Lo_txt3);
+        txt4=findViewById(R.id.Lo_txt4);
+        txt5=findViewById(R.id.Lo_txt5);
+
+        if (LocaleHelper.getLanguage(Loan_Officer.this).equalsIgnoreCase("en")) {
+            context = LocaleHelper.setLocale(Loan_Officer.this, "en");
+            resources = context.getResources();
+            setTitle(resources.getString(R.string.human_resources));
+            lang_selected=0;
+            setString();
+        } else if (LocaleHelper.getLanguage(Loan_Officer.this).equalsIgnoreCase("my")) {
+            context = LocaleHelper.setLocale(Loan_Officer.this, "my");
+            resources = context.getResources();
+            setTitle(resources.getString(R.string.human_resources));
+            lang_selected=1;
+            setString();
+
+        }
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE)
                 != PackageManager.PERMISSION_GRANTED) {
@@ -54,7 +78,6 @@ public class Loan_Officer extends AppCompatActivity {
         }
 
         mSaveBtn = (Button) findViewById(R.id.downloading);
-        text = (TextView) findViewById(R.id.textView28);
 
         mSaveBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,6 +87,16 @@ public class Loan_Officer extends AppCompatActivity {
         });
 
     }
+
+    private void setString() {
+        txt1.setText(resources.getString(R.string.specialize_LO));
+        txt2.setText(resources.getString(R.string.position_summary));
+        txt3.setText(resources.getString(R.string.LO_JD));
+        txt4.setText(resources.getString(R.string.Lo_DR));
+        txt5.setText(resources.getString(R.string.LO_JDT));
+
+    }
+
     private void savePdf() {
         //create object of Document class
         Document mDoc = new Document();

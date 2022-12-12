@@ -17,28 +17,23 @@
             android:orientation="vertical"
             tools:ignore="MissingConstraints">
                        <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/FM_txt1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
                 android:layout_marginStart="20dp"
-                android:text="ငွေကြေးစီမံခန့်ခွဲ့မှု"
+                android:text="@string/FM_text1"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp"/>
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/FM_txt2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="လူတိုင်းမှာ ဝယ်ချင်တာတွေ၊ လုပ်ချင်တဲ့အလုပ်တွေ ရှိကြပါတယ်။
-ပစ္စည်းတစ်ခုခု ဝယ်ချင်တာဖြစ်ဖြစ်၊ လုပ်ငန်းတစ်ခုခု လုပ်ချင်တာဖြစ်
-ဖြစ် ကိုယ်လုပ်ချင်တဲ့အလုပ်တွေ အကောင်အထည်ပော်ဖို့ အဓိကလို
-အပ်တာ ပိုက်ဆံပါ။ ဘာရည်မှန်းချက်မှ ရှိမနေဘူးဆိုရင် ပိုက်ဆံစုဖြစ်
-မှာ မဟုတ်ပါဘူး။ ဒာကြောင့် ရည်မှန်းချက်ထားပြီး ပိုက်ဆံစုဖို့လိုပါ
-တယ်။ ဥပမာ-အိမ်ဝယ်ဖို့၊ ကားဝယ်ဖို့ ပိုက်ဆံစုမယ်ဆိုတာမျိုးပေါ့။"
+                android:text="@string/FM_text2"
                 android:textSize="18sp" />
 
 

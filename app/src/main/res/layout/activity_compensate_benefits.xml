@@ -16,7 +16,7 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/textView37"
+                android:id="@+id/CB_txt1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textSize="18sp"
@@ -24,20 +24,7 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginEnd="15dp"
                 android:layout_marginBottom="15dp"
-                android:text="A structured compensation and benefits program enable SPNM to implement an equitable
-and fair system that helps driving organizational performance. A competitive compensation and benefits program enable
-SPNM to attract, retain and motivate employees and  it also encourages employee to provide their commitment,
-loyalty and improved productivity. The main purpose of this procedure is to set out the process and procedures to determine
-staff salary structure, ensure that staff are duly rewards for good performance and provides for compliance with
-statutory regulations.\n\nIn company, payroll can simply be stated as the sum of all financial records of salaries
-for an employee, wages, bonuses and deductions. From an ethics in business viewpoint payroll is a critical team in HR
-department as employees are responsive to payroll errors and irregularities: good employee morale requires payroll
-to be paid timely and accurately. The primary mission of the payroll department is to ensure that all employees
-are paid accurately and timely with the correct withholdings and deductions, and to ensure the withholdings and
-duductions are remitted in a timely manner.\n\nBenifits and compensation packages also include over time, leave,
-incentive, provident fund, allowance and healthcare allowance, bonuses and much more. The HR department will
-play a key role in deciding on the benefits packages offered, as well as ensuring their smooth operation.
-" />
+                android:text="@string/CB_text1" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

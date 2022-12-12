@@ -7,15 +7,11 @@
     tools:context=".RecruitmentPolicity">
 
     <TextView
-        android:id="@+id/textView29"
+        android:id="@+id/RP_txt1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="16dp"
-        android:text="All Candidates,whether internal or external when applying for a vacancy at SPNM, should go
-through recruitment and selection process as explain below. They will first have to
-submit their CV together with their education certificates documents. Upon being short listed
-they will be contacted for to complete an interview. They should be aware that SPNM will
-conduct reference checks before a final decision to offer or confirm employed."
+        android:text="@string/RP_text1"
         android:textSize="18sp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"

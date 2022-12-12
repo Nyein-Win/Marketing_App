@@ -3,8 +3,11 @@ package com.example.maketing_app;
 import static java.lang.Integer.parseInt;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentPagerAdapter;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
+import android.content.res.Resources;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -24,23 +27,28 @@ public class CalculatorLoan extends AppCompatActivity implements View.OnClickLis
     public Spinner spinner;
     public EditText user_amount, user_term;
     public View view2, view3;
-    public TextView equal, nyein_01, equal1, equal2, equal3, equal4, equal5, equal001, final_txt, final_txt1, last_time, last_amount, up_fees, up_fees1, social_txt, social_txt1, saving_txt, saving_txt1, usr_loan, usr_interest, usr_period, usr_txt11, usr_txt22, usr_txt33, monthly_debt, monthly_deb1, u_prin, u_prin1, total_txt, total_txt1;
+    public TextView t1,t2, equal, nyein_01, equal1, equal2, equal3, equal4, equal5, equal001, final_txt, final_txt1, last_time, last_amount, up_fees, up_fees1, social_txt, social_txt1, saving_txt, saving_txt1, usr_loan, usr_interest, usr_period, usr_txt11, usr_txt22, usr_txt33, monthly_debt, monthly_deb1, u_prin, u_prin1, total_txt, total_txt1;
     public int i;
     public Button calculate;
+    Context context;
+    Resources resources;
+    int lang_selected;
 
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculator_loan);
-        getSupportActionBar().setTitle("Loan Calculator");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        t1=findViewById(R.id.loanAmt);
+        t2=findViewById(R.id.tenor);
 
         spinner = findViewById(R.id.spinner2);
 
         user_amount = findViewById(R.id.user_Amount);
         user_term = findViewById(R.id.user_Term);
-        findViewById(R.id.cal_laon).setOnClickListener(this);
+        calculate=findViewById(R.id.cal_loan);
         usr_loan = findViewById(R.id.txt1);
         usr_interest = findViewById(R.id.txt2);
         usr_period = findViewById(R.id.txt3);
@@ -74,30 +82,58 @@ public class CalculatorLoan extends AppCompatActivity implements View.OnClickLis
         last_time = findViewById(R.id.t_txt01);
         last_amount = findViewById(R.id.t_txt02);
         nyein_01 = findViewById(R.id.nyein_01);
+
+        if (LocaleHelper.getLanguage(CalculatorLoan.this).equalsIgnoreCase("en")) {
+            context = LocaleHelper.setLocale(CalculatorLoan.this, "en");
+            resources = context.getResources();
+            setTitle(resources.getString(R.string.loan_calculator));
+            lang_selected=0;
+            setString();
+            calculate.setOnClickListener(this);
+
+
+
+        } else if (LocaleHelper.getLanguage(CalculatorLoan.this).equalsIgnoreCase("my")) {
+            context = LocaleHelper.setLocale(CalculatorLoan.this, "my");
+            resources = context.getResources();
+            setTitle(resources.getString(R.string.loan_calculator));
+            lang_selected=1;
+            setString();
+            calculate.setOnClickListener(this);
+
+
+        }
+    }
+
+    private void setString() {
+    t1.setText(resources.getString(R.string.loanAmt));
+    t2.setText(resources.getString(R.string.tenor));
+    calculate.setText(resources.getString(R.string.Cal_loan));
     }
 
     @Override
     public void onClick(View view) {
 
+
         String t1 = user_amount.getText().toString();
         String t2 = user_term.getText().toString();
         spinner_data = spinner.getSelectedItem().toString();
         if (TextUtils.isEmpty(t1)) {
-            user_amount.setError("error!");
+            user_amount.setError(resources.getString(R.string.error0));
             return;
         } else if (TextUtils.isEmpty(t2)) {
-            user_term.setError("error!");
+            user_term.setError(resources.getString(R.string.error0));
             return;
         } else if (Integer.parseInt(t1) < 300000) {
-            user_amount.setError("(၃) သိန်းမှ သိန်း (၁၀၀) ထိ");
+            user_amount.setError(resources.getString(R.string.error1));
         } else if (Integer.parseInt(t1) > 10000000) {
-            user_amount.setError("(၃) သိန်းမှ သိန်း (၁၀၀) ထိ");
+            user_amount.setError(resources.getString(R.string.error1));
         } else if (Integer.parseInt(t2) > 30) {
-            user_term.setError("၆ လ မှ လ ၃၀ အောက်");
+            user_term.setError(resources.getString(R.string.error2));
         } else if (Integer.parseInt(t2) <= 5) {
-            user_term.setError("၆ လ မှ လ ၃၀ အောက်");
-        } else if (spinner_data.equals("စီးပွားရေးချေးငွေ")) {
-            Toast.makeText(this, "စီးပွားရေးချေးငွေ", Toast.LENGTH_SHORT).show();
+            user_term.setError(resources.getString(R.string.error2));
+        } else if (spinner_data.equals("Business Loans")) {
+            Toast.makeText(this, resources.getString(R.string.B_loan), Toast.LENGTH_SHORT).show();
             equal.setText("=");
             equal1.setText("=");
             equal2.setText("=");
@@ -124,32 +160,32 @@ public class CalculatorLoan extends AppCompatActivity implements View.OnClickLis
             String total001 = formatter.format(total00);
             saving1 = formatter.format(saving);
             total1 = formatter.format(total);
-            usr_loan.setText("ချေးငွေပမာဏ");
-            usr_interest.setText("ပြန်ဆပ်ငွေ");
-            usr_period.setText("ကာလ");
-            monthly_debt.setText("လစဉ်ပေးဆပ်ရမည့် အရင်း");
-            u_prin.setText("ပထမ လ ပေးဆပ်ရမည် အတိုး");
-            usr_txt11.setText(u_amount + "ကျပ်");
-            usr_txt22.setText(u_principle + "ကျပ်");
-            usr_txt33.setText(user_term.getText().toString() + "လ");
-            monthly_deb1.setText(u_debt + "ကျပ်");
-            u_prin1.setText(u_p + "ကျပ်");
+            usr_loan.setText(resources.getString(R.string.loanAmt));
+            usr_interest.setText(resources.getString(R.string.Rpayment));
+            usr_period.setText(resources.getString(R.string.tnor));
+            monthly_debt.setText(resources.getString(R.string.principal));
+            u_prin.setText(resources.getString(R.string.interest_1st));
+            usr_txt11.setText(u_amount +" "+ resources.getString(R.string.mmk));
+            usr_txt22.setText(u_principle +" "+resources.getString(R.string.mmk));
+            usr_txt33.setText( user_term.getText().toString() +"-"+  resources.getString(R.string.month));
+            monthly_deb1.setText(u_debt +" "+ resources.getString(R.string.mmk));
+            u_prin1.setText(u_p +" "+ resources.getString(R.string.mmk));
             view2.setBackgroundColor(Color.BLACK);
             view3.setBackgroundColor(Color.BLACK);
-            total_txt.setText("ပထမ အကြိမ်သွင်းငွေ");
-            total_txt1.setText(total1 + "ကျပ်");
-            saving_txt.setText("မဖြစ်မနေစုဆောင်းငွေ 5% ");
-            saving_txt1.setText(saving1 + "ကျပ်");
-            up_fees.setText("ဝန်ဆောင်မှုနှင့်စာရွက်စာတမ်းခ (" + user_term.getText().toString() + ")လ");
-            up_fees1.setText(upfront_fees + "ကျပ်");
-            social_txt.setText("လူမှုဖူလုံရေး(" + user_term.getText().toString() + ")လ");
-            social_txt1.setText(social_fees + "ကျပ်");
+            total_txt.setText(resources.getString(R.string.first_D));
+            total_txt1.setText(total1 +" "+resources.getString(R.string.mmk));
+            saving_txt.setText(resources.getString(R.string.saving));
+            saving_txt1.setText(saving1 +" "+ resources.getString(R.string.mmk));
+            up_fees.setText(resources.getString(R.string.upfont)+"(" + user_term.getText().toString() + ")"+resources.getString(R.string.month));
+            up_fees1.setText(upfront_fees +" "+ resources.getString(R.string.mmk));
+            social_txt.setText(resources.getString(R.string.social_welfare)+"(" + user_term.getText().toString() + ")"+resources.getString(R.string.month));
+            social_txt1.setText(social_fees +" "+resources.getString(R.string.mmk));
             last_time.setText("");
             last_amount.setText("");
-            final_txt.setText("စုစုပေါင်း ");
-            final_txt1.setText(total001 + "ကျပ်");
-        } else if (spinner_data.equals("စိုက်ပျိုးရေးချေးငွေ")) {
-            Toast.makeText(this, "စိုက်ပျိုးရေးချေးငွေ", Toast.LENGTH_SHORT).show();
+            final_txt.setText(resources.getString(R.string.total));
+            final_txt1.setText(total001 +" "+resources.getString(R.string.mmk));
+        } else if (spinner_data.equals("Agricultural Loans")) {
+            Toast.makeText(this, resources.getString(R.string.Ag_loan), Toast.LENGTH_SHORT).show();
             equal.setText("=");
             equal1.setText("=");
             equal2.setText("=");
@@ -176,30 +212,30 @@ public class CalculatorLoan extends AppCompatActivity implements View.OnClickLis
             String last_total_amount = formatter.format(last_total);
             saving1 = formatter.format(saving);
             total1 = formatter.format(total);
-            usr_loan.setText("ချေးငွေပမာဏ");
-            usr_interest.setText("ပြန်ဆပ်ငွေ");
-            usr_period.setText("ကာလ");
-            monthly_debt.setText("လစဉ်ပေးဆပ်ရမည့် အရင်း");
-            u_prin.setText("လစဉ်ပေးဆပ်ရမည့် အတိုး");
-            usr_txt11.setText(u_amount + "ကျပ်");
-            usr_txt22.setText(u_principle + "ကျပ်");
-            usr_txt33.setText(user_term.getText().toString() + "လ");
-            monthly_deb1.setText(0 + "ကျပ်");
-            u_prin1.setText(u_p + "ကျပ်");
+            usr_loan.setText(resources.getString(R.string.loanAmt));
+            usr_interest.setText(resources.getString(R.string.tenor));
+            usr_period.setText(resources.getString(R.string.tnor));
+            monthly_debt.setText(resources.getString(R.string.principal));
+            u_prin.setText(resources.getString(R.string.monthly_interest));
+            usr_txt11.setText(u_amount +" "+ resources.getString(R.string.mmk));
+            usr_txt22.setText(u_principle +" "+ resources.getString(R.string.mmk));
+            usr_txt33.setText(user_term.getText().toString() +"-"+  resources.getString(R.string.month));
+            monthly_deb1.setText(0 +" "+ resources.getString(R.string.mmk));
+            u_prin1.setText(u_p +" "+ resources.getString(R.string.mmk));
             view2.setBackgroundColor(Color.BLACK);
             view2.setBackgroundColor(Color.BLACK);
-            total_txt.setText("ပထမ အကြိမ်သွင်းငွေ");
-            total_txt1.setText(total1 + "ကျပ်");
-            saving_txt.setText("မဖြစ်မနေစုဆောင်းငွေ 5% ");
-            saving_txt1.setText(saving1 + "ကျပ်");
-            up_fees.setText("ဝန်ဆောင်မှုနှင့်စာရွက်စာတမ်းခ (" + user_term.getText().toString() + ")လ");
-            up_fees1.setText(upfront_fees + "ကျပ်");
-            social_txt.setText("လူမှုဖူလုံရေး(" + user_term.getText().toString() + ")လ");
-            social_txt1.setText(social_fees + "ကျပ်");
-            last_time.setText("နောက်ဆုံးအကြိမ် သွင်းငွေ");
-            last_amount.setText(last_total_amount + "ကျပ်");
-            final_txt.setText("စုစုပေါင်း ");
-            final_txt1.setText(total001 + "ကျပ်");
+            total_txt.setText(resources.getString(R.string.first_D));
+            total_txt1.setText(total1 +" "+resources.getString(R.string.mmk));
+            saving_txt.setText(resources.getString(R.string.saving));
+            saving_txt1.setText(saving1 +" "+resources.getString(R.string.mmk));
+            up_fees.setText(resources.getString(R.string.upfont)+"(" + user_term.getText().toString() + ")"+resources.getString(R.string.month));
+            up_fees1.setText(upfront_fees +resources.getString(R.string.mmk));
+            social_txt.setText(resources.getString(R.string.social_welfare)+"(" + user_term.getText().toString() + ")"+resources.getString(R.string.month));
+            social_txt1.setText(social_fees +" "+resources.getString(R.string.mmk));
+            last_time.setText(resources.getString(R.string.last_D));
+            last_amount.setText(last_total_amount +" "+ resources.getString(R.string.mmk));
+            final_txt.setText(resources.getString(R.string.total));
+            final_txt1.setText(total001 +" "+resources.getString(R.string.mmk));
 
         }
 

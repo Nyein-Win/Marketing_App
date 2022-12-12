@@ -32,12 +32,12 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView6"
+                        android:id="@+id/Lo_txt1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:layout_marginTop="15dp"
-                        android:text="Specialized Loan Officer"
+                        android:text="@string/specialize_LO"
                         android:textColor="@color/headercolor"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -169,33 +169,30 @@
                     </LinearLayout>
 
                     <TextView
-                        android:id="@+id/textView25"
+                        android:id="@+id/Lo_txt2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:layout_marginTop="15dp"
-                        android:text="Position Summary"
+                        android:text="@string/position_summary"
                         android:textColor="@color/headercolor"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:id="@+id/textView26"
+                        android:id="@+id/Lo_txt3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
-                        android:text="The Loan Office Job is to do direct marking and sell loan products thereafter
-  ,conduct due dillgence before recruiting abd selecting qualified borrowers. Building good relationship with
-target segments/clientele and prviding high quality of customer service which will help Loan Officer to attract
-new and/or maintaining existing clienteles."
+                        android:text="@string/LO_JD"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:id="@+id/textView27"
+                        android:id="@+id/Lo_txt4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:layout_marginTop="15dp"
-                        android:text="Duties And Responsibilities"
+                        android:text="@string/Lo_DR"
                         android:textColor="@color/headercolor"
                         android:textSize="17sp" />
 
@@ -206,19 +203,10 @@ new and/or maintaining existing clienteles."
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/textView28"
+                            android:id="@+id/Lo_txt5"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="(1) Research and analyze market area for promoting
-selling company product to the public.\n
-(2)Deliver training on loan product,policy and procedure to customers or communities.\n
-(3)Build and maintain good relationship with colleagues, customers, local authorities and other stakeholders.\n
-(4)Implement target plan distributed by chief loan officer or branch manager.\n
-(5)Perform data collection, validation and appraisal to all loan applicants before recommending for approval.\n
-(6)Help clients to complete loan application and loan agreement than explain them to make sure that they are
-will understand of all clauses in those document especially loan agreement.\n
-(7)Perform loan monitoring, reviewing and solve problem related to default loans.\n
-(8)Performed other tasks as assigned by manager.\n"
+                            android:text="@string/LO_JDT"
                             android:textSize="17sp" />
 
                     </LinearLayout>
@@ -231,7 +219,7 @@ will understand of all clauses in those document especially loan agreement.\n
                         android:layout_marginTop="20dp"
                         android:layout_marginBottom="15dp"
                         android:background="@color/headercolor"
-                        android:text="Download Application Form"
+                        android:text="@string/download"
                         android:textColor="@color/white" />
 
                 </LinearLayout>

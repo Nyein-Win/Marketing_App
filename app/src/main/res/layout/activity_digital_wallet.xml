@@ -19,27 +19,23 @@
 
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/DW_txt1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
                 android:layout_marginStart="20dp"
-                android:text="မိုဘိုင်းလ်ဝေါလက်(Mobile Wallet)ဆိုတာဘာလဲ"
+                android:text="@string/DW_text1"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp"/>
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/DW_txt2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="မိုဘိုင်းလ်ဝေါလက် (Mobile Wallet) တွေ ခေတ်စားနေပြီနော်။ လူတိုင်းသုံးနေတဲ့အချိန်မှာ
-မိုဘိုင်းလ်ဝေါလက် (Mobile Wallet) အကြောင်း မသိလို့တော့ မဖြစ်သေးပါဘူး။\n
-မိုဘိုင်းလ်ဝေါလက် (Mobile Wallet) ဆိုတာ အလွယ်ဆုံးပြောရရင်တော့ ဖုန်းထဲမှာရှိတဲ့ ဒစ်ဂျစ်
-တယ်ပိုက်ဆံအိတ် တစ်ခုပေါ့။ ကိုယ့်ဖုန်းထဲမှာ ပိုက်ဆံအိတ်ရှိနေတော့ အပြင်မှာ ပိုက်ဆံအိတ်ကိုင်စရာ
-မလိုတော့ဘဲ ဖုန်းကနေ ငွေရေးကြေးရေး ကိစ္စတွေကို လုပ်လို့ရတာပေါ့။"
+                android:text="@string/DW_text2"
                 android:textSize="18sp" />
 
         </LinearLayout>

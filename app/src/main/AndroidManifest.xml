@@ -81,20 +81,6 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".new1"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".new8"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".Play_video"
             android:exported="false">
             <meta-data

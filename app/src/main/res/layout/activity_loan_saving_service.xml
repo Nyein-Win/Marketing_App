@@ -19,44 +19,40 @@
 
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/I_txt1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
                 android:layout_marginStart="20dp"
-                android:text="ချေးငွေဆိုတာဘာလဲ"
+                android:text="@string/L_text1"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp"/>
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/I_txt2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="ချေးငွေဆိုတာက ကိုယ့်မာ ငွေမရှိတဲ့အချိန်မှာ အရေးပေါ်ကိစ္စတစ်ခုခုကြောင့် ငွေလိုလာလို့ တစ်ယောက်ယောက်
-၊ ဒါမှမဟုတ် ချေးငွေအဖွဲ့အစည်းတစ်ခုခုဆီက ငွေချေးလိုက်တာကို ပြောတာပါ။ ငွေချေးပြီဆိုရင်တော့ ပြန်ဆပ်ရမယ့်
-အချိန်အတိုင်းအတာတစ်ခု မရောက်သေးခင် ချေးထားတဲ့ ငွေပမာဏအတွက် ကျသင့်တဲ့အတိုးကို ပုံမှမှန်ပေးရပါတယ်။"
+                android:text="@string/L_text2"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/textView14"
+                android:id="@+id/I_txt3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:layout_marginStart="20dp"
-                android:text="ငွေစုဆောင်းခြင်း"
+                android:text="@string/L_text3"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp"/>
 
             <TextView
-                android:id="@+id/textView15"
+                android:id="@+id/I_txt4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="စုဆောင်းတယ်ဆိုတာက ကိုယ့်ရဲ့ဝင်ငွေတွေကို အနာဂတ်အတွက် စုဆောင်းတာကို ပြောတာဖြစ်ပါတယ်။
-အဲ့လို စုဆောင်းထားမှသာ နောင်ရေးအတွက် စိတ်အေးရမှာဖြစ်သလို အခြေအနေတစ်ခုခု ကြုံလာရင်လည်း
-အသုံးဝင်မှာပဲ ဖြစ်ပါတယ်။"
+                android:text="@string/L_text4"
                 android:layout_marginEnd="15dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"

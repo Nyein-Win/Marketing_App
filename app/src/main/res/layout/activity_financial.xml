@@ -36,17 +36,18 @@
                     app:srcCompat="@drawable/income1" />
 
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/ftxt1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
-                    android:text="Income,Expenditure,Budget"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/F_IEB"
                     android:textColor="@color/headercolor"
                     android:textSize="20sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/imageView3"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.509" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>
@@ -83,13 +84,13 @@
                     app:srcCompat="@drawable/loanicon1" />
 
                 <TextView
-                    android:id="@+id/textView21"
+                    android:id="@+id/ftxt2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:layout_marginEnd="177dp"
                     android:gravity="center"
-                    android:text="Loan,Saving,Services"
+                    android:text="@string/F_LSS"
                     android:textColor="@color/headercolor"
                     android:textSize="20sp"
                     android:textStyle="bold"
@@ -132,11 +133,11 @@
                     app:srcCompat="@drawable/debtmanage" />
 
                 <TextView
-                    android:id="@+id/textView31"
+                    android:id="@+id/ftxt3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
-                    android:text="Debt Management"
+                    android:text="@string/F_DM"
                     android:textColor="@color/headercolor"
                     android:textSize="20sp"
                     android:textStyle="bold"
@@ -182,13 +183,13 @@
                     app:srcCompat="@drawable/ficons" />
 
                 <TextView
-                    android:id="@+id/textView41"
+                    android:id="@+id/ftxt4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:layout_marginEnd="177dp"
                     android:gravity="center"
-                    android:text="Financial Management"
+                    android:text="@string/F_FM"
                     android:textColor="@color/headercolor"
                     android:textSize="20sp"
                     android:textStyle="bold"
@@ -233,12 +234,12 @@
                     app:srcCompat="@drawable/dwalleticon" />
 
                 <TextView
-                    android:id="@+id/textView51"
+                    android:id="@+id/ftxt5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:gravity="center"
-                    android:text="Degital Wallet"
+                    android:text="@string/F_DW"
                     android:textColor="@color/headercolor"
                     android:textSize="20sp"
                     android:textStyle="bold"

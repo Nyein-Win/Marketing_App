@@ -19,48 +19,40 @@
 
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/D_txt1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
                 android:layout_marginStart="20dp"
-                android:text="အကြွေးဆိုတာဘာလဲ"
+                android:text="@string/D_text1"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp"/>
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/D_txt2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="အကြွေးဆိုတာကတော့ သူများဆီက ပိုက်ဆံချေးလိုက်တဲ့အခါ ကိုယ့်မှာ အကြွေးတင်သွားတာကို ပြော
-တာပါ။ အကြွေးဆိုတိုင်း မကောင်းတာတော့မဟုတ်ပါဘူးနော်။ အကြွေးမှာလည်း အကြွေးကောင်းနှင့်
-အကြွေးဆိုး ဆိုတာရှိပါတယ်။ ဒါကြောင့် အကြွေးတင်သွားတယ်ဆိုရင်လည်း အကြွေးကောင်းဖြစ်ဖို့
-လိုပါမယ်နော်။"
+                android:text="@string/D_text2"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/textView14"
+                android:id="@+id/D_txt3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:layout_marginStart="20dp"
-                android:text="ဝင်ငွေနဲ့အကြွေး"
+                android:text="@string/D_text3"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp"/>
 
             <TextView
-                android:id="@+id/textView15"
+                android:id="@+id/D_txt4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ဝင်ငွေဆိုတာ နည်းလမ်းအမျိုးမျိုးနဲ့ ဝင်လာတဲ့ငွေအားလုံးကို ဝင်ငွေလို့ခော်ပါတယ်။ ဥပမာ- သားသမီး
-တွေဆီက ထောက်ပံ့တဲ့ငွေ၊ ကိုယ်ပိုင်အိမ်၊ မြေငှားခ၊ နေ့စားလုပ်အားခ၊ လခစား၊ ကိုယ်ပိုင်စီးပွားရေးစတဲ့
-နည်းလမ်းမျိုးစုံက ဝင်တဲ့ငွေတွေကို ပြောတာဖြစ်ပါတယ်။ ဒါပေမယ့်
-ချေးငွေကိုတော့ ဝင်ငွေလို့မသတ်မှတ်ပါဘူး။ \n
-ပိုက်ဆံချေးလိုက်ပြီဆိုကတည်းက အချိန်တန်ရင်ပြန်ဆပ်ဖို့ လိုတဲ့အတွက်
-အကြွေးလို့သတ်မှတ်ပါတယ်။"
+                android:text="@string/D_text4"
                 android:layout_marginEnd="15dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"

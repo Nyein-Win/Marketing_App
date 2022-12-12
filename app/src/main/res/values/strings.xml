@@ -14,8 +14,8 @@
     <string name="home">Home</string>
     <string name="award">Awards</string>
     <string-array name="Method">
-        <item>စီးပွားရေးချေးငွေ</item>
-        <item>စိုက်ပျိုးရေးချေးငွေ</item>
+        <item>Business Loans</item>
+        <item>Agricultural Loans</item>
     </string-array>
     <string-array name="Language">
         <item>English</item>
@@ -32,6 +32,84 @@
     <string name="Loan">loan type</string>
     <string name="API">AIzaSyBSZCn_WxIXXzIqO-nv6VovHOSsGCqU-nY</string>
     <string name="hyperlink1">"<a href="">အသေးစိတ်ကြည့်ရှုရန်</a> "</string>
+    <string name="repayment_method">Repayment Method</string>
+    <string name="tenor">Loan Tenor</string>
+    <string name="Cal_loan">Calculate</string>
+    <string name="tnor">Tenor</string>
+    <string name="Rpayment">Repay</string>
+    <string name="principal">Monthly principal</string>
+    <string name="interest_1st">Interest paid  first month</string>
+    <string name="monthly_interest">Monthly Interest</string>
+    <string name="first_D">First deposit</string>
+    <string name="saving">Compulsory Savings (5)%</string>
+    <string name="upfont">Upfront Fees</string>
+    <string name="social_welfare">Social Welfare Fees</string>
+    <string name="last_D">Last deposit</string>
+    <string name="total">Total</string>
+    <string name="Ag_loan">Agricultural Loan</string>
+    <string name="B_loan">Business Loan</string>
+    <string name="R_Pay">Reimbursement at the office.</string>
+    <string name="R_Pay0">Digital reimbursement.</string>
+    <string name="brand_Address">" branch addresses details"</string>
+    <string name="ongo">Reimbursement by Ongo</string>
+    <string name="On_Re">Ongo Mobile will pay the loan repayment to the company as members of the company You can do it easily with Financial Service. Monthly loans as members You must take the repayment chart with you and submit it to the nearest Ongo service representative and ask for a receipt.\\nGroup Loan Clients What happened was one transaction for each member (for each Customer ID One time transfer) must be made. The whole group cannot be transferred in one transaction.\\nThe transfer fee is 250 kyats (two hundred and fifty kyats) per transaction.</string>
+    <string name="wave">Reimbursement by  Wave Moneyး</string>
+    <string name="wave_re">Members of Sathapana can easily make loan repayments to the company with Wave Money. As members, regardless of whether they live in any area where Sathapana Limited operates, or Regardless of which branch office you received the service from, you can easily pay from the nearest Wave Money representatives or from the Wave Application.\\n Group Loan Clients What happened was one transaction for each member (for each Customer ID One time transfer) must be made. Cannot be transferred in one transaction for the entire Group. The service fee charged is only 200 kyats (exactly two hundred kyats) per money transfer up to a maximum amount of 1,000,000 kyats (ten hundred thousand kyats).</string>
+    <string name="F_IEB">Income,Expenditure,Budget</string>
+    <string name="F_LSS">Loan,Saving,Services</string>
+    <string name="F_DM">Debt Management</string>
+    <string name="F_FM">Financial Management</string>
+    <string name="F_DW">Degital Wallet</string>
+    <string name="L_text1">What is a loan?</string>
+    <string name="L_text2">A loan is someone who needs money for an emergency when they don\'t have money , Or I\'m talking about borrowing money from a lending institution. If you borrow money, you will have to pay it back Before a certain amount of time is reached, the interest due on the amount borrowed is paid correctly.</string>
+    <string name="L_text3">Savings</string>
+    <string name="L_text4">Saving means saving your income for the future. Only if you collect it, you will be calm for the future, as well as if you encounter any situation It will be useful.</string>
+    <string name="I_text1">What is income?</string>
+    <string name="I_text2">Income is all the income that comes in from different ways. For example, support money from children, own house Fees for renting land , daily wage wages Earnings from various sources, such as income from one\'s own business, are called income. But the loan is not considered as income.</string>
+    <string name="I_text3">What are utility bills?</string>
+    <string name="I_text4">Income is all the income that comes in different ways is called income For example, support money from children. own house Fees for renting land , daily wage wages Earn money from a variety of sources, including income from your own business called. But the loan is not considered as income.</string>
+    <string name="loanAmt">Loan Amount</string>
+    <string name="mmk">MMK</string>
+    <string name="month">Month</string>
+    <string name="I_text5">What is a budget?</string>
+    <string name="I_text6">Income is all the income that comes in different ways is called income For example, support money from children. own house Fees for renting land , daily wage wages Earn money from a variety of sources, including income from your own business called. But the loan is not considered as income.</string>
+    <string name="D_text1">What is debt?</string>
+    <string name="D_text2">Debt means that when you borrow money from others, you become indebted to yourself. Debt is not always bad. Debt also has good debt and bad debt. So if you go into debt, you need to have good credit.</string>
+    <string name="D_text3">Income and debt</string>
+    <string name="D_text4">Income is all the money that comes in in different ways. For example: children Funding from private house land rent daily wage wages Own business There are various ways to talk about income. But The loan is not considered as income. \\n Since I have borrowed money, I need to pay it back on time Defined as debt.</string>
+    <string name="FM_text1">Financial management</string>
+    <string name="FM_text2">Everyone wants to buy, There are jobs they want to do. Whether you want to buy something, I want to do some business The main thing is to implement the work you want to do It is money. If you don\'t have any goals, save money Not at. That\'s why you need to save money with a goal . For example, to buy a house. Like saving money to buy a car.</string>
+    <string name="DW_text1">What is Mobile Wallet?</string>
+    <string name="DW_text2">Mobile wallets are now popular. When everyone is using it Not yet because I don\'t know about Mobile Wallet.\\n A mobile wallet is, in the simplest terms, digital in the phone A wallet. I have a wallet on my phone, so I have a wallet holder outside I can do financial matters from the phone without having to.</string>
+    <string name="error0">Please insert data</string>
+    <string name="error1">From 300,000 to 10,000,000</string>
+    <string name="error2">6 months to less than 30 months</string>
+    <string name="RM_text1">Recruitment Policy</string>
+    <string name="RM_text2">Current Vacancies</string>
+    <string name="RM_text3">Selection Process</string>
+    <string name="RM_text4">Learning And Development</string>
+    <string name="RM_text5">Compensate And Benifits</string>
+    <string name="RP_text1">All Candidates,whether internal or external when applying for a vacancy at SPNM, should go through recruitment and selection process as explain below. They will first have to submit their CV together with their education certificates documents. Upon being short listed they will be contacted for to complete an interview. They should be aware that SPNM will conduct reference checks before a final decision to offer or confirm employed.</string>
+    <string name="specialize_LO">Specialized Loan Officer</string>
+    <string name="L_Office">Loan Officer</string>
+    <string name="CLO">Chief Loan Officer</string>
+    <string name="DCLO">Deputy Chief Loan Officer</string>
+    <string name="cashier">Cashier</string>
+    <string name="teller">Teller</string>
+    <string name="AA">Assistant Accountant</string>
+    <string name="position_summary">Position Summary</string>
+    <string name="download">Download Application Form</string>
+    <string name="LO_JD">The Loan Office Job is to do direct marking and sell loan products thereafter   ,conduct due dillgence before recruiting abd selecting qualified borrowers. Building good relationship with target segments/clientele and prviding high quality of customer service which will help Loan Officer to attract new and/or maintaining existing clienteles.</string>
+    <string name="Lo_DR">Duties And Responsibilities</string>
+    <string name="LO_JDT">(1) Research and analyze market area for promoting selling company product to the public.\\n (2)Deliver training on loan product,policy and procedure to customers or communities.\\n (3)Build and maintain good relationship with colleagues, customers, local authorities and other stakeholders.\\n (4)Implement target plan distributed by chief loan officer or branch manager.\\n (5)Perform data collection, validation and appraisal to all loan applicants before recommending for approval.\\n (6)Help clients to complete loan application and loan agreement than explain them to make sure that they are will understand of all clauses in those document especially loan agreement.\\n (7)Perform loan monitoring, reviewing and solve problem related to default loans.\\n (8)Performed other tasks as assigned by manager.</string>
+    <string name="SP_text1">Process of External Selection</string>
+    <string name="SP_text2">The selection process will be conducted as follows: Receiving application and CV: Our procedure is as follow:\\n \\nAny candidate who does not explain their position in hie/her CV will not accepted. \\n\\nHuman Resources Department, on receiving a job announcement, will arrange to have a shortlist CV for each position, by location set up, position.\\n\\nThe Human Resources Department will wait the applications before the closing date for each position and conduct preliminary screening and pick more or less 10 potential CVs to for short-listing.</string>
+    <string name="SP_text3">Shortlist Procedure</string>
+    <string name="SP_text4">Short-listing of candidate will be done by the selection criteria such as previous job relevant experience, education background, professional job profile etc.\\n\\nCandidates who meet all selection criteria or have reasonable and suitable qualifications and skills to fulfil the job requirements will likely be short-listed for further consideration.\\n\\nShort-listed candidates will be advised by the HR department that they will be invited to an interview and will complete skills tests and will be required to provide original documentary evidence of any certificates, degrees or diplomas claimed in their application during the interview.</string>
+    <string name="SP_text5">Referenced Check</string>
+    <string name="SP_text6">Candidates who successfully passed the interview shall undergo the reference check through those referees quoted by the candidate. If any candidate at this stage appears to have had major problems or inappropriate behavior whist working with their previous employers, that particular candidate will no longer be condidered. Note that conduction reference checks at this stage with cnadidate\'s current employer is subject to agreement with candidate .\\n\\nHR will proceed employment process for candidates</string>
+    <string name="LD_text1">In order to ensure that our employees are equipped with the right kind of skills, knowledge and abilities to perform their assigned tasks, learning and development unit plays its crucial role towards the growth and success of our business.\\n\\nBy choosing the right type of training, we ensure that our employees  possess necessary skills for our business by regularly reviewing and updating our training materials and courses in line with the latest HR policies, procedures, and practices. To meet current and future business demands, the unit also provides both in-house training as well as training programs by outsource professionals.</string>
+    <string name="CB_text1">A structured compensation and benefits program enable SPNM to implement an equitable and fair system that helps driving organizational performance. A competitive compensation and benefits program enable SPNM to attract, retain and motivate employees and  it also encourages employee to provide their commitment, loyalty and improved productivity. The main purpose of this procedure is to set out the process and procedures to determine staff salary structure, ensure that staff are duly rewards for good performance and provides for compliance with statutory regulations.\\n\\nIn company, payroll can simply be stated as the sum of all financial records of salaries for an employee, wages, bonuses and deductions. From an ethics in business viewpoint payroll is a critical team in HR department as employees are responsive to payroll errors and irregularities: good employee morale requires payroll to be paid timely and accurately. The primary mission of the payroll department is to ensure that all employees are paid accurately and timely with the correct withholdings and deductions, and to ensure the withholdings and duductions are remitted in a timely manner.\\n\\nBenifits and compensation packages also include over time, leave, incentive, provident fund, allowance and healthcare allowance, bonuses and much more. The HR department will play a key role in deciding on the benefits packages offered, as well as ensuring their smooth operation.</string>
 
 
 </resources>

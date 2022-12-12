@@ -10,6 +10,7 @@ import androidx.viewpager.widget.ViewPager;
 
 
 import android.annotation.SuppressLint;
+import android.content.ClipData;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -49,11 +50,16 @@ public class SecondMain extends AppCompatActivity {
     Spinner spinner;
     Context context;
     Resources resources;
-    TextView about;
+    int lang_selected;
+    TextView about,services,branch,news,loan_cal,human_resource,financial_literacy,repayment_method;
+    MenuItem nav_about,nav_services,nav_brand,nav_news,nav_loan_cal,nav_human_resources,nav_financial_liter,nav_repayment,nav_register,nav_login;
 
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
+
+
         if(actionBarDrawerToggle.onOptionsItemSelected(item)){
             return true;
         }
@@ -78,13 +84,14 @@ public class SecondMain extends AppCompatActivity {
                     context = LocaleHelper.setLocale(SecondMain.this, "en");
                     resources = context.getResources();
                     setTitle(resources.getString(R.string.app_name));
+                 lang_selected=0;
                     setString();
-                 Toast.makeText(SecondMain.this,"Nyein Win",Toast.LENGTH_SHORT).show();
         }else  if(spinner.getSelectedItem().toString().equals("မြန်မာ")){
                  LocaleHelper.getLanguage(SecondMain.this).equalsIgnoreCase("my");
                  context = LocaleHelper.setLocale(SecondMain.this, "my");
                  resources = context.getResources();
                  setTitle(resources.getString(R.string.app_name));
+                 lang_selected=1;
             setTitle(resources.getString(R.string.app_name));
             setString();
         }
@@ -100,8 +107,19 @@ public class SecondMain extends AppCompatActivity {
     }
 
     private void setString() {
-        Toast.makeText(SecondMain.this,"ငြိမ်းဝင်း",Toast.LENGTH_SHORT).show();
         about.setText(resources.getString(R.string.about_sathapana));
+        services.setText(resources.getString(R.string.services));
+        branch.setText(resources.getString(R.string.branches));
+        news.setText(resources.getString(R.string.news));
+        loan_cal.setText(resources.getString(R.string.loan_calculator));
+        human_resource.setText(resources.getString(R.string.human_resources));
+        financial_literacy.setText(resources.getString(R.string.financial_literacy));
+        repayment_method.setText(resources.getString(R.string.repayment_method));
+
+
+
+
+
     }
 
 
@@ -115,6 +133,14 @@ public class SecondMain extends AppCompatActivity {
         navigationView=findViewById(R.id.navigation);
         viewPager=findViewById(R.id.viewpager);
         about=findViewById(R.id.about);
+        services=findViewById(R.id.m_services);
+        branch=findViewById(R.id.m_branch);
+        news=findViewById(R.id.m_news);
+        loan_cal=findViewById(R.id.m_loan_calculator);
+        human_resource=findViewById(R.id.m_human_resources);
+        financial_literacy=findViewById(R.id.m_financial_literacy);
+        repayment_method=findViewById(R.id.m_repayment);
+
 
 
         List<Integer> imagelist = new ArrayList<>();
@@ -160,9 +186,8 @@ public class SecondMain extends AppCompatActivity {
 
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
                 switch (item.getItemId()) {
-
-
                     case R.id.nav_about:
                         startActivity(new Intent(SecondMain.this, About_Sathapana.class));
                         drawerLayout.closeDrawer(GravityCompat.START);

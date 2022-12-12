@@ -33,9 +33,10 @@
                     android:layout_height="match_parent">
 
                     <TextView
+                       android:id="@+id/vc_txt1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Specialized Loan Officer"
+                        android:text="@string/specialize_LO"
                         android:layout_marginStart="40dp"
                         android:textColor="@color/headercolor"
                         android:textSize="20sp"
@@ -135,10 +136,10 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/ttl1"
+                        android:id="@+id/vc_txt2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Loan Officer"
+                        android:text="@string/L_Office"
                         android:layout_marginStart="40dp"
                         android:textColor="@color/headercolor"
                         android:textSize="20sp"
@@ -238,10 +239,10 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/ttc1"
+                        android:id="@+id/vc_txt3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Chief Loan Officer"
+                        android:text="@string/CLO"
                         android:layout_marginStart="40dp"
                         android:textColor="@color/headercolor"
                         android:textSize="20sp"
@@ -341,10 +342,10 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/ttd1"
+                        android:id="@+id/vc_txt4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Deputy Chief Loan Officer"
+                        android:text="@string/DCLO"
                         android:textColor="@color/headercolor"
                         android:textSize="20sp"
                         android:layout_marginStart="40dp"
@@ -444,10 +445,10 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/ttca1"
+                        android:id="@+id/vc_txt5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Cashier"
+                        android:text="@string/cashier"
                         android:layout_marginStart="40dp"
                         android:textColor="@color/headercolor"
                         android:textSize="20sp"
@@ -547,10 +548,10 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/ttt1"
+                        android:id="@+id/vc_txt6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Teller"
+                        android:text="@string/teller"
                         android:layout_marginStart="40dp"
                         android:textColor="@color/headercolor"
                         android:textSize="20sp"
@@ -651,10 +652,10 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/tta1"
+                        android:id="@+id/vc_txt7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Assistant Accountant"
+                        android:text="@string/AA"
                         android:layout_marginStart="40dp"
                         android:textColor="@color/headercolor"
                         android:textSize="20sp"
