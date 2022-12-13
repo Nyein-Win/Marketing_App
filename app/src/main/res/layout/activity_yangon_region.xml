@@ -17,7 +17,7 @@
             tools:ignore="MissingConstraints">
 
             <TextView
-                android:id="@+id/I_txt1"
+                android:id="@+id/headoffice"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -27,7 +27,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/I_txt2"
+                android:id="@+id/headofficetxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
@@ -37,7 +37,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/textView1"
+                android:id="@+id/insein"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -47,7 +47,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/I_txt5"
+                android:id="@+id/inseintxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
@@ -56,7 +56,7 @@
                 android:text="အမှတ် (၅၇၆)၊ လှိုင်မြစ်လမ်း၊ ပေါက်တောရပ်ကွက်၊ အင်းစိန်မြို့နယ်၊ ရန်ကုန်တိုင်းဒေသကြီး။"
                 android:textSize="18sp" />
             <TextView
-                android:id="@+id/halekutxt"
+                android:id="@+id/hlegu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -66,7 +66,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/haleku1txt"
+                android:id="@+id/hlegutxt1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
@@ -78,7 +78,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/dalatxt"
+                android:id="@+id/dala"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -88,7 +88,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/dalatxt1"
+                android:id="@+id/dalatxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
@@ -100,7 +100,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/typegyitxt"
+                android:id="@+id/typegyi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -110,7 +110,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/typegyitxt1"
+                android:id="@+id/typegyitxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
@@ -121,7 +121,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/threekhu"
+                android:id="@+id/thongwa"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -131,7 +131,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/threekhu1"
+                android:id="@+id/thongwatxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
@@ -143,7 +143,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/hlaingthayartxt"
+                android:id="@+id/hlaingthayar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -153,7 +153,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/hlaingthayartxt1"
+                android:id="@+id/hlaingthayartxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"

@@ -18,108 +18,103 @@
             tools:ignore="MissingConstraints">
 
             <TextView
-                android:id="@+id/sagaint1"
+                android:id="@+id/monywa"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
-                android:text="မုံရွာရုံးခွဲ"
+                android:text="@string/monywa"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/sagaint11"
+                android:id="@+id/monywatxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="အမှတ်(၈/၁၅)၊ ဇက်ကူးတို့ဆိပ်လမ်း၊ အေးသာယာရပ်ကွက်၊ မုံရွာမြို့နယ်၊ စစ်ကိုင်းတိုင်းဒေသကြီး။
-၀၉၉၆၉၇၅၂၆၅၃ ၊ ၀၉၉၆၉၇၅၂၆၅၄"
+                android:text="@string/monywatxt"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/sagaint2"
+                android:id="@+id/shwebo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
-                android:text="ရွှေဘိုရုံးခွဲ"
+                android:text="@string/shwebo"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/sagaint21"
+                android:id="@+id/shwebotxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="အမှတ်(၆၄၀)၊ ရွှေဘို-မြစ်ကြီးနားလမ်းမကြီးဘေး၊ သူဇာရပ်ကွက်သစ်၊ အမှတ်(၁၀)ရပ်ကွက်၊ ရွှေဘိုမြို့နယ်၊ စစ်ကိုင်းတိုင်းဒေသကြီး။
-၀၉၉၆၉၇၃၂၂၇၃ ၊ ၀၉၉၆၉၇၃၂၂၇၄"
+                android:text="@string/shwebotxt"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/sagaint3"
+                android:id="@+id/sagaing"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
-                android:text="စစ်ကိုင်းရုံးခွဲ"
+                android:text="@string/sagaing"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/sagaint31"
+                android:id="@+id/sagaingtxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="အိမ်အမှတ် (အကွက်မှတ်-၇)၊ တာရိုးလမ်းနှင့် ဈေးလမ်းထောင့်၊ ပိုးတန်းရပ်ကွက်၊ စစ်ကိုင်းမြို့နယ်၊ စစ်ကိုင်းတိုင်းဒေသကြီး။
-၀၉၉၇၇၅၈၃၅၂၀ ၊ ၀၉၉၇၇၅၈၃၅၂၁"
+                android:text="@string/sagaingtxt"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/sagaint4"
+                android:id="@+id/chaungu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
-                android:text="ချောင်းဦးရုံးခွဲ"
+                android:text="@string/chaungu"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/sagaint41"
+                android:id="@+id/chaungutxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="ဗိုလ်ချုပ်လမ်း၊ နေရှင်နယ်ရပ်ကွက်၊ ချောင်းဦးမြို့နယ်၊ စစ်ကိုင်းတိုင်းဒေသကြီး။
-၀၉၉၆၉၈၉၃၅၇၅"
+                android:text="@string/chaungutxt"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/sagaint5"
+                android:id="@+id/yeu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
-                android:text="ရေဦးရုံးခွဲ"
+                android:text="@string/yeu"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/sagaint51"
+                android:id="@+id/yeutxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="အမှတ်(၅၂၀)၊ ရေဦး-ကလေးဝလမ်း၊ ဗိုလ်အောင်ဇေယျရပ်ကွက်၊ ရေဦးမြို့နယ်၊ စစ်ကိုင်းတိုင်းဒေသကြီး။
-၀၉၉၄၉၆၇၁၁၆၉ ၊ ၀၉၉၄၀၆၇၁၁၇၀"
+                android:text="@string/yeutxt"
                 android:textSize="18sp"
                 android:layout_marginBottom="20dp"/>
 

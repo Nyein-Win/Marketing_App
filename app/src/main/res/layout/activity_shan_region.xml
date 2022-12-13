@@ -10,98 +10,94 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        tools:ignore="MissingConstraints">
-
-    <TextView
-        android:id="@+id/shant1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="40dp"
-        android:text="တောင်ကြီးရုံးခွဲ"
-        android:textColor="@color/headercolor"
-        android:textSize="18sp" />
-
-    <TextView
-        android:id="@+id/shant11"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="15dp"
-        android:text="အမှတ်(၁၄၂)၊  နှင်းဆီလမ်း၊ ပြည်တော်သာရပ်ကွက်၊ တောင်ကြီးမြို့နယ်၊ ရှမ်းပြည်နယ်။
-၀၉၉၇၇၂၇၂၉၁၅"
-        android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/shant2"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="40dp"
-            android:text="အောင်ပန်းရုံးခွဲ"
-            android:textColor="@color/headercolor"
-            android:textSize="18sp" />
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
 
-        <TextView
-            android:id="@+id/shant21"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="15dp"
-            android:text="အမှတ်(က)၊ ပင်းတယလမ်း၊ လှည်ရိုးရပ်ကွက်၊  အောင်ပန်းမြို့နယ်၊ ရှမ်းပြည်နယ်။
-၀၉၉၇၇၂၇၂၉၀၀ ၊ ၀၉၉၇၇၂၇၂၉၀၁"
-            android:textSize="18sp" />
+            <TextView
+                android:id="@+id/taunggyi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/taunggyi"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/shant3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="40dp"
-            android:text="ဖယ်ခုံရုံးခွဲ"
-            android:textColor="@color/headercolor"
-            android:textSize="18sp" />
+            <TextView
+                android:id="@+id/taunggyitxt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/taunggyitxt"
+                android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/shant31"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="15dp"
-            android:text="အမှတ်(ည၊၂၆၆)၊ အင်းလေးလမ်းသွယ်၊ ညောင်ကုန်းတုန်းရပ်ကွက်၊ ဖယ်ခုံမြို့နယ်၊ ရှမ်းပြည်နယ်။
-၀၉၉၇၇၅၈၃၄၆၇ ၊ ၀၉၉၇၇၅၈၃၄၆၉"
-            android:textSize="18sp" />
+            <TextView
+                android:id="@+id/aungban"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/aungban"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/shant4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="40dp"
-            android:text="နမ့်စန်ရုံးခွဲ"
-            android:textColor="@color/headercolor"
-            android:textSize="18sp" />
+            <TextView
+                android:id="@+id/aungbantxt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/aungbantxt"
+                android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/shant41"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="15dp"
-            android:text="အမှတ်(၇၄၇)၊ ဘုရင့်နောင်လမ်း၊ အမှတ်(၁)ရပ်ကွက်၊ နမ့်စန်မြို့နယ်၊ လွိုင်လင်ခရိုင်၊ ရှမ်းပြည်နယ်။
-၀၉၉၄၀၄၉၈၇၅၂ ၊ ၀၉၉၄၀၄၉၈၇၅၈"
-            android:textSize="18sp"
-            android:layout_marginBottom="20dp"/>
+            <TextView
+                android:id="@+id/phekon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/phekon"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
 
-    </LinearLayout>
+            <TextView
+                android:id="@+id/phekontxt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/phekontxt"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/nanhsam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/nanhsam"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/namhsamtxt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/nanhsamtxt"
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

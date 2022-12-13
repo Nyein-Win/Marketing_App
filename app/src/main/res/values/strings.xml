@@ -26,7 +26,7 @@
 
 
     <string name="hyperlink2"><a href="">အသေးစိတ်ကြည့်ရှုရန်</a></string>
-    <string name="branches">Brands</string>
+    <string name="branches">Branches</string>
     <string name="services">services</string>
     <string name="news">News</string>
     <string name="Loan">loan type</string>
@@ -111,5 +111,215 @@
     <string name="LD_text1">In order to ensure that our employees are equipped with the right kind of skills, knowledge and abilities to perform their assigned tasks, learning and development unit plays its crucial role towards the growth and success of our business.\\n\\nBy choosing the right type of training, we ensure that our employees  possess necessary skills for our business by regularly reviewing and updating our training materials and courses in line with the latest HR policies, procedures, and practices. To meet current and future business demands, the unit also provides both in-house training as well as training programs by outsource professionals.</string>
     <string name="CB_text1">A structured compensation and benefits program enable SPNM to implement an equitable and fair system that helps driving organizational performance. A competitive compensation and benefits program enable SPNM to attract, retain and motivate employees and  it also encourages employee to provide their commitment, loyalty and improved productivity. The main purpose of this procedure is to set out the process and procedures to determine staff salary structure, ensure that staff are duly rewards for good performance and provides for compliance with statutory regulations.\\n\\nIn company, payroll can simply be stated as the sum of all financial records of salaries for an employee, wages, bonuses and deductions. From an ethics in business viewpoint payroll is a critical team in HR department as employees are responsive to payroll errors and irregularities: good employee morale requires payroll to be paid timely and accurately. The primary mission of the payroll department is to ensure that all employees are paid accurately and timely with the correct withholdings and deductions, and to ensure the withholdings and duductions are remitted in a timely manner.\\n\\nBenifits and compensation packages also include over time, leave, incentive, provident fund, allowance and healthcare allowance, bonuses and much more. The HR department will play a key role in deciding on the benefits packages offered, as well as ensuring their smooth operation.</string>
 
+
+    <string name="yan">1.Yangon Region</string>
+    <string name="man">2.Mandalay Region</string>
+    <string name="bago">3.Bago Region</string>
+    <string name="aya">4.Ayeyarwady Region</string>
+    <string name="mag">5.Magway Region</string>
+    <string name="saga">6.Sagain Region</string>
+    <string name="mo">7.Mon State</string>
+    <string name="han">8.Shan State</string>
+    <string name="kayin">9.Kayin State</string>
+    <string name="kayah">10.Kayah State</string>
+    <string name="nay">11.Union of Nay Pyi Taw</string>
+
+    <string name="headoffice">Head Office</string>
+    <string name="insein">Insein Branch</string>
+    <string name="hlegu">Hlegu Branch</string>
+    <string name="dala">Dala Branch</string>
+    <string name="taikkyi">Taikkyi Branch</string>
+    <string name="thongwa">Thongwa Branch</string>
+    <string name="hlainthaya">Hlainthaya Branch</string>
+
+    <string name="headofficetxt">No. (351/B), Pyay Road Sanchang Township, Yangon Region. 09-977917180</string>
+    <string name="inseintxt">No. (576), Hlaing River Road, Pauk Taw Ward, Insein Township, Yangon Region.</string>
+    <string name="hlegutxt">Holding No. (B/12/28), East Min Road, Aung Mingalar Ward, Hlegu Township, Yangon Region. 09-969703034, 09-969703035</string>
+    <string name="dalatxt">No. (44-46), Shin Saw Pu Road, Aung Mingalar Ward, Dala Township,Yangon Region. 09-951046325, 09 951046326</string>
+    <string name="taikkyitxt">No. (390), Joint Office Road, Bodhigone Ward, Taikyi Township, Yangon Region. 09-977272976</string>
+    <string name="thongwatxt">U Paning No. (77) Box No. (175); Aung Zeya Road,(9) Ward; Three Kho Township, Yangon Region. 09-940499452</string>
+    <string name="hlaingthyatxt">No. (514), Anawrahta Road, (11) ward; Hlaing Thayar Township, Yangon Region. (Market four stops)</string>
+
+
+    <string name="mandalay">Mandalay Branch</string>
+    <string name="kyaukse">Kyaukse Branch</string>
+    <string name="meiktila">Meiktila Branch</string>
+    <string name="myingyan">Myingyn Branch</string>
+    <string name="pyawbwe">Pyawbwe Branch</string>
+    <string name="pyinoolwin">Pyinoolwin Branch</string>
+    <string name="tadau">Tada-U Branch</string>
+    <string name="madaya">Madaya Branch</string>
+    <string name="kuumal">Kume Branch</string>
+    <string name="nyaungu">Nyaung-U Branch</string>
+    <string name="thazi">Thazi Branch</string>
+    <string name="mandalay2">Mandalay Branch2</string>
+    <string name="kyaukpadaung">Kyaukpadaung Branch</string>
+    <string name="natogyi">Natogyi Branch</string>
+
+
+    <string name="mandalaytxt">U-Paing No. (i/38), Group No. (T-7),Corner of (102/A) Street, between 71*72 Street, Myothit (1)  Chan Myat Tha Si Township, Mandalay Region. 099779172000 09977917201</string>
+    <string name="kyauksetxt">No. (35/d), Yangon-Mandalay Road, Bhagwati Ward Kyaukse Township, Mandalay Region. 09969703024, 09969703025</string>
+    <string name="meiktilatxt">Saiktathuka,Wuu Zinn Ward, Area (13); Meiktila Township, Mandalay Region. 09951046313, 09951046314</string>
+    <string name="myingyantxt">No. (45/A) Bogyoke Street,No (19) Ward, Myingyan Township, , Mandalay Region.
+09969668101, 09969668110</string>
+    <string name="pyawbwetxt">No. (33), Shwe Pyi Yan Aung (2) Road, Aung Mingalar Road, Shwe Pyi Yan Aung Ward, Byawbwe city
+Yamethin State, Mandalay Region.
+09977062789, 09977062790</string>
+    <string name="pyinoolwintxt">No. (CC/7); Mandalay-Lasho Road, Ward (10) Pyin Oo Lwin Township, Mandalay Region. 09969732303, 09969732304</string>
+    <string name="tadautxt">No. (3), Tada-U Myothar Road, Tazee Shin Ward, Tada-U Township, Mandalay Region. 09977124163</string>
+    <string name="madayatxt">No. (2/1543), Bogyoke Aung San Road, No. (2) Yankin Ward, Mataya City, Mandalay Region. 09977124164</string>
+    <string name="kumetxt">Between KBZ Bank and A1 Warehouse; on Yangon-Mandalay Road, Tharyar Aye Ward, MyitThar Township, Kume city, Mandalay Region. 09977272891</string>
+    <string name="nyaungutxt">No. (364), Thiri Pyitsayar Yard (5) Ward, Nyang Oo Township, Mandalay Region. 09977583438</string>
+    <string name="thazitxt">No. (47), Nga Su Pagoda Road No. (1) Tharyar Aye Ward, Thazi Township, Mandalay Region. 09977540280, 09977540281</string>
+    <string name="mandalay2txt">No. (34), between 131st Street and 60th Street; (DaDA-9G) Ward, Pyi Gyi Tagon Township, Mandalay Region. 09940498771, 09940498772</string>
+    <string name="kyaukpadaungtxt">Corner of Kamawati New Market, Thu Dhama Sari Street, Tharyar Aye Ward, Kyaukpadaung Township, Mandalay Region. 09940498726, 09940498727</string>
+    <string name="natogyitxt">No. (5/C-239), Myingyan-Yewon Road, Ward No. (5) Natogyi Township, Mandalay Region.</string>
+
+
+    <string name="bago1">Bago Branch</string>
+    <string name="daiku">Daik-U Branch</string>
+    <string name="gyobingauk">Gyobingauk Branch</string>
+    <string name="indagaw">Indagaw Branch</string>
+    <string name="waw">Waw Branch</string>
+    <string name="nyaunglebin">Nyaunglebin Branch</string>
+
+
+    <string name="bago1txt">No. (738), Yangon-Mandalay Road,  No. (7)Ward, Oaktha Myo Thit, Bago Township, Bago Region.
+0522201318 09977917189</string>
+    <string name="daikutxt">Holding No. (12), No. (1), Min Road, Zay Paing Ward, Daik U Township , Bago Region.
+05240583, 09969703003</string>
+    <string name="gyobingauktxt">No. (125/126), Anouk Lan Ma Taw Street, Anouk-Mrauk Ward, Gyobingauk Township, , Bago Region.
+09977272992, 09977272993</string>
+    <string name="indagawtxt">
+No. (3/38), Min Road, West Area Ward, Indagaw Township,  Bago Region.
+09977124156</string>
+    <string name="wawtxt">No. (336/A), Min Road, Aye Chan Thar Yar Ward, Waw Township, , Bago Region.
+09977272401</string>
+    <string name="nyaunglebintxt">No. (194), Mandalay Road, Chan Mya Tha Sei Ward, Nyaung Le Bin Township, , Bago Region.
+09977124369</string>
+
+
+    <string name="pathein">Pathein Branch</string>
+    <string name="myaungmya">Myaungmya Branch</string>
+    <string name="hinthada">Hinthada Branch</string>
+    <string name="pyapon">Pyapon Branch</string>
+    <string name="maubin">Maubin Branch</string>
+    <string name="yegyi">Yegyi Branch</string>
+    <string name="pandanaw">Pandanaw Branch</string>
+    <string name="myanaung">Myanaung Branch</string>
+
+    <string name="patheintxt">No. (24), Tagong Pagoda Road (6) Ward, Pathein Township, Ayeyarwady Region.
+09977917211</string>
+    <string name="myaungmyatxt">
+Room number (7/8), Highway Main Road, Mya Kanthar Ward, Myaung Mya Township , Ayeyarwady Region.
+09969703014, 09969703015</string>
+    <string name="hinthadatxt">No. (122), Mahabandula Road, Takalay Ward, Hinthata Township, , Ayeyarwady Region.
+09951046305, 09951046306</string>
+    <string name="pyapontxt">
+No. (195) Chaung Twin Road, (14) Ward, Pyapon Township, , Ayeyarwady Region.
+09969893520, 09969893521</string>
+    <string name="maubintxt">No. (12), Yae Le Main Road, Ward No. (5) Maubin Township, , Ayeyarwady Region.
+09969732286, 09969732287</string>
+    <string name="yegyitxt">No. (293), Corner of School Street and Ba Htoo (9) Street, Ba Htoo Ward, Yegyi Township, , Ayeyarwady Region.
+09977540354, 09977540355</string>
+    <string name="pandanawtxt">No. (35/36+37/38), Yangon-Pathein Road, Myo Kwat Thit Ward, Pandanaw Township, Ayeyarwady Region.
+09977583481</string>
+    <string name="myanaungtxt">No. (45), Post office tent road, No. (2) Ward, Myan Aung Township, , Ayeyarwady Region.
+09977540317, 09977540318</string>
+
+
+    <string name="magway">Magway Branch</string>
+    <string name="taungdwingyi">Taungdwingyi Branch</string>
+    <string name="chauk">Chauk Branch</string>
+    <string name="pwintphyu">Pwintphyu Branch</string>
+    <string name="pakokku">Pakokku Branch</string>
+    <string name="aunglan">Aunglan Branch</string>
+
+    <string name="magwaytxt">No. (163), Yanway Ward, Aung Yadana Group, Pyi Taw Tha Road, Magway Township, Magway Region.
+06326786 09969752633</string>
+    <string name="taungdwingyitxt">No. (88), Rakhine Pagoda Road, Shwe Oh (2) Ward, Taungdwinggyi Township, Magway Region.
+09969668086</string>
+    <string name="chauktxt">No. (99), Mindon Street and Bandula Road, Ward No. (8) (West of New Square), Chauk Township, , Magway Region.
+09969732179, 09969732180</string>
+    <string name="pwintphyutxt">No. (7), Kantkaw Road, East Area Ward, Pwint Phyu Township, Magway Region.
+09977272869</string>
+    <string name="pakokkutxt">No. (58), (6) Street,  No. (11)Ward, Pakokku Township, Magway Region.
+09977540297, 09977540298</string>
+    <string name="aunglantxt">Block No. (508,964); Holding No. (B, 328), Box No. (5) Ward; Payay Street, Part (5), Industrial Zone, Aung Lan Township, Magway Region.
+09940671186</string>
+
+    <string name="monywa">Monywa Branch</string>
+    <string name="shwebo">Shwebo Branch</string>
+    <string name="sagaing">Sagaing Branch</string>
+    <string name="chaungu">Chaung-U Branch</string>
+    <string name="yeu">Ye-U Branch</string>
+
+    <string name="monywatxt">No. (8/15), Zatkuka Toe Sate, Aye Tharyar Ward, Monywa Township, Sagaing Region.
+09969752653, 09969752654</string>
+    <string name="shwebotxt">No. (640), Shwebo-Myitkyina Road, Thuzar Kwat Thit,  No. (10) Ward, Shwebo Township, Sagaing Region.
+09969732273 09969732274</string>
+    <string name="sagaingtxt">House No. (Plot No.-7); corner of Tatyo Road and Market Street; Poe Tan Ward Sagaing Township Sagaing Region.
+09977583520, 09977583521</string>
+    <string name="chaungutxt">Bo Gyoke Street, National Ward Chaung U Township, Sagaing Region.
+09969893575</string>
+    <string name="yeutxt">No. (520), Ye U-Kalaywa Road, Bo Aung Zeya Ward, Ye U Township, Sagaing Region.
+09949671169, 09940671170</string>
+
+    <string name="mawlamyine">Mawlamyine Branch</string>
+    <string name="thaton">Thaton Branch</string>
+    <string name="mudon">Mudon Branch</string>
+    <string name="kyaikto">Kyaikto Branch</string>
+    <string name="chaungzon">Chaungzon Branch</string>
+    <string name="yay">Yay Branch</string>
+
+
+    <string name="mawlamyinetxt">No. (142), Shwe Myain Thiri Ward, Bago Chaung Road, Mawlamyaing Township, Mon State.
+09969752643, 09969752644</string>
+    <string name="thatontxt">No. (30/a), Min Road, Lakeinn Ward, Thaton Township, Mon State.
+09969668081, 09969668079</string>
+    <string name="mudontxt">Kyon Phite Road, Mawthan Road, Mudon Township, Mon State.
+09969732330 09969732336</string>
+    <string name="kyaiktotxt">House No. (879), Bo Gyok Road (b) Sittaung Road, Kaw San Nai Ward, Kyukda Township, Mon State.
+09977540301, 09977540316</string>
+    <string name="chaungzontxt">Beside of No. (106), Aung San Road, Chaungzon East Ward, Chaungzon Township, Mon State.
+09977582054</string>
+    <string name="yaytxt">No. (5), Kings Road Sri Khemara, Yay Township, Mon State.</string>
+
+
+    <string name="taunggyi">Taunggyi Branch</string>
+    <string name="aungban">Aungpan Branch</string>
+    <string name="phekon">Phekon Branch</string>
+    <string name="nanhsam">Nanhsam Branch</string>
+
+    <string name="taunggyitxt">No. (142), Rose Road, Pyi Taw Thar Ward, Taunggyi Township, Shan State.
+09977272915</string>
+    <string name="aungbantxt">No. (a), Pintaya Road, Hleyoe Ward, Aung Pan Township, Shan State.
+09977272900, 09977272901</string>
+    <string name="phekontxt">No. (Y, 266), Inlay Street, Nyaungkone Ward, Phekon Township, Shan State.
+09977583467, 09977583469</string>
+    <string name="nanhsamtxt">No. (747), Bayinnaung Road, No. (1) Ward, Nanhsam Township, Loilen District, Shan State.
+09940498752, 09940498758</string>
+
+    <string name="phaan">Pha-an Branch</string>
+
+    <string name="phaantxt">Mahawgani Street;  No. (9) Ward, Pha-An Township, Kayin State.
+09969893587, 09969893588</string>
+
+    <string name="loikaw">Loikaw Branch</string>
+
+    <string name="loikawtxt">House No. (344), Kandar Ya Wadi Street, Mine Lone Ward, Loikaw Township, Kayah State.
+09969734145, 09969734146</string>
+
+    <string name="naypyitaw">Naypyitaw Branch</string>
+    <string name="lewe">Lewe Branch</string>
+    <string name="tatkon">Tatkon Branch</string>
+
+
+    <string name="naypyitawtxt">No. (581), Yazahtarni Road, Pong Loung (3) Ward, Pyinmana Township, Nay Pyi Taw Union Territory.
+09977061581 09977061582</string>
+    <string name="lewetxt">House No. (2-275-a), Myoe Twin Road, No. (2) Ward, Lewe Township, Nay Pyi Taw Union Territory.
+09977583480, 09977583420</string>
+    <string name="tatkontxt">House No. (2), Padauk Road, Myawaddy Ward, Tatkon Township, Nay Pyi Taw Union Territory.
+09940499431</string>
 
 </resources>

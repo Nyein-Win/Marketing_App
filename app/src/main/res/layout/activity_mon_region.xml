@@ -10,139 +10,139 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
 
-    <TextView
-        android:id="@+id/mont1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="40dp"
-        android:text="မော်လမြိုင်ရုံးခွဲ"
-        android:textColor="@color/headercolor"
-        android:textSize="18sp" />
+            <TextView
+                android:id="@+id/mawlamyine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="မော်လမြိုင်ရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/mont11"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="15dp"
-        android:text="အမှတ်(၁၄၂)၊ ရွှေမြိုင်သီရိရပ်ကွက်၊ ပဲခူးချောင်လမ်း၊ မော်လမြိုင်မြို့နယ်၊ မွန်ပြည်နယ်။
+            <TextView
+                android:id="@+id/mawlamyinetxt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၁၄၂)၊ ရွှေမြိုင်သီရိရပ်ကွက်၊ ပဲခူးချောင်လမ်း၊ မော်လမြိုင်မြို့နယ်၊ မွန်ပြည်နယ်။
 ၀၉၉၆၉၇၅၂၆၄၃ ၊ ၀၉၉၆၉၇၅၂၆၄၄"
-        android:textSize="18sp" />
+                android:textSize="18sp" />
 
 
-        <TextView
-            android:id="@+id/mont2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="40dp"
-            android:text="သထုံရုံးခွဲ"
-            android:textColor="@color/headercolor"
-            android:textSize="18sp" />
+            <TextView
+                android:id="@+id/thaton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="သထုံရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/mont21"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="15dp"
-            android:text="အမှတ်(၃၀/က)၊ မင်းလမ်း၊ လိပ်အင်းရပ်ကွက်၊ သထုံမြို့နယ်၊ မွန်ပြည်နယ်။
+            <TextView
+                android:id="@+id/thatontxt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၃၀/က)၊ မင်းလမ်း၊ လိပ်အင်းရပ်ကွက်၊ သထုံမြို့နယ်၊ မွန်ပြည်နယ်။
 ၀၉၉၆၉၆၆၈၀၈၁ ၊ ၀၉၉၆၉၆၆၈၀၇၉"
-            android:textSize="18sp" />
+                android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/mont3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="40dp"
-            android:text="မုဒုံရုံးခွဲ"
-            android:textColor="@color/headercolor"
-            android:textSize="18sp" />
+            <TextView
+                android:id="@+id/mudon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="မုဒုံရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/mont31"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="15dp"
-            android:text="အမှတ်(၃)၊ ကျုံဖိုက်လမ်းဝ၊ မော်သံလမ်း၊ မုဒုံမြို့နယ်၊ မွန်ပြည်နယ်။
+            <TextView
+                android:id="@+id/mudontxt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၃)၊ ကျုံဖိုက်လမ်းဝ၊ မော်သံလမ်း၊ မုဒုံမြို့နယ်၊ မွန်ပြည်နယ်။
 ၀၉၉၆၉၇၃၂၃၃၀ ၊ ၀၉၉၆၉၇၃၂၃၃၆"
-            android:textSize="18sp" />
+                android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/mont4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="40dp"
-            android:text="ကျိုက်ထိုရုံးခွဲ"
-            android:textColor="@color/headercolor"
-            android:textSize="18sp" />
+            <TextView
+                android:id="@+id/kyaikto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="ကျိုက်ထိုရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/mont41"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="15dp"
-            android:text="အိမ်အမှတ်(၈၇၉)၊ ဗိုလ်ချုပ်လမ်း(ခ) စစ်တောင်းလမ်း၊ ကော့စံနိုင်ရပ်ကွက်၊ ကျိုက်ထိုမြို့နယ်၊ မွန်ပြည်နယ်။
+            <TextView
+                android:id="@+id/kyaiktotxt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အိမ်အမှတ်(၈၇၉)၊ ဗိုလ်ချုပ်လမ်း(ခ) စစ်တောင်းလမ်း၊ ကော့စံနိုင်ရပ်ကွက်၊ ကျိုက်ထိုမြို့နယ်၊ မွန်ပြည်နယ်။
 ၀၉၉၇၇၅၄၀၃၀၁ ၊ ၀၉၉၇၇၅၄၀၃၁၆"
-            android:textSize="18sp" />
+                android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/mont5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="40dp"
-            android:text="ချောင်းဆုံရုံးခွဲ"
-            android:textColor="@color/headercolor"
-            android:textSize="18sp" />
+            <TextView
+                android:id="@+id/chaungzon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="ချောင်းဆုံရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/mont51"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="15dp"
-            android:text="အမှတ်(၁၀၆) ဘေး၊ အောင်ဆန်းလမ်းမကြီး၊ ချောင်းဆုံအရှေ့ပိုင်းရပ်ကွက်၊ ချောင်းဆုံမြို့နယ်၊ မွန်ပြည်နယ်။
+            <TextView
+                android:id="@+id/chaungzontxt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၁၀၆) ဘေး၊ အောင်ဆန်းလမ်းမကြီး၊ ချောင်းဆုံအရှေ့ပိုင်းရပ်ကွက်၊ ချောင်းဆုံမြို့နယ်၊ မွန်ပြည်နယ်။
 ၀၉၉၇၇၅၈၂၀၅၄"
-            android:textSize="18sp" />
+                android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/mont6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="40dp"
-            android:text="ရေးရုံးခွဲ"
-            android:textColor="@color/headercolor"
-            android:textSize="18sp" />
+            <TextView
+                android:id="@+id/yay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="ရေးရုံးခွဲ"
+                android:textColor="@color/headercolor"
+                android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/mont61"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="15dp"
-            android:text="အမှတ်(၅)၊ ရာဇဓိရာဇ်လမ်း၊ သီရိခေမာရပ်၊ ရေးမြို့နယ်၊ မွန်ပြည်နယ်။"
-            android:textSize="18sp"
-            android:layout_marginBottom="20dp"/>
-    </LinearLayout>
+            <TextView
+                android:id="@+id/yaytxt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:text="အမှတ်(၅)၊ ရာဇဓိရာဇ်လမ်း၊ သီရိခေမာရပ်၊ ရေးမြို့နယ်၊ မွန်ပြည်နယ်။"
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

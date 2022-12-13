@@ -17,7 +17,7 @@
             tools:ignore="MissingConstraints">
 
             <TextView
-                android:id="@+id/I_txt1"
+                android:id="@+id/mandalay"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -27,7 +27,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/I_txt2"
+                android:id="@+id/mandalaytxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
@@ -39,7 +39,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/textView1"
+                android:id="@+id/kyaukse"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -49,7 +49,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/I_txt5"
+                android:id="@+id/kyauksetxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
@@ -61,7 +61,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/halekutxt"
+                android:id="@+id/meiktila"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -71,7 +71,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/haleku1txt"
+                android:id="@+id/mektilatxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
@@ -82,7 +82,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/dalatxt"
+                android:id="@+id/myingyan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -92,7 +92,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/dalatxt1"
+                android:id="@+id/myingyantxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
@@ -103,7 +103,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/typegyitxt"
+                android:id="@+id/pyawbwe"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -113,7 +113,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/typegyitxt1"
+                android:id="@+id/pyawbwetxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
@@ -125,7 +125,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/threekhu"
+                android:id="@+id/pyinoolwin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -135,7 +135,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/threekhu1"
+                android:id="@+id/pyinoolwintxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
@@ -146,7 +146,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/hlaingthayartxt"
+                android:id="@+id/tadau"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -156,7 +156,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/hlaingthayartxt1"
+                android:id="@+id/tadautxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
@@ -167,7 +167,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/hlaingthayartxt12"
+                android:id="@+id/madaya"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -177,7 +177,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/hlaingthayartxt11"
+                android:id="@+id/madayatxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
@@ -189,7 +189,7 @@
 
 
             <TextView
-                android:id="@+id/hlaingthayartxt13"
+                android:id="@+id/kuumal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -199,7 +199,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/hlaingthayartxt14"
+                android:id="@+id/kuumaltxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
@@ -211,7 +211,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/hlaingthayar1"
+                android:id="@+id/nyaungu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -221,7 +221,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/hlaingthayar11"
+                android:id="@+id/nyaungutxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
@@ -232,7 +232,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/hlaingthayart1"
+                android:id="@+id/thazi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -242,7 +242,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/hlaingthayart11"
+                android:id="@+id/tharsetxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
@@ -253,7 +253,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/hlaingthaya1"
+                android:id="@+id/mandalay2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -263,7 +263,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/hlaingthaya11"
+                android:id="@+id/mandalay2txt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
@@ -274,7 +274,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/hlaingtha1"
+                android:id="@+id/kyaukpadaung"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -284,7 +284,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/hlaingtha11"
+                android:id="@+id/kyaukpadaungtxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
@@ -295,7 +295,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/hlaingth1"
+                android:id="@+id/natogyi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -305,7 +305,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/hlaingth11"
+                android:id="@+id/natogyitxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"

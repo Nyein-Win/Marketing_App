@@ -17,174 +17,165 @@
             tools:ignore="MissingConstraints">
 
             <TextView
-                android:id="@+id/ayart1"
+                android:id="@+id/patain"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
-                android:text="ပုသိမ်ရုံးခွဲ"
+                android:text="@string/pathein"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/ayart11"
+                android:id="@+id/pataintxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="အမှတ်(၂၄)၊ တကောင်းဘုရားလမ်း၊ (၆)ရပ်ကွက်၊ ပုသိမ်မြို့နယ်၊ ဧရာဝတီတိုင်းဒေသကြီး။
-၀၉၉၇၇၉၁၇၂၁၁"
+                android:text="@string/patheintxt"
                 android:textSize="18sp" />
 
 
             <TextView
-                android:id="@+id/ayart2"
+                android:id="@+id/myaungmya"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
-                android:text="မြောင်းမြရုံးခွဲ
-"
+                android:text="@string/myaungmya"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/ayart21"
+                android:id="@+id/myaungmyatxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="အခန်းနံပတ်(၇/၈)၊ အဝေးပြေးလမ်းမကြီး၊ မြကန်သာရပ်ကွက်၊ မြောင်းမြမြို့နယ်၊ ၊ ဧရာဝတီတိုင်းဒေသကြီး။
-၀၉၉၆၉၇၀၃၀၁၄ ၊ ၀၉၉၆၉၇၀၃၀၁၅"
+                android:text="@string/myaungmyatxt"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/ayart3"
+                android:id="@+id/hinthada"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
-                android:text="ဟင်္သာတရုံးခွဲ"
+                android:text="@string/hinthada"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/ayart31"
+                android:id="@+id/hinthadatxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="အမှတ်(၁၂၂)၊ မဟာဗန္တုလလမ်း၊ တာကလေးရပ်ကွက်၊ ဟင်္သာတမြို့နယ်၊ ၊ ဧရာဝတီတိုင်းဒေသကြီး။
-၀၉၉၅၁၀၄၆၃၀၅ ၊ ၀၉၉၅၁၀၄၆၃၀၆"
+                android:text="@string/hinthadatxt"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/ayart4"
+                android:id="@+id/pharpoon"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
-                android:text="ဖျာပုံရုံးခွဲ"
+                android:text="@string/pyapon"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/ayart41"
+                android:id="@+id/pharpoontxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="အမှတ်(၁၉၅)၊ ချောင်းတွင်းလမ်းမကြီး၊ (၁၄)ရပ်ကွက်၊ ဖျာပုံမြို့နယ်၊ ၊ ဧရာဝတီတိုင်းဒေသကြီး။
-၀၉၉၆၉၈၉၃၅၂၀ ၊ ၀၉၉၆၉၈၉၃၅၂၁"
+                android:text="@string/pyapontxt"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/ayart5"
+                android:id="@+id/maaubin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
-                android:text="မအူပင်ရုံးခွဲ"
+                android:text="@string/maubin"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/ayart51"
+                android:id="@+id/maaubintxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="အမှတ်(၁၂)၊ ရေလဲလမ်းမကြီး၊ အမှတ်(၅)ရပ်ကွက်၊ မအူပင်မြို့နယ်၊ ၊ ဧရာဝတီတိုင်းဒေသကြီး။
-၀၉၉၆၉၇၃၂၂၈၆ ၊ ၀၉၉၆၉၇၃၂၂၈၇"
+                android:text="@string/maubintxt"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/ayart6"
+                android:id="@+id/yaygi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
-                android:text="ရေကြည်ရုံးခွဲ"
+                android:text="@string/yegyi"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/ayart61"
+                android:id="@+id/yaygitxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="အမှတ်(၂၉၃)၊ ကျောင်းလမ်းနှင့် ဗထူး(၉)လမ်းထောင့်၊ ဗထူးရပ်ကွက်၊ ရေကြည်မြို့နယ်၊ ၊ ဧရာဝတီတိုင်းဒေသကြီး။
-၀၉၉၇၇၅၄၀၃၅၄ ၊ ၀၉၉၇၇၅၄၀၃၅၅"
+                android:text="@string/yegyitxt"
                 android:textSize="18sp" />
 
 
             <TextView
-                android:id="@+id/ayart7"
+                android:id="@+id/pandanaw"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
-                android:text="ပန်းတနော်ရုံးခွဲ"
+                android:text="@string/pandanaw"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/ayart71"
+                android:id="@+id/pandanawtxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="အမှတ်(၃၅/၃၆+၃၇/၃၈)၊ ရန်ကုန်-ပုသိမ်လမ်းမကြီး၊ မြို့ကွက်သစ်ရပ်ကွက်၊ ပန်းတနော်မြို့နယ်၊ ဧရာဝတီတိုင်းဒေသကြီး။
-၀၉၉၇၇၅၈၃၄၈၁"
+                android:text="@string/pandanawtxt"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/ayart8"
+                android:id="@+id/myanaung"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
-                android:text="မြန်အောင်ရုံးခွဲ"
+                android:text="@string/myanaung"
                 android:textColor="@color/headercolor"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/ayart81"
+                android:id="@+id/myanaungtxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:text="အမှတ်(၄၅)၊ စာတိုက်တဲကြီးကုန်းလမ်း၊ အမှတ်(၂)ရပ်ကွက်၊ မြန်အောင်မြို့နယ်၊ ၊ ဧရာဝတီတိုင်းဒေသကြီး။
-၀၉၉၇၇၅၄၀၃၁၇ ၊ ၀၉၉၇၇၅၄၀၃၁၈"
+                android:text="@string/myanaungtxt"
                 android:textSize="18sp"
                 android:layout_marginBottom="20dp"/>
 

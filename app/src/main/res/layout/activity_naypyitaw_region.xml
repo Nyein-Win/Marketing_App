@@ -17,7 +17,7 @@
             tools:ignore="MissingConstraints">
 
             <TextView
-                android:id="@+id/naypyit1"
+                android:id="@+id/naypyitaw"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -27,7 +27,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/naypyit11"
+                android:id="@+id/naypyitawtxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
@@ -38,7 +38,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/naypyit2"
+                android:id="@+id/lewe"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -48,7 +48,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/naypyit21"
+                android:id="@+id/lewetxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
@@ -59,7 +59,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/naypyit3"
+                android:id="@+id/tatkon"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -69,7 +69,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/naypyit31"
+                android:id="@+id/tatkontxt"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
